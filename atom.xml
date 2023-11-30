@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-29T14:31:18.020Z</updated>
+  <updated>2023-11-30T15:39:27.963Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>英文海报</title>
+    <link href="http://example.com/2023/11/30/%E8%8B%B1%E6%96%87%E6%B5%B7%E6%8A%A5/"/>
+    <id>http://example.com/2023/11/30/%E8%8B%B1%E6%96%87%E6%B5%B7%E6%8A%A5/</id>
+    <published>2023-11-30T15:38:18.000Z</published>
+    <updated>2023-11-30T15:39:27.963Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="明天的小组作业"><a href="#明天的小组作业" class="headerlink" title="明天的小组作业"></a>明天的小组作业</h1><pre><code class="hljs">    SmartView HDTV AntennaEnjoy TV Programs for Free! (Legal!)</code></pre><hr><p>Ditch greedy cable companies and watch TV channels for free!</p><ul><li>Watch TV channels for free without paying hundreds of dollars to greedy cable companies every year.</li><li>No subscription fees, bills, and constantly rising rates every year.</li><li>Works by receiving signals that are already being broadcasted by major TV companies, and most importantly, this is legal!</li><li>Buy it once and you can watch TV programs anytime, anywhere.</li></ul><p>But hurry and buy now as cable companies could lobby Congress to abolish these antennas anytime!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;明天的小组作业&quot;&gt;&lt;a href=&quot;#明天的小组作业&quot; class=&quot;headerlink&quot; title=&quot;明天的小组作业&quot;&gt;&lt;/a&gt;明天的小组作业&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;    SmartView HDTV Antenna
+En</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>test2</title>
