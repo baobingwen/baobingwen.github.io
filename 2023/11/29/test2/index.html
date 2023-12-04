@@ -24,9 +24,10 @@
 <meta property="og:description" content="第一个博文测试一下 本文的写作顺序是学习顺序，之后会重写（意思就是第一次写会很丑还会错漏百出） 标题这是一级标题，使用一个井号开头，并注意要在井号与文本间空一格这是二级标题，使用两个井号开头这是三级标题，使用三个井号开头这是四级标题，使用四个井号开头这是五级标题，使用五个井号开头这是六级标题，使用六个井号开头这是另一个一级标题,使用多个（一般大于等于三）&#x3D;写在文本下方这是另一个二级标题,">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/assets/images/tux.png">
-<meta property="og:image" content="http://example.com/test2/1.webp">
+<meta property="og:image" content="http://example.com/images/1.webp">
+<meta property="og:image" content="http://example.com/images/preview.gif">
 <meta property="article:published_time" content="2023-11-29T11:37:31.000Z">
-<meta property="article:modified_time" content="2023-12-02T14:36:53.005Z">
+<meta property="article:modified_time" content="2023-12-04T07:53:14.499Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/assets/images/tux.png">
@@ -223,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3k 字
+          3.2k 字
         
       </span>
     
@@ -234,7 +235,7 @@
         
         
         
-          25 分钟
+          27 分钟
         
       </span>
     
@@ -387,7 +388,7 @@
 <pre><code class="hljs">&lt;https://www.luogu.com.cn&gt;
 &lt;fake@example.com&gt;
 </code></pre>
-<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/">https://www.luogu.com.cn</a><br><a href="mailto:&#102;&#97;&#107;&#x65;&#x40;&#101;&#120;&#x61;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#111;&#109;">&#102;&#97;&#107;&#x65;&#x40;&#101;&#120;&#x61;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#111;&#109;</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/">https://www.luogu.com.cn</a><br><a href="mailto:&#x66;&#97;&#107;&#x65;&#x40;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;">&#x66;&#97;&#107;&#x65;&#x40;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;</a></p>
 <h3 id="带格式化的链接"><a href="#带格式化的链接" class="headerlink" title="带格式化的链接"></a>带格式化的链接</h3><p>强调或斜化链接在链接语法前后增加星号<br>例如：</p>
 <pre><code class="hljs">**我爱[luogu](https://www.luogu.com.cn)。**
 </code></pre>
@@ -409,10 +410,18 @@
 <h2 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h2><p>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)。</code><br>对应的HTML代码：<code>&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;</code></p>
 <p>注意：<br>本地图片可以使用相对路径（当然是在hexo&#x2F;source文件夹里）<br>和html语言的思路是相近的</p>
 <p>示例：</p>
-<pre><code class="hljs">![演示动图1](./test2/preview.gif)
+<pre><code class="hljs">![演示图片1](/images/1.webp)
 </code></pre>
-<p><img src="/./test2/1.webp" srcset="/img/loading.gif" lazyload alt="演示动图1"></p>
-<p>202312022236 暂时失败，不知道为什么，睡了，明天再说</p>
+<p><img src="/images/1.webp" srcset="/img/loading.gif" lazyload alt="演示动图1"></p>
+<p><em>202312022236 暂时失败，不知道为什么，睡了，明天再说</em></p>
+<p>补档：1203忙于项目答辩，没有学习markdown</p>
+<p>如上所示，已经成功了（202312031540）（开心</p>
+<p><strong>总结一下：hexo引用格式是以source文件夹为根目录的，一切要从source文件夹开始</strong><br>再注释一下，相当于<code>/sources</code>是根目录<code>/</code></p>
+<h3 id="给图片赋上链接"><a href="#给图片赋上链接" class="headerlink" title="给图片赋上链接"></a>给图片赋上链接</h3><p>把整个图片的markdown放在[]内，将链接添加在圆()中</p>
+<p>示例：</p>
+<pre><code class="hljs">[![演示动图1](/images/preview.gif)](https://www.baidu.com)
+</code></pre>
+<p><a target="_blank" rel="noopener" href="https://www.baidu.com/"><img src="/images/preview.gif" srcset="/img/loading.gif" lazyload alt="演示动图1"></a></p>
 
                 
               </div>
