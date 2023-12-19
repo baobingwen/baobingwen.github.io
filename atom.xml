@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-18T14:18:53.147Z</updated>
+  <updated>2023-12-19T15:12:05.473Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231219日记</title>
+    <link href="http://example.com/2023/12/19/20231219%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2023/12/19/20231219%E6%97%A5%E8%AE%B0/</id>
+    <published>2023-12-19T15:05:16.000Z</published>
+    <updated>2023-12-19T15:12:05.473Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>9：50 起床</li><li>10：25-12：00 思政</li><li>12：10-12：50 厕所ss</li><li>12：50-13：30 xdoj+明后</li><li>14：00-15：35 工图</li><li>15：50-18：30 xdoj</li><li>18：30-19：10 吃晚饭</li><li>19：20-22：30 xdoj</li><li>22：30-23：00 教王贺题目</li><li>23：-3-23：11 日记</li><li>23：11-23：22 洗澡洗漱</li><li>23：30-0：30 高数</li><li>1：00 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>xdoj练习</li><li>背军事理论</li><li>党史大作业</li><li>计导大作业</li><li>英语大作业</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：komorebi</p><p>推荐理由：低沉中蕴育着力量，感觉听这个歌人的效率都提升了。</p></li><li><p>今日感想：</p><ul><li>写了一下午和一晚上xdoj，累麻了</li><li>感觉时间不够了，没怎么玩都不够了</li><li>再不写大作业就要温水煮青蛙了</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;9：50 起床&lt;/li&gt;
+&lt;li&gt;10：25-12：00 思政&lt;/li&gt;
+&lt;li&gt;12：10-12：50 厕所ss&lt;/li&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20231218日记</title>
@@ -503,32 +531,6 @@
     
     
     <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bbw的hexo自我学习</title>
-    <link href="http://example.com/2023/12/04/bbw%E7%9A%84hexo%E8%87%AA%E6%88%91%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://example.com/2023/12/04/bbw%E7%9A%84hexo%E8%87%AA%E6%88%91%E5%AD%A6%E4%B9%A0/</id>
-    <published>2023-12-04T07:58:22.000Z</published>
-    <updated>2023-12-14T14:59:42.793Z</updated>
-    
-    <content type="html"><![CDATA[<p>写在前面：<br>由于test2仅是测试，于是决定重开一个新坑用来正式学习MARKDOWN</p><hr><h2 id="第一部分-自学MARKDOWN"><a href="#第一部分-自学MARKDOWN" class="headerlink" title="第一部分 自学MARKDOWN"></a>第一部分 自学MARKDOWN</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><h4 id="第一种形式"><a href="#第一种形式" class="headerlink" title="第一种形式"></a>第一种形式</h4><p>一级标题：<code>#</code>+<code>一个空格</code>+标题文字<br>二级标题：<code>##</code>+<code>一个空格</code>+标题文字<br>三级标题：<code>###</code>+<code>一个空格</code>+标题文字<br>四级标题：<code>####</code>+<code>一个空格</code>+标题文字<br>五级标题：<code>#####</code>+<code>一个空格</code>+标题文字<br>六级标题：<code>######</code>+<code>一个空格</code>+标题文字</p><p>示例：</p><pre><code class="hljs">#### 这是一个四级标题</code></pre><p>效果：</p><h5 id="这是一个四级标题"><a href="#这是一个四级标题" class="headerlink" title="这是一个四级标题"></a>这是一个四级标题</h5><h4 id="第二种形式"><a href="#第二种形式" class="headerlink" title="第二种形式"></a>第二种形式</h4><p>一级标题：n个<code>=</code>写在标题文字下方<br>二级标题：n个<code>-</code>写在标题文字下方</p><p>示例：</p><pre><code class="hljs">这是一个一级标题============这是一个二级标题-------------</code></pre><p>（这里就不放代码了，想看效果去test2，怕影响目录结构）</p><h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><p>这是一个段落，使用一行或多行空白行分割即可<br><br><em>也可以使用</em><code>&lt;br&gt;</code><br>注意：<strong>不要在前面加上空格或制表符</strong></p><h3 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h3><p>换行格式比较迷，直接按回车键也能换行，在句末加两个及以上各个换行符也能换行<br><strong>两者在显示上没有区别</strong></p><h2 id="强调格式"><a href="#强调格式" class="headerlink" title="强调格式"></a>强调格式</h2><h4 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h4><p>两边各加<code>**</code></p><p>示例：</p><pre><code class="hljs">**我被加粗了**</code></pre><p>效果：<br><strong>我被加粗了</strong></p><h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><p>两边各加<code>~~</code>  </p><p>示例：</p><pre><code class="hljs">~~世界是平坦的。~~ 我们现在知道世界是圆的。</code></pre><p>效果：<br><del>世界是平坦的。</del> 我们现在知道世界是圆的。</p><h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><p>两边各加<code>*</code></p><p>示例：</p><pre><code class="hljs">*我是斜体字*</code></pre><p>效果：<br><em>我是斜体字</em></p><h4 id="粗体和斜体可以直接叠加使用"><a href="#粗体和斜体可以直接叠加使用" class="headerlink" title="粗体和斜体可以直接叠加使用"></a>粗体和斜体可以直接叠加使用</h4><p>两边各加<code>***</code></p><p>示例：</p><pre><code class="hljs">***我是粗体，也是斜体***</code></pre><p>效果：<br><em><strong>我是粗体，也是斜体</strong></em></p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>句首加<code>&gt;</code></p><p>示例：</p><pre><code class="hljs">&gt;我被引用了</code></pre><p>效果：</p><blockquote><p>我被引用了</p></blockquote><p>注：</p><ol><li><p>可以不在<code>&gt;</code>和句子之间加空格</p></li><li><p>引用为一整块，每行句首都要加<code>&gt;</code><br>示例：</p><blockquote><p>我的下面是空的行</p><p>我是空白行的下面</p><ul><li>我是无序列表行1</li></ul></blockquote></li></ol><p>效果：</p><blockquote><p>我的下面是空的行</p><p>我是空白行的下面</p><ul><li>我是无序列表行1</li></ul></blockquote><h4 id="嵌套"><a href="#嵌套" class="headerlink" title="嵌套"></a>嵌套</h4><p>首加<code>&gt;&gt;</code></p><p>示例：</p><pre><code class="hljs">&gt;我被引用了&gt;&gt;我是引用的引用</code></pre><p>效果：</p><blockquote><p>我被引用了</p><blockquote><p>我是引用的引用</p></blockquote></blockquote><h4 id="引用中加入格式"><a href="#引用中加入格式" class="headerlink" title="引用中加入格式"></a>引用中加入格式</h4><p><em>并非所有格式均可引用</em></p><p>示例：</p><pre><code class="hljs">&gt;#### 标题可以&gt;- 无序列表可以&gt;- 这也是一行列表&gt;*斜体可以*，**粗体也可以**，~~删除线也可以~~</code></pre><p>效果：（观察仔细的话会发现这一行也被标成引用了，应该是fluid的问题）</p><blockquote><h5 id="标题可以"><a href="#标题可以" class="headerlink" title="标题可以"></a>标题可以</h5><ul><li>无序列表可以</li><li>这也是一行列表<br><em>斜体可以</em>，<strong>粗体也可以</strong>，<del>删除线也可以</del></li></ul></blockquote><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4><p>示例：</p><pre><code class="hljs">1. 这是第一行2. 这是第二行3. 这是第三行</code></pre><p>效果：</p><ol><li>这是第一行</li><li>这是第二行</li><li>这是第三行</li></ol><h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4><p><code>-</code> <code>+</code> 或 <code>*</code><br>示例：</p><pre><code class="hljs">- 我是第一行- 我是第二行- 我是第三行</code></pre><p>效果：</p><ul><li>我是第一行</li><li>我是第二行</li><li>我是第三行</li></ul><h4 id="其他元素的嵌套"><a href="#其他元素的嵌套" class="headerlink" title="其他元素的嵌套"></a>其他元素的嵌套</h4><p>在列表中缩进一个制表符</p><p>示例：</p><pre><code class="hljs">- 我是第一行- 我是第二行，我要演示段落的嵌套    我是列表中的一个段落- 我是第三行，我要演示引用的嵌套    &gt; 我是引用- 我是第四行，我要演示代码的嵌套    <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>- 我是第五行，我要演示图片的嵌套    ![Linux](/images/tux.webp)- 我是第六行，我要演示列表的嵌套    - 我是列表中的列表</code></pre><p>效果：</p><ul><li><p>我是第一行</p></li><li><p>我是第二行，我要演示段落的嵌套</p><p>  我是列表中的一个段落</p></li><li><p>我是第三行，我要演示引用的嵌套</p><blockquote><p>我是引用</p></blockquote></li><li><p>我是第四行，我要演示代码的嵌套</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure></li><li><p>我是第五行，我要演示图片的嵌套<br>  <img src="/images/tux.webp" alt="Linux"></p></li><li><p>我是第六行，我要演示列表的嵌套</p><ul><li>我是列表中的列表</li></ul></li></ul><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>科普：这家伙 &#96;&#96;&#96;&#96; 叫</p><h4 id="一行中的"><a href="#一行中的" class="headerlink" title="一行中的"></a>一行中的</h4><p>示例：</p><pre><code class="hljs">&#39;我是短短的代码&#39;</code></pre><p>效果：</p><p><code>我是短短的代码</code></p><h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><p>示例：</p><pre><code class="hljs">    我是代码块哦</code></pre><p>效果：</p><pre><code class="hljs">我是代码块哦</code></pre><h4 id="在代码中显示反引号"><a href="#在代码中显示反引号" class="headerlink" title="在代码中显示反引号"></a>在代码中显示反引号</h4><p>示例：</p><pre><code class="hljs">```我`是代码中的反引号``</code></pre><p>效果：</p><p>&#96;&#96;&#96;我&#96;是代码中的反引号&#96;&#96;</p><h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>示例：</p><pre><code class="hljs">----------------我夹在中间捏----------------</code></pre><p>效果：</p><hr><p>我夹在中间捏</p><hr><p>注意兼容性和规范性哦：</p><p>仅使用—和—</p><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>示例：</p><pre><code class="hljs">这是洛谷链接 [洛谷](https://www.luogu.com.cn/)。</code></pre><p>效果：</p><p>这是洛谷链接 <a href="https://www.luogu.com.cn/">洛谷</a>。</p><h4 id="链接Title"><a href="#链接Title" class="headerlink" title="链接Title"></a>链接Title</h4><p>示例：</p><pre><code class="hljs">这是一个链接 [西电oj](http://39.98.193.72/xdoj-ssm/ &quot;最烂的oj平台(狗头保命)&quot;)。</code></pre><p>效果：</p><p>这是一个链接 <a href="http://39.98.193.72/xdoj-ssm/" title="最烂的oj平台(狗头保命)">西电oj</a>。</p><h4 id="尖括号转化地址"><a href="#尖括号转化地址" class="headerlink" title="尖括号转化地址"></a>尖括号转化地址</h4><p>示例：</p><pre><code class="hljs">&lt;https://www.luogu.com.cn&gt;&lt;bbw20110110@163.com&gt;</code></pre><p>效果：</p><p><a href="https://www.luogu.com.cn/">https://www.luogu.com.cn</a><br><a href="mailto:&#98;&#98;&#x77;&#50;&#48;&#x31;&#49;&#48;&#49;&#x31;&#x30;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#98;&#98;&#x77;&#50;&#48;&#x31;&#49;&#48;&#49;&#x31;&#x30;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></p><h4 id="链接中的字体格式"><a href="#链接中的字体格式" class="headerlink" title="链接中的字体格式"></a>链接中的字体格式</h4><p>示例：</p><pre><code class="hljs">强调 **我爱[luogu](https://www.luogu.com.cn)。**代码化 我爱[&#39;luogu&#39;](https://www.luogu.com.cn)。</code></pre><p>效果：</p><p>强调 <strong>我爱<a href="https://www.luogu.com.cn/">luogu</a>。</strong><br>代码化 我爱<a href="https://www.luogu.com.cn/">‘luogu’</a>。</p><h4 id="引用化链接"><a href="#引用化链接" class="headerlink" title="引用化链接"></a>引用化链接</h4><p>示例：</p><pre><code class="hljs">下面是文本部分[我是洛谷][这是我的引用号][我是洛谷] [这是我的引用号]下面是链接部分[这是我的引用号]: &lt;https://www.luogu.com.cn&gt;</code></pre><p>效果：</p><p>下面是文本部分<br>[我是洛谷][这是我的引用号]<br>[我是洛谷] [这是我的引用号]<br>下面是链接部分<br>[这是我的引用号]: <a href="https://www.luogu.com.cn/">https://www.luogu.com.cn</a></p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>警告：<br><strong>本地图片必须使用相对路径（hexo&#x2F;source文目录下）</strong></p><p>示例：</p><pre><code class="hljs">![我是演示图片](/images/1.webp)</code></pre><p>效果：</p><p><img src="/images/1.webp" alt="我是演示图片"></p><h3 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h3><p>在表意字符前加<code>\</code></p><p>以下示例中包含了可转义的字符</p><p>示例：</p><pre><code class="hljs">这些字符可以转义哦~\\ \` \* \_ \&#123;\&#125; \[\] \(\) \# \+ \- \. \! \|</code></pre><p>效果：</p><p>这些字符可以转义哦~<br>\ ` * _ {} [] () # + - . ! |</p><h4 id="自动转义"><a href="#自动转义" class="headerlink" title="自动转义"></a>自动转义</h4><h5 id="符"><a href="#符" class="headerlink" title="&amp;符"></a>&amp;符</h5><p><code>&amp;</code>放在句首是本字<br><code>&amp;</code>放在句中会显意</p><p>示例：</p><pre><code class="hljs">我是版权符&amp;copy;我是失败的版权符copy&amp;;</code></pre><p>效果：</p><p>我是版权符<br>&copy;<br>我是失败的版权符<br>copy&amp;;</p><h5 id=""><a href="#" class="headerlink" title="&lt;符"></a>&lt;符</h5><p>正常来说都会显示，只是MARKDOWN兼容HTML语言</p><p>示例：</p><pre><code class="hljs">我是HTML的段落&lt;p&gt;&lt;p&gt;</code></pre><p>效果：</p><p>我是HTML的段落</p><p><p><h3 id="HTML的内嵌"><a href="#HTML的内嵌" class="headerlink" title="HTML的内嵌"></a>HTML的内嵌</h3><p>同HTML语言</p><p>示例：</p><pre><code class="hljs">&lt;p&gt;我是一个表格&lt;p&gt;&lt;table&gt;    &lt;tr&gt;       &lt;td&gt;Foo&lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;</code></pre><p>效果：</p><p>我是一个表格<p><table>    <tr>        <td>我是表格的内容</td>    </tr></table><p>注：<strong>HTML块中，MARKDONWN失效</strong></p><p>20231213完成</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;写在前面：&lt;br&gt;由于test2仅是测试，于是决定重开一个新坑用来正式学习MARKDOWN&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;第一部分-自学MARKDOWN&quot;&gt;&lt;a href=&quot;#第一部分-自学MARKDOWN&quot; class=&quot;headerlink&quot; title=&quot;第一部分</summary>
-      
-    
-    
-    
-    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="MARKDOWN" scheme="http://example.com/tags/MARKDOWN/"/>
     
   </entry>
   
