@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-19T15:12:05.473Z</updated>
+  <updated>2023-12-20T15:19:35.220Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231220日记</title>
+    <link href="http://example.com/2023/12/20/20231220%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2023/12/20/20231220%E6%97%A5%E8%AE%B0/</id>
+    <published>2023-12-20T15:09:11.000Z</published>
+    <updated>2023-12-20T15:19:35.220Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>8 ：00 起床</li><li>8：30-10：25 高数</li><li>10：25-12：00 体育 玩贴膏药的时候摔了个屁股蹲 痛</li><li>12：00-12：44 午饭</li><li>12：44-12：56 拉屎</li><li>12：56-13：30 明后</li><li>13：30-18：30 xdoj</li><li>18：30-19：00 晚饭</li><li>19：00-22：30 xdoj+B站</li><li>22：30-23：00 洗澡</li><li>23：10-23：16 日记</li><li>23：16-23：50 xdoj</li><li>23：50-0：30 高数公式</li><li>0：30 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>xdoj练习</li><li>背军事理论</li><li>党史大作业</li><li>计导大作业</li><li>英语大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开始写XODJ题解</li><li>开始减少玩游戏的时间</li><li>开始进入复习状态，全面检索知识漏洞（例如高数积分公式还没推熟）</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：还是komorebi</p><p>推荐理由：低沉中蕴育着力量，感觉听这个歌人的效率都提升了。</p></li><li><p>今日感想：</p><ul><li>今天网易云出年终报告了，听的最多的是《多远都要在一起》，可能真的想你吧</li><li>写了一下午和一晚上xdoj，累麻了（<del>艹，竟然和昨天一毛一样🤣</del>）</li><li>感觉时间不够了，没怎么玩都不够了（<del>还是和昨天一样，麻了😅</del>）</li><li>再不写大作业就要温水煮青蛙了</li><li>2023年就要结束了，好快啊</li><li>人已经开始麻木了，事情开始掌控人</li><li>人一定要做自己的主人</li><li>明天只有一节课，开心😊</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;8 ：00 起床&lt;/li&gt;
+&lt;li&gt;8：30-10：25 高数&lt;/li&gt;
+&lt;li&gt;10：25-12：00 体育 玩贴膏药的时候摔</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20231219日记</title>
@@ -497,32 +524,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;2023年12月5日&quot;&gt;&lt;a href=&quot;#2023年12月5日&quot; class=&quot;headerlink&quot; title=&quot;2023年12月5日&quot;&gt;&lt;/a&gt;2023年12月5日&lt;/h1&gt;&lt;h2 id=&quot;今日事项&quot;&gt;&lt;a href=&quot;#今日事项&quot; class=&quot;head</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231204日记</title>
-    <link href="http://example.com/2023/12/04/20231204%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/04/20231204%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-04T14:42:57.000Z</published>
-    <updated>2023-12-13T13:03:39.294Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="今日事项"><a href="#今日事项" class="headerlink" title="今日事项"></a>今日事项</h2><ol><li>9：00醒来 9：30下床 9：30-9：58洗漱收拾</li><li>10：25-12：00 高数课</li><li>12：00-12：19 教室等待</li><li>12：30-12：53 食堂吃饭</li><li>13：15-13：45 校团委例会</li><li>13：45-14：10 拿快递</li><li>14：20-15：30 看围棋（<em>豪哥输了wuwuwu~，小申还是猛的，豪哥真尽力局</em>），下围棋</li><li>15：30-18：30 尝试修改vscode c++编译运行配置无果（wuwuwu~这家伙真难吧）,玉玉了</li><li>18：30-19：00 摆烂（cpu干烧了）</li><li>19：00-19：30 吃完饭、打卡</li><li>19：30-21：00 下围棋缓一缓cpu</li><li>21：00-22：30 清理电脑，主要是c盘</li><li>22：30-22：50 写日记</li><li>22：50-23：10 洗澡</li><li>23：10-23：50 画工图</li><li>23：50-0：30 复习四级</li><li>0：30-1：00 学习韩语</li><li>1：00-7：00 睡觉</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;今日事项&quot;&gt;&lt;a href=&quot;#今日事项&quot; class=&quot;headerlink&quot; title=&quot;今日事项&quot;&gt;&lt;/a&gt;今日事项&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;9：00醒来 9：30下床 9：30-9：58洗漱收拾&lt;/li&gt;
-&lt;li&gt;10：25-12：00 高数课&lt;/li</summary>
       
     
     
