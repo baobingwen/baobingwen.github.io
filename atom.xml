@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-21T17:50:30.212Z</updated>
+  <updated>2023-12-22T16:26:14.314Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231222</title>
+    <link href="http://example.com/2023/12/23/20231222%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2023/12/23/20231222%E6%97%A5%E8%AE%B0/</id>
+    <published>2023-12-22T16:06:53.000Z</published>
+    <updated>2023-12-22T16:26:14.314Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>8:19 起床，差点迟到</li><li>8：30-10:05 英语</li><li>10:30-11：30 xdoj题解</li><li>11：30-12：20 午饭</li><li>12：30-15：45 xdoj</li><li>15：45-16：15 明后</li><li>16：15-17：25 期末复习安排讲座</li><li>17：30-19：10 xdoj</li><li>19：10-19：30 晚饭</li><li>19：30-：21：00 围棋</li><li>21：00-21：30 色游</li><li>21：30-23：10 干什么忘了</li><li>23：15-23：42 洗澡</li><li>0：00-0：20 日记</li><li>0：20-1：00 xdoj</li><li>1：00 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>xdoj练习</li><li>背军事理论</li><li>党史大作业</li><li>计导大作业</li><li>英语大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>认真写XODJ题解</li><li><del>减少玩游戏的时间</del></li><li>进入复习状态，全面检索知识漏洞（例如高数积分公式还没推熟）</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：<del>还是komorebi</del> 不是了，换首吧 Blueming by IU</p><p>推荐理由：<del>低沉中蕴育着力量，感觉听这个歌人的效率都提升了。</del> 虽然明白韩国的无奈，但是还是喜欢她的声音</p></li><li><p>今日感想：</p><ul><li>昨天写了一下午和一晚上xdoj，累麻了（<del>艹，竟然和昨天一毛一样🤣</del>）今天有点摆</li><li><del>感觉时间不够了，没怎么玩都不够了</del>（<del>还是和昨天一样，麻了😅</del>）<br><del>划掉划掉，今天不存在了</del> 又存在了</li><li>再不写大作业就要温水煮青蛙了（太tm真实了）</li><li>2023年就要结束了，好快啊</li><li>人一定要做自己的主人</li><li>今天只有一节课，开心😊（<del>艹，竟然和昨天一毛一样🤣</del>）</li><li>明天是周六，可能开心吧</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;8:19 起床，差点迟到&lt;/li&gt;
+&lt;li&gt;8：30-10:05 英语&lt;/li&gt;
+&lt;li&gt;10:30-11：30 xdoj题解&lt;</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20231221日记</title>
@@ -507,31 +534,6 @@
     
     
     <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231206日记</title>
-    <link href="http://example.com/2023/12/06/20231206%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/06/20231206%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-06T15:40:19.000Z</published>
-    <updated>2023-12-07T13:20:37.893Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="今日日程"><a href="#今日日程" class="headerlink" title="今日日程"></a>今日日程</h2><ol><li>7：55 起床</li><li>8：30-10：05 高数课</li><li>10:25-12:00 体育课</li><li>12：00-12：30 吃饭</li><li>12：40-13：45 围棋</li><li>13：45-14：10 明后</li><li>14：10-17：00 围棋</li><li>17：00-18：00 围棋+间歇性解答同学问题</li><li>18：00-18：40 吃饭+体育一次打卡</li><li>19：00-22：00 摆烂+围棋</li><li>22：00-23：00 尝试吴恩达的AI教程<br>附上今天午饭和晚饭：<br><img src="/images/20231206%E5%8D%88%E9%A5%AD.jfif" alt="午饭" title="20231206午饭"><br><img src="/images/20231206%E6%99%9A%E9%A5%AD.jfif" alt="晚饭" title="20231206晚饭"></li></ol><hr><h2 id="随心记"><a href="#随心记" class="headerlink" title="随心记"></a>随心记</h2><ul><li>今日好歌：寂寞烟火、Capybara</li><li>今日新增兴趣向：AI、定积分在计算立体体积的应用（要是大学生数学竞赛赛那时候学到这里就好了，还好当时在考场中类比公式推出来了）</li><li>今日淡化兴趣向：韩语（不知道学习它的意义是什么）</li><li>今日烦躁点：<ol><li>还是不会打字，</li><li>还没学会MARKDOWN和前端，</li><li>还没复习四级，还没复习csp，</li><li>不知道自己该做什么，</li><li>vpn不知道选哪款<del>（为什么会有墙这种恶心的东西）</del>，</li><li>生活越来越重复、越来越乱了，自己越来越懒惰，好像陷入了享乐主义的泥潭</li><li>感觉越来越撕裂了<br>好像今天大部分时间在下围棋:joy:</li></ol></li></ul><hr><p>今天新学的MARKDOWN语法：代码块</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//基本cpp模板，ACM还是我的路</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><hr><h1 id="总感悟"><a href="#总感悟" class="headerlink" title="总感悟"></a>总感悟</h1><p><strong>选择做一件事，自己没有那么多精力做很多事，要有勇气接受自己是个普通人</strong></p><h2 id="不要再下围棋了，不要用娱乐冲淡压力，那会无功而返"><a href="#不要再下围棋了，不要用娱乐冲淡压力，那会无功而返" class="headerlink" title="不要再下围棋了，不要用娱乐冲淡压力，那会无功而返"></a>不要再下围棋了，不要用娱乐冲淡压力，那会无功而返</h2><h2 id="人设立太多是累的"><a href="#人设立太多是累的" class="headerlink" title="人设立太多是累的"></a>人设立太多是累的</h2><h2 id="虚假的朋友：不断强调你夸的海口"><a href="#虚假的朋友：不断强调你夸的海口" class="headerlink" title="虚假的朋友：不断强调你夸的海口"></a>虚假的朋友：不断强调你夸的海口</h2><h2 id="体贴的朋友：知道你是在夸海口，给你台阶下"><a href="#体贴的朋友：知道你是在夸海口，给你台阶下" class="headerlink" title="体贴的朋友：知道你是在夸海口，给你台阶下"></a>体贴的朋友：知道你是在夸海口，给你台阶下</h2><p><del><em>目前可悲的是，近邻没有这样的人</em></del><br>20231207 0:20 日记结，睡了，焦虑平衡机制该起作用了<br>是时候hexo cl hexo g hexo d 了</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;今日日程&quot;&gt;&lt;a href=&quot;#今日日程&quot; class=&quot;headerlink&quot; title=&quot;今日日程&quot;&gt;&lt;/a&gt;今日日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;7：55 起床&lt;/li&gt;
-&lt;li&gt;8：30-10：05 高数课&lt;/li&gt;
-&lt;li&gt;10:25-12:00 体育课</summary>
-      
-    
-    
     
     
     <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
