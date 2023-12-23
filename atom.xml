@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-22T16:26:14.314Z</updated>
+  <updated>2023-12-23T16:36:38.524Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231223日记</title>
+    <link href="http://example.com/2023/12/24/20231223%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2023/12/24/20231223%E6%97%A5%E8%AE%B0/</id>
+    <published>2023-12-23T16:28:29.000Z</published>
+    <updated>2023-12-23T16:36:38.524Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>12：13 起床，睡饱饱</li><li>12：30-13:30 洗漱+xdoj</li><li>13：30-14：00 午饭</li><li>14：00-15：30 围棋</li><li>15：30-18：30 洛谷刷题+视频电话</li><li>19：00-19：30 吃饭</li><li>19：30-23：20 工图三维建模</li><li>23：20-23：40 洗澡</li><li>23：40-0：30 工图三维建模</li><li>0：30-0：50 日记</li><li>0：50-1：00 洗漱</li><li>1：00 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>xdoj练习</li><li>背军事理论</li><li>党史大作业</li><li>计导大作业</li><li>英语大作业</li><li>洛谷刷题</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>XODJ开摆</li><li>减少玩游戏的时间</li><li>进入复习状态，全面检索知识漏洞（例如高数积分公式还没推熟）</li><li>洛谷刷题</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：无</p><p>推荐理由：听歌令人分心</p></li><li><p>今日感想：</p><ul><li>今天有点卷，几乎一天都在学，尤其是三维建模下了苦功夫</li><li>感觉时间不够了</li><li>需要立刻写大作业</li><li>2023年就要结束了，好快啊</li><li>人一定要做自己的主人</li><li>明天又是周日，要抓紧时间完成各项任务</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;12：13 起床，睡饱饱&lt;/li&gt;
+&lt;li&gt;12：30-13:30 洗漱+xdoj&lt;/li&gt;
+&lt;li&gt;13：30-14：00 午</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20231222</title>
@@ -502,33 +529,6 @@
       
       
     <summary type="html">&lt;h2 id=&quot;今日事项记录&quot;&gt;&lt;a href=&quot;#今日事项记录&quot; class=&quot;headerlink&quot; title=&quot;今日事项记录&quot;&gt;&lt;/a&gt;今日事项记录&lt;/h2&gt;&lt;h3 id=&quot;起床前&quot;&gt;&lt;a href=&quot;#起床前&quot; class=&quot;headerlink&quot; title=&quot;起床前</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231207日记</title>
-    <link href="http://example.com/2023/12/07/20231207%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/07/20231207%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-07T13:15:02.000Z</published>
-    <updated>2023-12-13T13:07:10.359Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="今日事项"><a href="#今日事项" class="headerlink" title="今日事项"></a>今日事项</h2><ol><li>9:40起床</li><li>10：25-12：00 计算机导论</li><li>12：15-12：35 明后</li><li>12：40-13：00 lunch</li><li>13：10-13：40 围棋</li><li>13：40-13：55 解答问题</li><li>14：00-15：35 党史网课+github进阶部署学习、实操</li><li>15：55-17：35 校团委大学生活动中心值班（录入主题团日+打电话催老登转出毕业生流动团支部）</li><li>17：40-18：10 吃饭</li><li>18：15-20：35 高数拓展+打卡</li><li>20：40-21：15 学完GitHub进阶部署</li><li>21：20-21：30 完成日记<br><del>注：以下部分为预测</del></li><li>21：30-22：00 完成MARKDIWN基本语法学习</li><li>22：00-22：30 洗澡洗漱</li><li>22：30-23：00 复习csp</li><li>23：00 上床整理床铺+睡觉</li><li>23:30-sec7:00 睡觉</li></ol><hr><h2 id="今日随心记"><a href="#今日随心记" class="headerlink" title="今日随心记"></a>今日随心记</h2><ul><li>今日好歌：All my people(洗脑神曲),煎熬（折磨林俊杰的好歌），Young and beautiful（怀念，惋惜，自我流放）</li><li>今日好事：尝试打电话，遇到非常多情况，体会到接线员的难处，<del>有好多空号</del></li><li>今日改进：学习了指针，学习了GitHub部署方法，学习了高数，减少了围棋时间</li></ul><hr><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><strong>继续加油！！</strong><br>把事情有机整合到一起很重要</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;今日事项&quot;&gt;&lt;a href=&quot;#今日事项&quot; class=&quot;headerlink&quot; title=&quot;今日事项&quot;&gt;&lt;/a&gt;今日事项&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;9:40起床&lt;/li&gt;
-&lt;li&gt;10：25-12：00 计算机导论&lt;/li&gt;
-&lt;li&gt;12：15-12：35 明</summary>
       
     
     
