@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-30T17:10:34.695Z</updated>
+  <updated>2023-12-31T19:13:32.925Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231231日记</title>
+    <link href="http://example.com/2024/01/01/20231231%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/01/01/20231231%E6%97%A5%E8%AE%B0/</id>
+    <published>2023-12-31T18:02:43.000Z</published>
+    <updated>2023-12-31T19:13:32.925Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>4：00 睡觉</p><ol><li>11：00 起床</li><li>11：00-12：40 刷B站</li><li>12：40-13：20 午饭</li><li>13：20-14：05 刷B站</li><li>14：05-14：54 明后</li><li>13：40-18：30 围棋</li><li>14：54-15：19 刷B站</li><li>15：19-15：30 厕所色色</li><li>15：30-18：24 xdoj472题 做题+题解</li><li>18：24-19：15 开始做英语小组视频</li><li>19：15-19：47 晚饭</li><li>19：55-20：15 便利店买零食</li><li>20：17-21：50 刷B站</li><li>21：50-23：30 做英语小组作业视频（使用剪映）</li><li>23：30-0：30 跨年兴奋中+玩了一会明后</li><li>0：30-2：00 围棋</li><li>2：00-2：55 刷B站</li><li>3：00-3：15 写日记</li><li>3：15-3：30 XDOJ题解两篇</li><li>3：30 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>元旦到了，新的一年开始了</li><li>要开始早起复习</li><li>全面进入期末复习</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：不问cigia</p><p>推荐理由：我看那春花秋月不问别离~</p></li><li><p>今日感想：</p><ul><li>函数题有时候是真的头疼</li><li>第一次使用剪映的那么多功能，感觉移动端还是很厉害的，功能很强大。</li><li>跨年还是很开心啦，第一次抢到第一个发新年祝福</li><li>明天还有3场比赛，现在必须要睡了</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;4：00 睡觉&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;11：00 起床&lt;/li&gt;
+&lt;li&gt;11：00-12：40 刷B站&lt;/li&gt;
+&lt;li&gt;12：40-</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20231229日记</title>
@@ -515,34 +543,6 @@
     
     
     <category term="计划与安排" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231214日记</title>
-    <link href="http://example.com/2023/12/14/20231214%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/14/20231214%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-14T14:59:15.000Z</published>
-    <updated>2023-12-16T16:18:07.681Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>9：00 起床</li><li>9：10-10：15 xdoj</li><li>10：25-11：40 xdoj</li><li>10：40-11：55 围棋</li><li>12：00-12：30 吃饭</li><li>13：00-14：30 B站</li><li>14：30-15：44 围棋</li><li>15：44-16：17：07 准备答辩</li><li>17：07-17：17：32 B站</li><li>17：32-20：35 答辩PPT</li><li>20：45-21：30 答辩</li><li>21：40-22：20 英语作文、工图mooc</li><li>22：30-23：00 B站</li><li>23：00-23：15 日记</li><li>23：15-23：30 洗澡、洗漱</li><li>23：30-0：00 四级</li></ol><hr><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li>好歌：Take my hand up  <del>不想听歌了</del></li><li>感悟：<ul><li>四级该看看了，总得过吧</li><li>接下来就要全力复习期末考试了</li><li>项目终极答辩，准备了一个下午，从头到尾改了，还是没达到完美，但总体不错</li><li>学长知识很渊博，答辩学长学姐还没上次院赛老师懂，尽力介绍</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;9：00 起床&lt;/li&gt;
-&lt;li&gt;9：10-10：15 xdoj&lt;/li&gt;
-&lt;li&gt;10：25-11：40 xdoj&lt;/li&gt;
-</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
