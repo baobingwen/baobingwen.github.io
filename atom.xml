@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-31T19:13:32.925Z</updated>
+  <updated>2024-01-01T16:46:55.626Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240101日记</title>
+    <link href="http://example.com/2024/01/01/20240101%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/01/01/20240101%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-01-01T11:29:33.000Z</published>
+    <updated>2024-01-01T16:46:55.626Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>又是4：00 睡觉</p><ol><li>13：00 起床</li><li>13：00-13：30 洗漱、</li><li>13：30-13：50 午饭</li><li>13：50-14：39 尝试做计算机导论大作业</li><li>14：39-15：40 安装epic和死亡搁浅，顺便做了做xdoj题解（csdn）</li><li>15：40-16：30 和王贺讨论题目</li><li>16：30-18：25 死亡搁浅</li><li>18：30-19：00 晚点名</li><li>19：00-19：20 晚饭</li><li>19：20-19：40 日记</li><li>19：40-23：00 围棋</li><li>23：00-23：15 洗澡</li><li>23：15-23；38 围棋</li><li>23：38-0：46 刷B站</li><li>0；50-1：00 日记</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开始玩死亡搁浅</li><li>开始认真完成xdoj题解</li><li>开始提高效率，早睡早起</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：不想推荐</p><p>推荐理由：没听什么新歌，最近期末是真的忙，而且有点慌，无论如何也要放平心态开始复习了</p></li><li><p>今日感想：</p><ul><li>今天是新的一年啦，2024继续加油</li><li>今天上午8点的比赛错过了，额</li><li>好想吃零食，但是又要忍住吃零食的欲望，只为了身体健康</li><li>今天一时兴起玩了死亡搁浅，说实话我的电脑真有点带不动这个游戏，不过游戏本身还是好玩的。我打算以后每天半小时明后，半小时（此处存疑，有可能延长到一小时）死亡搁浅</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;又是4：00 睡觉&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;13：00 起床&lt;/li&gt;
+&lt;li&gt;13：00-13：30 洗漱、&lt;/li&gt;
+&lt;li&gt;13：3</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20231231日记</title>
@@ -517,32 +545,6 @@
     
     
     <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231215计划</title>
-    <link href="http://example.com/2023/12/15/20231215%E8%AE%A1%E5%88%92/"/>
-    <id>http://example.com/2023/12/15/20231215%E8%AE%A1%E5%88%92/</id>
-    <published>2023-12-15T05:02:01.000Z</published>
-    <updated>2023-12-24T16:11:53.216Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="紧急计划"><a href="#紧急计划" class="headerlink" title="紧急计划"></a>紧急计划</h2><p>注：这篇计划是20231216考完四级晚上23：33补写的，</p><p>当时只在脑子里想了一下</p><p>实际上就一天时间，于是选择了放空享受，用最好的状态爆发能量考试</p><hr><ol><li>找一套四级真题练练手</li><li>听一下听力找找做题方法</li><li>早点睡</li></ol><hr><p>事后看，一件事没做成，我真是🤡</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;紧急计划&quot;&gt;&lt;a href=&quot;#紧急计划&quot; class=&quot;headerlink&quot; title=&quot;紧急计划&quot;&gt;&lt;/a&gt;紧急计划&lt;/h2&gt;&lt;p&gt;注：这篇计划是20231216考完四级晚上23：33补写的，&lt;/p&gt;
-&lt;p&gt;当时只在脑子里想了一下&lt;/p&gt;
-&lt;p&gt;实际上就一</summary>
-      
-    
-    
-    
-    <category term="计划" scheme="http://example.com/categories/%E8%AE%A1%E5%88%92/"/>
-    
-    
-    <category term="计划与安排" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92/"/>
     
   </entry>
   
