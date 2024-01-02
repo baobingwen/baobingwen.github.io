@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-01T16:46:55.626Z</updated>
+  <updated>2024-01-02T15:14:33.225Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240102日记</title>
+    <link href="http://example.com/2024/01/02/20240102%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/01/02/20240102%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-01-02T15:14:04.000Z</published>
+    <updated>2024-01-02T15:14:33.225Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>补一下昨天的日程<br>1：00-1：50 做xdoj492切分表达式题<br>1：50-2：30 写题解<br>3：00 睡觉</p><ol><li>10：16 起床，极限，还好泽旭喊我起床了，明天一定要定闹钟，还有早睡，还有手机要保持电量</li><li>10：25-12：00 最后一节思政课</li><li>12：15-12：30 明后</li><li>12：30-12：40 日记</li><li>12：40-13：00 午饭</li><li>13：00-16：30 死亡搁浅</li><li>16：30-19：00 围棋</li><li>19：00-20：00 与王贺讨论题目 晚饭</li><li>20：00-23：00 垃圾游戏玩不了一点</li><li>23：00-23：11 日记</li><li>23：11-23：20 洗澡</li><li>23：20-23：40 xdoj550T</li><li>23：40上床</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>复习周~</li><li>开始提高效率，早睡早起</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：不想推荐</p><p>推荐理由：没听什么新歌，最近期末是真的忙，而且有点慌，无论如何也要放平心态开始复习了</p></li><li><p>今日感想：</p><ul><li>死亡搁浅还是很有难度的</li><li>远离垃圾游戏从我做起</li><li>每日要安排一些时间整理东西，有点乱了</li><li>明天一定要早起</li><li>手机尽量少看</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;补一下昨天的日程&lt;br&gt;1：00-1：50 做xdoj492切分表达式题&lt;br&gt;1：50-2：30 写题解&lt;br&gt;3：00 睡觉&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240101日记</title>
@@ -509,34 +534,6 @@
 &lt;li&gt;7：30 起床&lt;/li&gt;
 &lt;li&gt;7：30-7：45 洗漱准备出门&lt;/li&gt;
 &lt;li&gt;7：50-8：05 吃早饭+拉屎&lt;/li&gt;</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231215日记</title>
-    <link href="http://example.com/2023/12/16/20231215%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/16/20231215%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-16T15:32:04.000Z</published>
-    <updated>2023-12-16T17:40:23.409Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>8：00 起床</li><li>8：30-12：00 英语 高数</li><li>12：00-12:30 明后</li><li>可能在刷题</li><li>15：13-16：49 B站</li><li>16：50-17：28 做了会题，但也有可能是在以拉屎为借口，干见不得人的事</li><li>17：28-17：49 B站</li><li>18：00-18：30 吃饭</li><li>18：55-19：15 打卡ACM宣讲+体育打卡</li><li>19：44- 21：47 B站</li><li>21：50-23：10 功夫熊猫2</li><li>23：10-23：30 洗澡洗漱</li><li>23：30-0：00 准备考试必备物品</li><li>0：00-1：00 色色游戏</li><li>1：00-不知道几点 听歌耳机又忘摘了，直接昏迷式睡眠</li></ol><hr><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li>考试前绝对的精神放松和享受</li><li>四级考试确实没好好准备</li><li>歌是不能再听了，已经产生了精神疲劳</li><li>好好睡觉很关键</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;8：00 起床&lt;/li&gt;
-&lt;li&gt;8：30-12：00 英语 高数&lt;/li&gt;
-&lt;li&gt;12：00-12:30 明后&lt;/li&gt;
-&lt;</summary>
       
     
     
