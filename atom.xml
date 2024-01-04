@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-04T03:07:44.993Z</updated>
+  <updated>2024-01-04T15:46:24.305Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240104</title>
+    <link href="http://example.com/2024/01/04/20240104/"/>
+    <id>http://example.com/2024/01/04/20240104/</id>
+    <published>2024-01-04T15:45:44.000Z</published>
+    <updated>2024-01-04T15:46:24.305Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>补一下昨天的日程<br>23：40-0：20 做xdoj550、写题解<br>0：20-1：30 xdoj562<br>1：30-2：00 题解</p><ol><li>10：50 起床</li><li>10：50-11：50 xdoj</li><li>11：50-12：30 明后</li><li>12：30-13：00 午饭</li><li>13：00-14：00 xdoj</li><li>14：00-14：13 围棋</li><li>14：13-14：14 日记</li><li>14：14-17：33 死亡搁浅</li><li>17：33-17：34 日记</li><li>17：30-18：40 围棋</li><li>18：55-19：30 晚饭</li><li>19：30-20：10 围棋</li><li>20：10-23：20 xdoj</li><li>23：20-23：30 洗澡洗漱</li><li>23：30-23：40 日记</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>复习周~</li><li>开始提高效率，早睡早起</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：累了，不想听歌</p><p>推荐理由：没听什么新歌，最近期末是真的忙，而且有点慌，无论如何也要放平心态开始复习了</p></li><li><p>今日感想：</p><ul><li>死亡搁浅还是很有难度的</li><li>累</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;补一下昨天的日程&lt;br&gt;23：40-0：20 做xdoj550、写题解&lt;br&gt;0：20-1：30 xdoj562&lt;br&gt;1：30-2：00 </summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240103</title>
@@ -526,19 +550,6 @@
     
     
     <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>emoji大全</title>
-    <link href="http://example.com/2023/12/16/emoji%E5%A4%A7%E5%85%A8/"/>
-    <id>http://example.com/2023/12/16/emoji%E5%A4%A7%E5%85%A8/</id>
-    <published>2023-12-16T15:38:52.000Z</published>
-    <updated>2023-12-16T15:38:52.431Z</updated>
-    
-    
-    
-    
     
   </entry>
   
