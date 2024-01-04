@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-02T15:14:33.225Z</updated>
+  <updated>2024-01-04T03:07:44.993Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240103</title>
+    <link href="http://example.com/2024/01/04/20240103/"/>
+    <id>http://example.com/2024/01/04/20240103/</id>
+    <published>2024-01-04T03:07:27.000Z</published>
+    <updated>2024-01-04T03:07:44.993Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>补一下昨天的日程<br>23：40-0：20 做xdoj550、写题解<br>0：20-1：30 xdoj562<br>1：30-2：00 题解</p><ol><li>8：14 起床，极限，还好泽旭喊我起床了，要早睡，还有手机要保持电量</li><li>8：00-10：05 高数课</li><li>10：25-12：00 体能课</li><li>12：00-12：30 打扫卫生+明后</li><li>12：30-13：15 围棋</li><li>13：15-13：45 午饭</li><li>13：45-15：30 围棋</li><li>15：30-16：13 B站</li><li>16：13-17：30 xdoj465+题解</li><li>17：30-17：50 B站</li><li>17：50-18：00 日记</li><li>18：00-18：30 康威的生命游戏</li><li>18：30-18：50 晚饭</li><li>19：00 便利店</li><li>19：00-21：30 围棋</li><li>21：30-23：25 死亡搁浅</li><li>23：25-23：29 洗澡</li><li>23：29-23：38 死亡搁浅</li><li>23：38-0：08 围棋</li><li>0：08-4：00 床上</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>复习周~</li><li>开始提高效率，早睡早起</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：不想推荐</p><p>推荐理由：没听什么新歌，最近期末是真的忙，而且有点慌，无论如何也要放平心态开始复习了</p></li><li><p>今日感想：</p><ul><li>死亡搁浅还是很有难度的</li><li>明天一定要早起</li><li>手机尽量少看</li><li>大作业启动</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;补一下昨天的日程&lt;br&gt;23：40-0：20 做xdoj550、写题解&lt;br&gt;0：20-1：30 xdoj562&lt;br&gt;1：30-2：00 </summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240102日记</title>
@@ -515,33 +539,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>20231216日记</title>
-    <link href="http://example.com/2023/12/16/20231216%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/16/20231216%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-16T15:32:28.000Z</published>
-    <updated>2023-12-16T17:56:41.646Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>7：30 起床</li><li>7：30-7：45 洗漱准备出门</li><li>7：50-8：05 吃早饭+拉屎</li><li>8：05-8：18 赶路+考场外排队进考场</li><li>8：20-8：30 考场入场准备</li><li>9：00-11：20 四级</li><li>11：30-14：43 摆烂+B站+明后+围棋</li><li>14：43-15：45 摆烂+晾衣服</li><li>15：50-16：00 赶去校团委干活的路上</li><li>16：00-16：33 校团委拍照片</li><li>16：43-16：59 取快递+打卡</li><li>17：00-18：30 收拾东西</li><li>18：30-19：06 吃饭</li><li>19：06-19：30 拆快递，试穿手套、帽子</li><li>19：30-21：12 刷B站</li><li>21：12-21：47 打视频电话</li><li>21：37-23：10 刷B站</li><li>23：10-23：30 洗澡洗漱</li><li>23：30-23：40 刷B站</li><li>23：40-0：20 整理日记，发现emoji问题，尝试解决无果</li><li>0：20-1：39 记账</li><li>1：39-1：53 写日记</li><li>2：10 睡觉</li></ol><hr><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li>今天意义重大，考完了四级，痴儿了却公家事，快阁东西倚晚晴。</li><li>接下来要准备全力复习期末考试了</li><li>明天记得去剪头</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;7：30 起床&lt;/li&gt;
-&lt;li&gt;7：30-7：45 洗漱准备出门&lt;/li&gt;
-&lt;li&gt;7：50-8：05 吃早饭+拉屎&lt;/li&gt;</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
