@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-15T16:41:03.957Z</updated>
+  <updated>2024-01-20T14:55:12.037Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,77 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240120计划</title>
+    <link href="http://example.com/2024/01/20/20240120%E8%AE%A1%E5%88%92/"/>
+    <id>http://example.com/2024/01/20/20240120%E8%AE%A1%E5%88%92/</id>
+    <published>2024-01-20T14:48:31.000Z</published>
+    <updated>2024-01-20T14:55:12.037Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="首要事项"><a href="#首要事项" class="headerlink" title="首要事项"></a>首要事项</h2><ol><li>离散数学</li><li>java</li><li>python</li><li>吉米多维奇习题集</li><li>死亡搁浅</li></ol><h2 id="其他计划"><a href="#其他计划" class="headerlink" title="其他计划"></a>其他计划</h2><ol><li>每天少量洛谷（30min左右）</li><li><del>看老师？</del>真的要看吗</li><li>联系同学？</li><li>我不知道</li><li>我不知道</li><li>感觉今天过得好快，生活好不自在，什么时候能恢复正常人的心态，喜怒哀乐皆出自内心，而不是一个压抑内心的变态。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;首要事项&quot;&gt;&lt;a href=&quot;#首要事项&quot; class=&quot;headerlink&quot; title=&quot;首要事项&quot;&gt;&lt;/a&gt;首要事项&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;离散数学&lt;/li&gt;
+&lt;li&gt;java&lt;/li&gt;
+&lt;li&gt;python&lt;/li&gt;
+&lt;li&gt;吉米多维奇习题集&lt;/li</summary>
+      
+    
+    
+    
+    <category term="计划" scheme="http://example.com/categories/%E8%AE%A1%E5%88%92/"/>
+    
+    
+    <category term="计划与安排" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20240118日记</title>
+    <link href="http://example.com/2024/01/18/20240118%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/01/18/20240118%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-01-18T01:17:25.000Z</published>
+    <updated>2024-01-18T01:19:36.873Z</updated>
+    
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20240117日记</title>
+    <link href="http://example.com/2024/01/18/20240117%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/01/18/20240117%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-01-18T01:17:15.000Z</published>
+    <updated>2024-01-18T01:17:15.679Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>20240116日记</title>
+    <link href="http://example.com/2024/01/18/20240116%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/01/18/20240116%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-01-18T01:17:00.000Z</published>
+    <updated>2024-01-18T01:17:00.528Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>20240115日记</title>
@@ -433,114 +504,6 @@
 &lt;li&gt;11：00 起床&lt;/li&gt;
 &lt;li&gt;11：00-12：40 刷B站&lt;/li&gt;
 &lt;li&gt;12：40-</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231229日记</title>
-    <link href="http://example.com/2023/12/30/20231229%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/30/20231229%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-30T15:11:33.000Z</published>
-    <updated>2023-12-30T17:10:34.695Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>8：10 起床</li><li>8：30-10：05 英语课</li><li>10：30-12：30 做高数mooc期末测试</li><li>12：30-13：00 午饭</li><li>13：00-13：40 录英语小组作业，但是失败</li><li>13：40-18：30 围棋</li><li>19：45-20：00 晚饭<del>但是泡面</del></li><li>20：00-23：10 围棋</li><li>23：10-23：30 洗澡</li><li>23：30-2：30 xdoj</li><li>2：30 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开始收心，做大作业</li><li>要开始早起复习</li><li>全面进入期末复习</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：Void</p><p>推荐理由：<del>我这一生如履薄冰，你说我能走到对岸吗</del></p></li><li><p>今日感想：</p><ul><li>自己安排生活还真是不容易呢</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;8：10 起床&lt;/li&gt;
-&lt;li&gt;8：30-10：05 英语课&lt;/li&gt;
-&lt;li&gt;10：30-12：30 做高数mooc期末测试</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231230日记</title>
-    <link href="http://example.com/2023/12/30/20231230%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/30/20231230%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-30T14:57:40.000Z</published>
-    <updated>2023-12-30T15:11:13.544Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>13：30 起床</li><li>13：35-14：00 围棋</li><li>14：00-14：10 给泽旭讲题</li><li>14：10-18：00 断断续续围棋、明后</li><li>15：00-15：40 录英语小组作业</li><li>18：00-18：30 给王贺讲题</li><li>18：45-19：00 晚饭</li><li>19：00-19：45 数学测试</li><li>19：45-21：00 刷视频</li><li>21：00-22：30 围棋</li><li>22：30-22：50 刷视频</li><li>23：00-23：10 日记</li><li>23：10-23：30 洗澡、洗漱</li><li>23：30-0：30 做C语言题</li><li>0：30-1：00 不知道干嘛，做会大作业吧</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开始收心，做大作业</li><li>要开始早起复习</li><li>全面进入期末复习</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：Midnight city</p><p>推荐理由：带感</p></li><li><p>今日感想：</p><ul><li>自己安排生活还真是不容易呢</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;13：30 起床&lt;/li&gt;
-&lt;li&gt;13：35-14：00 围棋&lt;/li&gt;
-&lt;li&gt;14：00-14：10 给泽旭讲题&lt;/li&gt;</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231228日记</title>
-    <link href="http://example.com/2023/12/28/20231228%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/28/20231228%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-28T15:31:30.000Z</published>
-    <updated>2023-12-28T15:40:51.499Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>10：00 起床</li><li>10：25-12：00 计导课 最后一节</li><li>12：10-12：30 明后</li><li>12：50-13：15 午饭</li><li>13：15-13：40 围棋</li><li>14：00-15：35 最后一节党史</li><li>15：45-18：30 围棋</li><li>18：40-19：10 晚饭</li><li>19：10-22：00 英语大作业写稿子</li><li>22：10-23：20 围棋</li><li>23：20-23：30 洗澡</li><li>23：30-23：45 日记</li><li>23：45-0：00 安排计划</li><li>1：00 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开始收心，做大作业</li><li>要开始早起复习</li><li>全面进入期末复习</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：Komorebi</p><p>推荐理由：动力，勉励</p></li><li><p>今日感想：</p><ul><li>大作业真就温水煮青蛙</li><li>还没开始复习，有点紧张，但是算了一下，也就只要复习6门，不算太多，只要用心，总能复习完的。</li><li>为什么还没出考试安排</li><li>高中的认真要回来了</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;10：00 起床&lt;/li&gt;
-&lt;li&gt;10：25-12：00 计导课 最后一节&lt;/li&gt;
-&lt;li&gt;12：10-12：30 明后&lt;/</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20231227日记</title>
-    <link href="http://example.com/2023/12/28/20231227%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2023/12/28/20231227%E6%97%A5%E8%AE%B0/</id>
-    <published>2023-12-27T17:28:06.000Z</published>
-    <updated>2023-12-27T17:34:14.446Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>8：00 起床</li><li>8：30-10：05 高数</li><li>10：25-12：00 体育课 跑了1000米 练了瑜伽柱</li><li>12：00-12：20 吃饭</li><li>12：20-12：40 明后</li><li>12：50-18：30 围棋</li><li>18：30-19：10 晚饭</li><li>19：20-21：40 围棋</li><li>21：40-23：20 党史大作业 <del>怎么做了这么久</del></li><li>23：20-23：30 洗澡</li><li>23：30-1：30 党史大作业 <del>熬夜作业要做完</del></li><li>1：30-2：00 **</li><li>2：00 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>xdoj练习</li><li>背军事理论</li><li>党史大作业</li><li>计导大作业</li><li>英语大作业</li><li>洛谷刷题</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>XODJ开摆</li><li>减少玩游戏的时间</li><li>进入复习状态，全面检索知识漏洞（例如高数积分公式还没推熟）</li><li><del>洛谷刷题</del></li><li><del>工图上到新境界</del></li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：We don’t talk anymore.</p><p>推荐理由：~~~~~~~~~~</p></li><li><p>今日感想：</p><ul><li>今天和昨天给我自己放了两天假</li><li>感觉时间不够了</li><li>需要立刻写大作业</li><li>2023年就要结束了，好快啊</li><li>人一定要做自己的主人</li><li>明天周四，英语大作业要立刻做。</li><li>马上要到期末周了，那些在玩的人我不知道他们在想什么</li><li>合理安排时间，做到单位时间效率最大化</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;8：00 起床&lt;/li&gt;
-&lt;li&gt;8：30-10：05 高数&lt;/li&gt;
-&lt;li&gt;10：25-12：00 体育课 跑了1000米 </summary>
       
     
     
