@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-22T09:13:01.286Z</updated>
+  <updated>2024-02-25T14:17:53.445Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240225日记</title>
+    <link href="http://example.com/2024/02/25/20240225%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/02/25/20240225%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-02-25T14:17:18.000Z</published>
+    <updated>2024-02-25T14:17:53.445Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="总记"><a href="#总记" class="headerlink" title="总记"></a>总记</h2><p>今天是正式开学前一天报道日！<br>充实但不忙碌的一天！<br>明天开始正式上课！</p><h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ul><li>7：30 <del>做噩梦惊醒</del> 8：00 醒 8：30 坐起来（但是在刷手机（但是不在刷视频，是在下围棋））8：55 正式起床</li><li>8：55-9：10 洗漱</li><li>9：10-9：50 洗衣机洗衣服</li><li>9：53-9：58 取衣服（差点被人发现）</li><li>9：58-10：05 领书</li><li>10：05-10：20 试了下电脑，下了几盘棋</li><li>10：20-10：30 晾衣服</li><li>10：30-11：40 张天政回来了，陪张天政取快递</li><li>12：00-12：30 午饭（黑椒味茶泡饭）</li><li>12：30-16：00 围棋</li><li>16：00-16：10 抄写寒假作业</li><li>16：10-16：30 帮泽旭算账</li><li>16：30-17：00 围棋</li><li>17：00-17：40 围棋</li><li>17：40-18：10 晚饭（咖喱味茶泡饭）</li><li>18：10-18：45 晚点名</li><li>18：45-21：45 围棋</li><li>21：45-21：50 安装新的水桶</li><li>21：50-22：10 日记</li></ul><p>以下为预想计划</p><ul><li>22：10-22：30 洗澡</li><li>22：30-23：00 上床准备睡觉，或者启动死亡搁浅过一下手瘾</li><li>23：00 睡觉</li><li>7：30 起床</li></ul><h2 id="分类时长总计（单位：min）"><a href="#分类时长总计（单位：min）" class="headerlink" title="分类时长总计（单位：min）"></a>分类时长总计（单位：min）</h2><p>一天时长总计：1440</p><ul><li>睡觉：480+60</li><li>娱乐：495</li><li>学习：0</li></ul><h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ol><li>适应繁忙的节奏</li><li>其他之后再说<del>暂时想不出来什么好点子</del></li><li></li><li></li><li></li><li></li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开学喽~</li><li>开始新目标，同时放松自己，准备好最佳状态</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>啊吧啊吧：<br>噩梦内容：和父母进入奇怪的地方，要下楼去到全是牛鬼蛇神的地方</p></li><li><p>今日好歌：BB’s theme</p><p>推荐理由：死亡搁浅神曲，每每听到都有落泪的欲望，太好听了</p></li><li><p>今日感悟：</p><ul><li>又来吃茶泡饭了，嘿嘿~~</li><li>新的纯净水桶</li><li>围棋时间有点长 <del>哈哈哈</del></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;总记&quot;&gt;&lt;a href=&quot;#总记&quot; class=&quot;headerlink&quot; title=&quot;总记&quot;&gt;&lt;/a&gt;总记&lt;/h2&gt;&lt;p&gt;今天是正式开学前一天报道日！&lt;br&gt;充实但不忙碌的一天！&lt;br&gt;明天开始正式上课！&lt;/p&gt;
+&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240222计划</title>
@@ -476,34 +501,6 @@
       
     <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;补一下昨天的日程&lt;br&gt;1：00-1：50 做xdoj492切分表达式题&lt;br&gt;1：50-2：30 写题解&lt;br&gt;3：00 睡觉&lt;/p&gt;
 &lt;</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20240101日记</title>
-    <link href="http://example.com/2024/01/01/20240101%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2024/01/01/20240101%E6%97%A5%E8%AE%B0/</id>
-    <published>2024-01-01T11:29:33.000Z</published>
-    <updated>2024-01-01T16:46:55.626Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>又是4：00 睡觉</p><ol><li>13：00 起床</li><li>13：00-13：30 洗漱、</li><li>13：30-13：50 午饭</li><li>13：50-14：39 尝试做计算机导论大作业</li><li>14：39-15：40 安装epic和死亡搁浅，顺便做了做xdoj题解（csdn）</li><li>15：40-16：30 和王贺讨论题目</li><li>16：30-18：25 死亡搁浅</li><li>18：30-19：00 晚点名</li><li>19：00-19：20 晚饭</li><li>19：20-19：40 日记</li><li>19：40-23：00 围棋</li><li>23：00-23：15 洗澡</li><li>23：15-23；38 围棋</li><li>23：38-0：46 刷B站</li><li>0；50-1：00 日记</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开始玩死亡搁浅</li><li>开始认真完成xdoj题解</li><li>开始提高效率，早睡早起</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：不想推荐</p><p>推荐理由：没听什么新歌，最近期末是真的忙，而且有点慌，无论如何也要放平心态开始复习了</p></li><li><p>今日感想：</p><ul><li>今天是新的一年啦，2024继续加油</li><li>今天上午8点的比赛错过了，额</li><li>好想吃零食，但是又要忍住吃零食的欲望，只为了身体健康</li><li>今天一时兴起玩了死亡搁浅，说实话我的电脑真有点带不动这个游戏，不过游戏本身还是好玩的。我打算以后每天半小时明后，半小时（此处存疑，有可能延长到一小时）死亡搁浅</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;又是4：00 睡觉&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;13：00 起床&lt;/li&gt;
-&lt;li&gt;13：00-13：30 洗漱、&lt;/li&gt;
-&lt;li&gt;13：3</summary>
       
     
     
