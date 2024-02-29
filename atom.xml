@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-28T15:59:07.655Z</updated>
+  <updated>2024-02-29T15:49:50.949Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240229日记</title>
+    <link href="http://example.com/2024/02/29/20240229%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/02/29/20240229%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-02-29T15:46:03.000Z</published>
+    <updated>2024-02-29T15:49:50.949Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="总记"><a href="#总记" class="headerlink" title="总记"></a>总记</h2><p>今天是开学第四天<br>充实且忙碌但略显迷茫的一天</p><h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ul><li>8：30 起床</li><li>8：30-8：50 洗漱</li><li>8：50-10：05 围棋</li><li>10：05-10：25 去课堂</li><li>10：25-11：50 大学物理</li><li>11：50-12：20 午饭（原味茶泡饭）</li><li>12：20-13：40 围棋</li><li>13：40-14：00 去教室</li><li>14：00-15：35 大学生心理健康</li><li>15：35-15：55 课间</li><li>15：55-17：30 线代</li><li>17：30-18：00 晚饭（川味小炒腐竹炒肉）+ 和王贺聊天</li><li>18：00-18：15 拿快递</li><li>18：15-19：40 围棋</li><li>19：40-21：40 陪王贺复习高数补考</li><li>21：40-22：30 围棋</li><li>22：30-23：20 洗澡洗漱</li><li>23：20-23：40 日记</li></ul><p>以下为预想计划</p><ul><li>23：45 睡觉</li><li>7：20 起床</li></ul><h2 id="分类时长总计（单位：min）"><a href="#分类时长总计（单位：min）" class="headerlink" title="分类时长总计（单位：min）"></a>分类时长总计（单位：min）</h2><p>一天时长总计：1440</p><ul><li>睡觉：510+15</li><li>娱乐：</li><li>学习：425</li></ul><h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ol><li>适应繁忙的节奏</li><li>大学物理</li><li>高数</li><li>线性代数</li><li>python</li><li>离散数学</li><li>近现代史纲要</li><li>六级英语</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开学喽~</li><li>开始新目标，同时放松自己，准备好最佳状态</li><li>对上课的作息更加熟悉了</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>啊吧啊吧：<br>没有早八 8：30 起床 美滋滋<br>2024年独特的一天<br>今天是28年一遇的疯狂星期四<del>（bushi</del></p></li><li><p>今日好歌：安和桥</p><p><em>我知道，那些夏天就像青春一样回不来。</em></p><p>推荐理由：平静中透露出凄悲，有种城市遗民的感觉，蕴含着带着哀愁的释然</p></li><li><p>今日感悟：</p><ul><li>大学物理老师提前下课了</li><li>围棋时间变成了无所事事</li><li><del>有点空虚，也许我应该更加忙碌</del> 演化为了有点迷茫</li><li>课后作业还是一个没写，需要再写吧 <strong>注：这里的需要是指自己学习需要，不是老师需要收作业</strong></li><li>和王贺回想了自己的高中，过去的终究回不来，不如让它真实，尽管难以回首，但是宝贵的经验不可儿戏。</li></ul></li></ul><h1 id="以己为鉴，可以知人生。"><a href="#以己为鉴，可以知人生。" class="headerlink" title="以己为鉴，可以知人生。"></a>以己为鉴，可以知人生。</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;总记&quot;&gt;&lt;a href=&quot;#总记&quot; class=&quot;headerlink&quot; title=&quot;总记&quot;&gt;&lt;/a&gt;总记&lt;/h2&gt;&lt;p&gt;今天是开学第四天&lt;br&gt;充实且忙碌但略显迷茫的一天&lt;/p&gt;
+&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240228日记</title>
@@ -476,33 +501,6 @@
 &lt;ol&gt;
 &lt;li&gt;12：15 起床&lt;/li&gt;
 &lt;li&gt;12：15-12：30</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20240105</title>
-    <link href="http://example.com/2024/01/05/20240105/"/>
-    <id>http://example.com/2024/01/05/20240105/</id>
-    <published>2024-01-05T15:33:30.000Z</published>
-    <updated>2024-01-05T15:33:48.470Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>补一下昨天的日程<br>23：40-0：20 发呆<br>0：20-1：30</p><ol><li>8：12 起床</li><li>8：30-10：05 xdoj</li><li>10：20-12：08 和王贺讨论题目</li><li>12：08-12：39 午饭</li><li>12：39-13：46 明后+游戏</li><li>13：46-13：48 日记</li><li>13：55-15：08 死亡搁浅日常送货</li><li>15：08-15：08 日记</li><li>15：08-16：30 围棋、死亡搁浅</li><li>16：30-18：50 高数</li><li>18：55-19：30 方便面</li><li>19：30 打卡</li><li>19：30-23：10 死亡搁浅 打卡</li><li>23：20-23：30 洗澡洗漱</li><li>23：30-23：40 日记</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>复习周~</li><li>开始提高效率，早睡早起</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：累了，不想听歌</p><p>推荐理由：没听什么新歌，最近期末是真的忙，而且有点慌，无论如何也要放平心态开始复习了</p></li><li><p>今日感想：</p><ul><li>死亡搁浅还是很有难度的</li><li>开心，周末</li><li>期末考试安排出来了</li><li>死亡搁浅养老派玩法</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;补一下昨天的日程&lt;br&gt;23：40-0：20 发呆&lt;br&gt;0：20-1：30&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;8：12 起床&lt;/li&gt;
-&lt;li&gt;8</summary>
       
     
     
