@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-01T16:49:40.790Z</updated>
+  <updated>2024-03-02T19:04:44.464Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240302日记</title>
+    <link href="http://example.com/2024/03/03/20240302%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/03/03/20240302%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-03-02T19:03:54.000Z</published>
+    <updated>2024-03-02T19:04:44.464Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="总记"><a href="#总记" class="headerlink" title="总记"></a>总记</h2><p>今天是开学第六天，周六啦~<br>充实的一天，摆烂的一天</p><h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ul><li>11：50 起床</li><li>11：50-12：10 洗漱</li><li>12：10-12：50 围棋</li><li>12：50-13：20 午饭（鲜鸡茶泡饭）</li><li>13：20-13：50 英语+心理健康</li><li>13：50-14：00 去图书馆</li><li>14：00-17：10 图书馆（高数+大学生心理健康教育）</li><li>17：10-17：20 回宿舍</li><li>17：20-18：50 围棋</li><li>18：50-19：40 随便吃点+小岛秀夫纪录片+大学生心理健康教育</li><li>19：40-20：10 看王贺玩lol</li><li>20：10-23：20 死亡搁浅</li><li>23：20-23：30 洗澡+洗漱</li><li>23：30-2：50 死亡搁浅</li><li>2：50-3：05 日记</li></ul><p>以下为预想计划</p><ul><li>3：10 睡觉</li><li>9：30 起床</li></ul><h2 id="分类时长总计（单位：min）"><a href="#分类时长总计（单位：min）" class="headerlink" title="分类时长总计（单位：min）"></a>分类时长总计（单位：min）</h2><p>一天时长总计：1440</p><ul><li>睡觉：690</li><li>娱乐：550</li><li>学习：270</li></ul><h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ol><li>适应繁忙的节奏</li><li>大学物理</li><li>高数</li><li>线性代数</li><li>python</li><li>离散数学</li><li>近现代史纲要</li><li>六级英语</li><li>贪吃蛇AI</li><li>死亡搁浅2周目</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开学喽~</li><li>开始新目标，同时放松自己，准备好最佳状态</li><li>对上课的作息熟悉了</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>啊吧啊吧：<br>今天决定捡起来ACM了<br>王贺明天补考，今天还在打lol，心真大<br>这周作业写完了，开心</p></li><li><p>今日好歌：空缺</p><p>推荐理由：没想到什么歌</p></li><li><p>今日感悟：</p><ul><li>死亡搁浅无敌版真爽</li><li>图书馆真适合学习</li><li>大学生心理健康教育挂课很费神，要尽早挂完</li><li>英语还有一篇作文</li><li>这个学期第一次熬夜，为了死亡搁浅，<del>算是值吧</del></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;总记&quot;&gt;&lt;a href=&quot;#总记&quot; class=&quot;headerlink&quot; title=&quot;总记&quot;&gt;&lt;/a&gt;总记&lt;/h2&gt;&lt;p&gt;今天是开学第六天，周六啦~&lt;br&gt;充实的一天，摆烂的一天&lt;/p&gt;
+&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240301日记</title>
@@ -472,33 +497,6 @@
 &lt;li&gt;11：30 起床&lt;/li&gt;
 &lt;li&gt;11：30-12：30 一道高数题+摆烂&lt;/li&gt;
 &lt;li&gt;12：50-13：40 午饭&lt;/</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20240107日记</title>
-    <link href="http://example.com/2024/01/08/20240107%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2024/01/08/20240107%E6%97%A5%E8%AE%B0/</id>
-    <published>2024-01-08T05:46:44.000Z</published>
-    <updated>2024-01-08T06:01:06.029Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><p>补一下昨天的日程<br>23：40-0：10 发呆</p><ol><li>13：15 起床</li><li>13：25-13：50 午饭</li><li>13：50 日记</li><li>13：50-15：30 围棋</li><li>14：40-18：10 死亡搁浅</li><li>18：10-19：00 晚点名</li><li>19：00-19：10 日记</li><li>19：10-23：20 调研报告</li><li>23：20-23：26 洗澡</li><li>23：26-23：36 等熄灯，但是没有熄灯</li><li>23：36-2：30 调研报告</li><li>2：30-3：00 摆烂</li><li>3：00 睡觉</li></ol><hr><h2 id="安排"><a href="#安排" class="headerlink" title="安排"></a>安排</h2><ol><li>高数复习</li><li>工图复习</li><li>军事理论复习</li><li>计算机导论复习</li><li>思想政治复习</li><li>英语复习</li><li>各种大作业</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>复习周~</li><li>开始提高效率，早睡早起</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：累了，不想听歌</p><p>推荐理由：没听什么新歌，最近期末是真的忙，而且有点慌，无论如何也要放平心态开始复习了</p></li><li><p>今日感想：</p><ul><li>高数考试还有两天</li><li>死亡搁浅养老派玩法</li><li>低帧画面看久了，头晕~~~~~~~~~~~~~~~~~~~~~~~</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;p&gt;补一下昨天的日程&lt;br&gt;23：40-0：10 发呆&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;13：15 起床&lt;/li&gt;
-&lt;li&gt;13：25-13：50 午</summary>
       
     
     
