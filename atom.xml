@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-10T17:08:11.181Z</updated>
+  <updated>2024-03-11T16:29:53.112Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240311日记</title>
+    <link href="http://example.com/2024/03/11/20240311%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/03/11/20240311%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-03-11T15:09:22.000Z</published>
+    <updated>2024-03-11T16:29:53.112Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="总记"><a href="#总记" class="headerlink" title="总记"></a>总记</h2><p>今天是开学第十五天，第三周周一<br>有些忙碌的一天</p><h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ul><li>8：00 起床</li><li>8：00-8：12 洗漱</li><li>8：12-8：20 买早饭（牛肉饼）</li><li>8：30-10：05 离散数学</li><li>10：05-10：25 课间</li><li>10：25-12：00 高数</li><li>12：00-12：30 午饭（茶泡饭）</li><li>12：30-12：40 鲍叔外卖（手抓饼）</li><li>13：15-13：30 例会</li><li>13：30-13：50 围棋</li><li>14：00-15：35 python</li><li>15：35-17：30 中国近代史纲要</li><li>17：30-18：10 晚饭（番茄肥牛面）</li><li>18：10-20：00 围棋、摆烂</li><li>20：00-20：40 跑步</li><li>20：40-23：20 围棋+papers please</li><li>20：20-23：30 洗澡</li><li>23：30-0：00 codeforces div.3 比赛</li></ul><p>以下为预想计划</p><ul><li>0：00 睡觉</li><li>7：30 起床</li></ul><h2 id="分类时长总计（单位：min）"><a href="#分类时长总计（单位：min）" class="headerlink" title="分类时长总计（单位：min）"></a>分类时长总计（单位：min）</h2><p>一天时长总计：1440</p><ul><li>睡觉：480</li><li>娱乐：290</li><li>学习：380+30</li><li>运动：20</li></ul><h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ol><li>专注于事情本身,做好每一个环节,把发力点用在环节上,而不是计划和空想上</li><li>高数</li><li>6级</li><li>ACM</li><li>大物</li><li>离散数学</li><li>中国近现代史纲要</li><li>贪吃蛇AI</li><li>跑步</li><li>java</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>今天codeforces比赛</li><li>跑步继续</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：无</p></li><li><p>想到就记：</p><ul><li>今天竟然忘记了晚上的比赛</li><li>papers please 有挂了以后玩起来轻松一些，但是不太想玩了，因为很重复，很累，42￥就当支持同款产品开发了，期待明年的全网公敌2</li><li>睡觉！</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;总记&quot;&gt;&lt;a href=&quot;#总记&quot; class=&quot;headerlink&quot; title=&quot;总记&quot;&gt;&lt;/a&gt;总记&lt;/h2&gt;&lt;p&gt;今天是开学第十五天，第三周周一&lt;br&gt;有些忙碌的一天&lt;/p&gt;
+&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;header</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240309日记</title>
@@ -470,19 +495,6 @@
     <id>http://example.com/2024/01/18/20240117%E6%97%A5%E8%AE%B0/</id>
     <published>2024-01-18T01:17:15.000Z</published>
     <updated>2024-01-18T01:17:15.679Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>20240116日记</title>
-    <link href="http://example.com/2024/01/18/20240116%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2024/01/18/20240116%E6%97%A5%E8%AE%B0/</id>
-    <published>2024-01-18T01:17:00.000Z</published>
-    <updated>2024-01-18T01:17:00.528Z</updated>
     
     
     
