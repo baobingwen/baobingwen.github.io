@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-26T15:56:00.954Z</updated>
+  <updated>2024-03-27T16:00:24.704Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240327日记</title>
+    <link href="http://example.com/2024/03/27/20240327%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2024/03/27/20240327%E6%97%A5%E8%AE%B0/</id>
+    <published>2024-03-27T15:59:56.000Z</published>
+    <updated>2024-03-27T16:00:24.704Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="总记"><a href="#总记" class="headerlink" title="总记"></a>总记</h2><p>今天是第五周周三<br>休息中~~</p><h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ul><li>1：30 睡觉</li><li>8：15 起床</li><li>8：30-10：25 高数（拉肚子浪费一半课）</li><li>10：55-12：00 离散数学（写高数）</li><li>12：00-12：30 围棋</li><li>12：45-13：15 午饭（黑椒牛柳茶泡饭）</li><li>13：15-13：40 围棋</li><li>14：00-15：35 近代史（笔记+考试）</li><li>15：55-17：50 实验</li><li>18：10-18：35 晚饭（面）</li><li>19：00-20：35 中国经济发展史</li><li>20：35-21：30 跑步</li><li>21：30-22：50 围棋</li><li>22：50-23：20 摆烂</li><li>23：20-23：30 洗澡洗漱</li><li>23：30-23：45 摆烂</li></ul><p>以下为预想计划</p><ul><li>23：45-0：00 日记</li></ul><h2 id="分类时长总计（单位：min）"><a href="#分类时长总计（单位：min）" class="headerlink" title="分类时长总计（单位：min）"></a>分类时长总计（单位：min）</h2><p>一天时长总计：1440</p><ul><li>睡觉：405</li><li>娱乐：135</li><li>学习：395</li><li>运动：40</li></ul><h2 id="明日计划"><a href="#明日计划" class="headerlink" title="明日计划"></a>明日计划</h2><ol><li>8：00 起床</li><li>写物理实验报告</li><li>大物 听课+写作业</li><li>线性代数听课+写作业</li><li>中外民歌赏析放松</li><li>搞项目</li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>今天见到了信号源、示波器</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>今日好歌：下雨天</p></li><li><p>想到就记：</p><ul><li>放松的感觉真好</li><li>现在充满了动力</li><li>早饭还是要吃的</li><li>高数、线代、大物、要花时间</li><li>项目慢慢搞，主要不是写代码，而是想思路</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;总记&quot;&gt;&lt;a href=&quot;#总记&quot; class=&quot;headerlink&quot; title=&quot;总记&quot;&gt;&lt;/a&gt;总记&lt;/h2&gt;&lt;p&gt;今天是第五周周三&lt;br&gt;休息中~~&lt;/p&gt;
+&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; tit</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>20240326日记</title>
@@ -480,31 +505,6 @@
       
     <summary type="html">&lt;h2 id=&quot;总记&quot;&gt;&lt;a href=&quot;#总记&quot; class=&quot;headerlink&quot; title=&quot;总记&quot;&gt;&lt;/a&gt;总记&lt;/h2&gt;&lt;p&gt;今天是正式开学第一天&lt;br&gt;充实且忙碌的一天&lt;/p&gt;
 &lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20240225日记</title>
-    <link href="http://example.com/2024/02/25/20240225%E6%97%A5%E8%AE%B0/"/>
-    <id>http://example.com/2024/02/25/20240225%E6%97%A5%E8%AE%B0/</id>
-    <published>2024-02-25T14:17:18.000Z</published>
-    <updated>2024-03-24T15:22:20.711Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="总记"><a href="#总记" class="headerlink" title="总记"></a>总记</h2><p>今天是正式开学前一天报道日！<br>充实但不忙碌的一天！<br>明天开始正式上课！</p><h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ul><li>7：30 <del>做噩梦惊醒</del> 8：00 醒 8：30 坐起来（但是在刷手机（但是不在刷视频，是在下围棋））8：55 正式起床</li><li>8：55-9：10 洗漱</li><li>9：10-9：50 洗衣机洗衣服</li><li>9：53-9：58 取衣服（差点被人发现）</li><li>9：58-10：05 领书</li><li>10：05-10：20 试了下电脑，下了几盘棋</li><li>10：20-10：30 晾衣服</li><li>10：30-11：40 张天政回来了，陪张天政取快递</li><li>12：00-12：30 午饭（黑椒味茶泡饭）</li><li>12：30-16：00 围棋</li><li>16：00-16：10 抄写寒假作业</li><li>16：10-16：30 帮泽旭算账</li><li>16：30-17：00 围棋</li><li>17：00-17：40 围棋</li><li>17：40-18：10 晚饭（咖喱味茶泡饭）</li><li>18：10-18：45 晚点名</li><li>18：45-21：45 围棋</li><li>21：45-21：50 安装新的水桶</li><li>21：50-22：10 日记</li></ul><p>以下为预想计划</p><ul><li>22：10-22：30 洗澡</li><li>22：30-23：00 上床准备睡觉，或者启动死亡搁浅过一下手瘾</li><li>23：00 睡觉</li><li>7：30 起床</li></ul><h2 id="分类时长总计（单位：min）"><a href="#分类时长总计（单位：min）" class="headerlink" title="分类时长总计（单位：min）"></a>分类时长总计（单位：min）</h2><p>一天时长总计：1440</p><ul><li>睡觉：480+60</li><li>娱乐：495</li><li>学习：0</li></ul><h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ol><li>适应繁忙的节奏</li><li>其他之后再说<del>暂时想不出来什么好点子</del></li><li></li><li></li><li></li><li></li></ol><h2 id="新变化"><a href="#新变化" class="headerlink" title="新变化"></a>新变化</h2><ol><li>开学喽~</li><li>开始新目标，同时放松自己，准备好最佳状态</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><ul><li><p>啊吧啊吧：<br>噩梦内容：和父母进入奇怪的地方，要下楼去到全是牛鬼蛇神的地方</p></li><li><p>今日好歌：BB’s theme</p><p>推荐理由：死亡搁浅神曲，每每听到都有落泪的欲望，太好听了</p></li><li><p>今日感悟：</p><ul><li>又来吃茶泡饭了，嘿嘿~~</li><li>新的纯净水桶</li><li>围棋时间有点长 <del>哈哈哈</del></li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;总记&quot;&gt;&lt;a href=&quot;#总记&quot; class=&quot;headerlink&quot; title=&quot;总记&quot;&gt;&lt;/a&gt;总记&lt;/h2&gt;&lt;p&gt;今天是正式开学前一天报道日！&lt;br&gt;充实但不忙碌的一天！&lt;br&gt;明天开始正式上课！&lt;/p&gt;
-&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程</summary>
       
     
     
