@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-06-24T17:56:44.283Z</updated>
+  <updated>2024-06-27T16:59:40.745Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240628计划</title>
+    <link href="http://example.com/2024/06/28/20240628%E8%AE%A1%E5%88%92/"/>
+    <id>http://example.com/2024/06/28/20240628%E8%AE%A1%E5%88%92/</id>
+    <published>2024-06-27T16:52:05.000Z</published>
+    <updated>2024-06-27T16:59:40.745Z</updated>
+    
+    <content type="html"><![CDATA[<p>9:00 起床<br>9：00-10：00 准备答辩<br>10：00-11：30 java<br>11：30-12：00 吃饭<br>13：00-15：00 java考试<br>15：30-17：30 准备答辩<br>17：30-18：00 晚饭<br>18：00-22：00 准备答辩</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;9:00 起床&lt;br&gt;9：00-10：00 准备答辩&lt;br&gt;10：00-11：30 java&lt;br&gt;11：30-12：00 吃饭&lt;br&gt;13：00-15：00 java考试&lt;br&gt;15：30-17：30 准备答辩&lt;br&gt;17：30-18：00 晚饭&lt;br&gt;18：00-22：</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>20240624随想</title>
