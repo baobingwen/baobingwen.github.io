@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-07-01T15:16:13.773Z</updated>
+  <updated>2024-07-10T17:12:01.113Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>铭言</title>
+    <link href="http://example.com/2024/07/10/%E9%93%AD%E8%A8%80/"/>
+    <id>http://example.com/2024/07/10/%E9%93%AD%E8%A8%80/</id>
+    <published>2024-07-10T15:48:02.000Z</published>
+    <updated>2024-07-10T17:12:01.113Z</updated>
+    
+    <content type="html"><![CDATA[<p>2024年7月11日凌晨</p><p>我们也许什么都救不了，只有自己</p><ol><li>认识自己、敢于展现自己、提升自己，因为你不满足于现状</li><li>挫折是正常的，以此提升是契机</li><li>只做现在必须做的事情，不要做着现在想着将来</li></ol><p>相信自己，尊重别人，不要自作多情</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2024年7月11日凌晨&lt;/p&gt;
+&lt;p&gt;我们也许什么都救不了，只有自己&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;认识自己、敢于展现自己、提升自己，因为你不满足于现状&lt;/li&gt;
+&lt;li&gt;挫折是正常的，以此提升是契机&lt;/li&gt;
+&lt;li&gt;只做现在必须做的事情，不要做着现在想着将来&lt;/li&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="铭言" scheme="http://example.com/tags/%E9%93%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>20240701新的计划</title>
