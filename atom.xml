@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-07-10T17:12:01.113Z</updated>
+  <updated>2024-09-28T11:19:45.621Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024_09_28计划</title>
+    <link href="http://example.com/2024/09/28/2024-09-28%E8%AE%A1%E5%88%92/"/>
+    <id>http://example.com/2024/09/28/2024-09-28%E8%AE%A1%E5%88%92/</id>
+    <published>2024-09-28T10:54:50.000Z</published>
+    <updated>2024-09-28T11:19:45.621Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="重启日记、计划"><a href="#重启日记、计划" class="headerlink" title="重启日记、计划"></a>重启日记、计划</h2><p>使用hexo整理一下日常的心得体会</p><p>整理一下现在要做的事务，包括作业、项目等</p><h2 id="2024-09-28日常事务"><a href="#2024-09-28日常事务" class="headerlink" title="2024-09-28日常事务"></a>2024-09-28日常事务</h2><h3 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h3><table><thead><tr><th align="center">名称</th><th align="center">内容</th><th align="center">截止时间</th></tr></thead><tbody><tr><td align="center">电路基础</td><td align="center">习题册1-5、2-1</td><td align="center">9-30 20:00</td></tr><tr><td align="center">工程概论</td><td align="center">项目估算(学在西电)</td><td align="center">10-12 21:00</td></tr><tr><td align="center">大学物理</td><td align="center">B册四、A册五</td><td align="center">10-08 00:00</td></tr><tr><td align="center">数据结构</td><td align="center">上机第2题</td><td align="center">10-17</td></tr><tr><td align="center">马克思主义原理</td><td align="center">笔记</td><td align="center">无</td></tr></tbody></table><h3 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h3><table><thead><tr><th align="center">名称</th><th align="center">内容</th><th align="center">进展</th><th align="center">状态</th></tr></thead><tbody><tr><td align="center">GO</td><td align="center">基本围棋</td><td align="center">初步完成</td><td align="center">暂停</td></tr><tr><td align="center">TicTacToe</td><td align="center">井字棋</td><td align="center">基本完成</td><td align="center">停止</td></tr><tr><td align="center">Nonogram</td><td align="center">数织</td><td align="center">开发初期</td><td align="center">开发中</td></tr></tbody></table><h3 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h3><table><thead><tr><th align="center">名称</th><th align="center">进展</th><th align="center">状态</th></tr></thead><tbody><tr><td align="center">死亡搁浅</td><td align="center">525LLL</td><td align="center">进行中</td></tr><tr><td align="center">pvz融合版</td><td align="center">v2.1.1初期</td><td align="center">进行</td></tr><tr><td align="center">围棋</td><td align="center">日常</td><td align="center">间断进行</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;重启日记、计划&quot;&gt;&lt;a href=&quot;#重启日记、计划&quot; class=&quot;headerlink&quot; title=&quot;重启日记、计划&quot;&gt;&lt;/a&gt;重启日记、计划&lt;/h2&gt;&lt;p&gt;使用hexo整理一下日常的心得体会&lt;/p&gt;
+&lt;p&gt;整理一下现在要做的事务，包括作业、项目等&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>铭言</title>
