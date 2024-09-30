@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-09-28T11:19:45.621Z</updated>
+  <updated>2024-09-30T09:03:32.731Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024国庆作业统计</title>
+    <link href="http://example.com/2024/09/30/2024%E5%9B%BD%E5%BA%86%E4%BD%9C%E4%B8%9A%E7%BB%9F%E8%AE%A1/"/>
+    <id>http://example.com/2024/09/30/2024%E5%9B%BD%E5%BA%86%E4%BD%9C%E4%B8%9A%E7%BB%9F%E8%AE%A1/</id>
+    <published>2024-09-30T08:54:28.000Z</published>
+    <updated>2024-09-30T09:03:32.731Z</updated>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th align="center">名称</th><th align="center">内容</th><th align="center">截止日期</th></tr></thead><tbody><tr><td align="center">大物</td><td align="center">B册四、A册五</td><td align="center">10-08 00:00</td></tr><tr><td align="center">工程概论</td><td align="center">项目估算(学在西电)</td><td align="center">10-12 21:00</td></tr><tr><td align="center">电路基础</td><td align="center">习题册1本2-2、2-3</td><td align="center">10-9 20:00</td></tr><tr><td align="center">英语作文</td><td align="center">U1作文</td><td align="center">10-31</td></tr><tr><td align="center">英语朗读</td><td align="center">U2单词、Text C</td><td align="center">10-10、10-7</td></tr><tr><td align="center">数据结构</td><td align="center">上机第2题</td><td align="center">无</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;内容&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;截止日期&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>2024_09_28计划</title>
