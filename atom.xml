@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-09-30T09:03:32.731Z</updated>
+  <updated>2024-10-07T14:42:47.446Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024_10_07日志</title>
+    <link href="http://example.com/2024/10/07/2024-10-07%E6%97%A5%E5%BF%97/"/>
+    <id>http://example.com/2024/10/07/2024-10-07%E6%97%A5%E5%BF%97/</id>
+    <published>2024-10-07T14:30:33.000Z</published>
+    <updated>2024-10-07T14:42:47.446Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><table><thead><tr><th align="center">时间</th><th align="center">事件</th></tr></thead><tbody><tr><td align="center">8:20-15:00</td><td align="center">去机场，飞回西安，地铁回宿舍</td></tr><tr><td align="center">15:00-18:00</td><td align="center">整理宿舍</td></tr><tr><td align="center">18:00-18:10</td><td align="center">晚饭</td></tr><tr><td align="center">18:10-19:30</td><td align="center">头晕、休息</td></tr><tr><td align="center">19:30-20:30</td><td align="center">大学物理作业</td></tr><tr><td align="center">20:30-21:30</td><td align="center">晚点名</td></tr><tr><td align="center">21:30-21:40</td><td align="center">物理作业</td></tr><tr><td align="center">21:40-22:30</td><td align="center">休息</td></tr><tr><td align="center">22:30-22:40</td><td align="center">日志</td></tr><tr><td align="center">以下为计划</td><td align="center"></td></tr><tr><td align="center">22:40-23:10</td><td align="center">洗澡洗漱</td></tr><tr><td align="center">23:10-23:30</td><td align="center">电路基础作业</td></tr><tr><td align="center">23:30-0:00</td><td align="center">上床玩笔绘西行</td></tr><tr><td align="center">0:00-0:30</td><td align="center">番茄 张奕</td></tr></tbody></table><h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><table><thead><tr><th align="center">名称</th><th align="center">内容</th><th align="center">截止时间</th></tr></thead><tbody><tr><td align="center">电路基础</td><td align="center">习题册1本2-2、2-3</td><td align="center">10-9 20:00</td></tr><tr><td align="center">英语作文</td><td align="center">U1作文</td><td align="center">10-31</td></tr><tr><td align="center">英语朗读</td><td align="center">U2单词、Text C</td><td align="center">10-10、10-7</td></tr><tr><td align="center">数据结构</td><td align="center">上机第2题</td><td align="center">无</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;时间&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;事件&lt;/th</summary>
+      
+    
+    
+    
+    
+    <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>2024国庆作业统计</title>
