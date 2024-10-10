@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-10-08T14:05:56.696Z</updated>
+  <updated>2024-10-10T08:23:13.186Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024-10-10日志</title>
+    <link href="http://example.com/2024/10/10/2024-10-10%E6%97%A5%E5%BF%97/"/>
+    <id>http://example.com/2024/10/10/2024-10-10%E6%97%A5%E5%BF%97/</id>
+    <published>2024-10-10T08:04:05.000Z</published>
+    <updated>2024-10-10T08:23:13.186Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><h3 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h3><table><thead><tr><th align="center">时间</th><th align="center">事件</th></tr></thead><tbody><tr><td align="center">7:00-8:10</td><td align="center">四季合合</td></tr><tr><td align="center">8:10-8:16</td><td align="center">洗漱、穿衣、出门</td></tr><tr><td align="center">8:16-8:20</td><td align="center">买早餐</td></tr><tr><td align="center">8:20-8:30</td><td align="center">去教室</td></tr><tr><td align="center">8:30-10:05</td><td align="center">数据结构</td></tr><tr><td align="center">10:25-12:00</td><td align="center">大学物理</td></tr><tr><td align="center">12:00-12:10</td><td align="center">买饭</td></tr><tr><td align="center">12:10-12:30</td><td align="center">休息</td></tr><tr><td align="center">12:30-12:50</td><td align="center">午饭（茶泡饭椒麻）</td></tr><tr><td align="center">12:50-13:30</td><td align="center">异形工厂shapez</td></tr><tr><td align="center">13:30-14:00</td><td align="center">去教室、坐着</td></tr><tr><td align="center">14:00-15:35</td><td align="center">数电</td></tr><tr><td align="center">15:35-15:45</td><td align="center">回宿舍</td></tr><tr><td align="center">15:45-16:00</td><td align="center">将窗帘的钩子拆开再装上一半（每个），终于遮光</td></tr></tbody></table><h3 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h3><table><thead><tr><th align="center">时间</th><th align="center">事件</th></tr></thead><tbody><tr><td align="center">16:00-16:20</td><td align="center">日志、计划、整理作业</td></tr><tr><td align="center">16:20-17:30</td><td align="center">写作业</td></tr><tr><td align="center">17:30-18:00</td><td align="center">晚饭、拿快递</td></tr><tr><td align="center">18:30-20:00</td><td align="center">写作业</td></tr><tr><td align="center">20:00-22:00</td><td align="center">异形工厂等</td></tr><tr><td align="center">22:00-22:30</td><td align="center">洗澡洗漱</td></tr><tr><td align="center">22:30-23:30</td><td align="center">写作业</td></tr><tr><td align="center">23:30-00:00</td><td align="center">上床休息</td></tr><tr><td align="center">0:00-0:30</td><td align="center">张奕</td></tr></tbody></table><h3 id="游戏统计"><a href="#游戏统计" class="headerlink" title="游戏统计"></a>游戏统计</h3><ol><li>西游：笔绘西行</li><li>四季合合</li><li>数织小游戏</li><li>异形工厂</li><li>pvz融合</li></ol><h3 id="日程评价"><a href="#日程评价" class="headerlink" title="日程评价"></a>日程评价</h3><ol><li>早起7:30，下床7:50前，早饭可以带到教室吃，但是不能太赶</li><li>休息时间在学习之前，应该先学再玩，先项目后娱乐</li><li>马原需要有另外的打算</li></ol><h2 id="紧急事项！"><a href="#紧急事项！" class="headerlink" title="紧急事项！"></a>紧急事项！</h2><h3 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h3><table><thead><tr><th align="center">科目</th><th align="center">内容</th><th align="center">截止时间</th></tr></thead><tbody><tr><td align="center">英语</td><td align="center">U1作文</td><td align="center">10-31</td></tr><tr><td align="center">mooc</td><td align="center">通用英语U1-U3</td><td align="center">10-25</td></tr><tr><td align="center"><del>英语</del></td><td align="center"><del>U1TextC</del></td><td align="center"><del>10-10</del></td></tr><tr><td align="center">工程概论</td><td align="center">项目估算</td><td align="center">10-12 21:00</td></tr><tr><td align="center"><del>电路基础</del></td><td align="center"><del>习题册1本2-2、2-3</del></td><td align="center">~~10-9 20:00 ~~</td></tr><tr><td align="center">大学物理</td><td align="center">A导体B电介质</td><td align="center">下周二 10-15 0:00</td></tr><tr><td align="center">数字电路</td><td align="center">4-1至9，详见学电</td><td align="center">下周一 10-14 10:05</td></tr><tr><td align="center">概率论</td><td align="center">第三章3.1-3.5</td><td align="center">暂无</td></tr><tr><td align="center">电路基础</td><td align="center">习题册2本2-4、2-5</td><td align="center">下周一 10-15 20:00</td></tr></tbody></table><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul><li><del>暑假实践结项（10-10）</del></li><li><del>入党申请书（周四）（？）</del></li><li></li><li>收暑期调研垫付的钱</li><li>整理衣服</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;日程&quot;&gt;&lt;a href=&quot;#日程&quot; class=&quot;headerlink&quot; title=&quot;日程&quot;&gt;&lt;/a&gt;日程&lt;/h2&gt;&lt;h3 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h3&gt;&lt;table</summary>
+      
+    
+    
+    
+    
+    <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>2024-10-08日志</title>
