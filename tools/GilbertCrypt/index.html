@@ -29,6 +29,12 @@
             opacity: 0;
             background-color: #ccc;
         }
+
+        #drop-hint.dragover {
+            color: #eb3678;
+            font-weight: bold;
+            text-shadow: 0 0 3px rgba(235, 54, 120, 0.3);
+        }
     </style>
 </head>
 
@@ -52,6 +58,9 @@
                 还原
             </button>
         </div>
+
+        <div id="drop-hint" style="color: #666; margin: 10px 0;">或将图片拖拽到此处</div>
+
         <div>&ZeroWidthSpace;</div>
         <div><img id="display-img"
                 style="max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); display: none;" /></div>
@@ -220,6 +229,47 @@
                 setsrc(URL.createObjectURL(ipt.files[0]))
             }
         }
+
+        // 拖拽加载图片
+
+        const dropZone = document.body; // 使用整个页面作为拖拽区域
+
+        // 阻止默认行为
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, e => {
+                e.preventDefault();
+                e.stopPropagation();
+            });
+        });
+
+        // 高亮提示
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => {
+                document.getElementById('drop-hint').classList.add('dragover');
+            });
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => {
+                document.getElementById('drop-hint').classList.remove('dragover');
+            });
+        });
+
+        // 处理文件拖放
+        dropZone.addEventListener('drop', e => {
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                // 与文件选择器逻辑保持一致
+                const file = files[0];
+                if (file.type.startsWith('image/')) {
+                    setsrc(URL.createObjectURL(file));
+                    // 同步到文件选择器（使"还原"按钮正常工作）
+                    const dataTransfer = new DataTransfer();
+                    dataTransfer.items.add(file);
+                    ipt.files = dataTransfer.files;
+                }
+            }
+        });
     </script>
 </body>
 
