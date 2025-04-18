@@ -18,6 +18,20 @@
             display: inline-block;
             position: relative;
             vertical-align: middle;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .normal_button:hover {
+            filter: brightness(1.15);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .normal_button:active {
+            filter: brightness(0.9);
+            transform: translateY(0);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
         }
 
         .ipt_btn {
@@ -28,6 +42,14 @@
             height: 100%;
             opacity: 0;
             background-color: #ccc;
+        }
+
+        .ipt_btn:hover {
+            cursor: pointer;
+        }
+
+        .hidden-controls {
+            display: none !important;
         }
 
         #drop-hint.dragover {
@@ -53,15 +75,18 @@
             <span class="normal_button" style="background-color: #180161;color:#fff;">
                 选择图片<input type="file" accept="image/*" id="ipt" class="ipt_btn" />
             </span>
-            <button id="enc" class="normal_button" style="background-color: #4f1787;color:#fff;">
-                混淆
-            </button>
-            <button id="dec" class="normal_button" style="background-color: #eb3678;color:#fff;">
-                解混淆
-            </button>
-            <button id="re" class="normal_button" style="background-color: #fb773c;color:#fff;">
-                还原
-            </button>
+            <div>&ZeroWidthSpace;</div>
+            <div id="action-buttons" class="hidden-controls">
+                <button id="enc" class="normal_button" style="background-color: #4f1787;color:#fff;">
+                    混淆
+                </button>
+                <button id="dec" class="normal_button" style="background-color: #eb3678;color:#fff;">
+                    解混淆
+                </button>
+                <button id="re" class="normal_button" style="background-color: #fb773c;color:#fff;">
+                    还原
+                </button>
+            </div>
             <div style="margin: 15px 0;">
                 <label style="color: #666; margin-right: 10px;">偏移参数：</label>
                 <input type="number" id="offset-input" placeholder="auto或数字"
@@ -81,14 +106,28 @@
                 style="max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); display: none;" /></div>
     </div>
     <script>
+        // 隐藏/显示操作按钮
+        function toggleActionButtons(show = true) {
+            const container = document.getElementById('action-buttons');
+            container.classList.toggle('hidden-controls', !show);
+
+            // 同时控制偏移参数区域的显示
+            const paramSection = document.querySelector('div[style*="margin: 15px 0"]');
+            if (paramSection) {
+                paramSection.style.display = show ? 'block' : 'none';
+            }
+        }
         // init offset display
         function initOffsetDisplay() {
             const info = document.getElementById('offset-info');
             info.textContent = `当前：默认值`;
         }
 
-        // 页面加载时，初始化偏移量显示
-        window.addEventListener('load', initOffsetDisplay);
+        // 页面加载时，隐藏控制按钮，初始化偏移量显示
+        window.addEventListener('load', () => {
+            toggleActionButtons(false);
+            initOffsetDisplay();
+        });
 
         // 计算偏移量offset
         function calculateOffset(width, height) {
@@ -125,6 +164,7 @@
                 URL.revokeObjectURL(currentBlobUrl);
             }
         });
+        // 异步处理图片，使用 worker.js
         async function processImage(img, isEncrypt) {
             const cvs = document.createElement("canvas")
             const width = cvs.width = img.width
@@ -169,7 +209,8 @@
         const ipt = document.getElementById("ipt")
         ipt.onchange = () => {
             if (ipt.files.length > 0) {
-                setsrc(URL.createObjectURL(ipt.files[0]))
+                toggleActionButtons(true);
+                setsrc(URL.createObjectURL(ipt.files[0]));
             }
         }
         const btn_enc = document.getElementById("enc")
@@ -194,6 +235,8 @@
         btn_restore.onclick = () => {
             if (ipt.files.length > 0) {
                 setsrc(URL.createObjectURL(ipt.files[0]))
+            } else {
+                toggleActionButtons(false);  // 隐藏控制
             }
         }
 
@@ -226,6 +269,7 @@
         dropZone.addEventListener('drop', e => {
             const files = e.dataTransfer.files;
             if (files.length > 0) {
+                toggleActionButtons(true);
                 // 与文件选择器逻辑保持一致
                 const file = files[0];
                 if (file.type.startsWith('image/')) {
