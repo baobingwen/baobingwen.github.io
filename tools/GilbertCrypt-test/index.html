@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小土豆图片混淆</title>
     <style>
+        @font-face {
+            font-family: 'Unifont-smooth';
+            src: local('Unifont-smooth'),
+                url('unifont-all.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Unifont-smooth', sans-serif;
+        }
+
         .normal_button {
             min-width: 4rem;
             height: 2rem;
             line-height: 2rem;
             font-size: 1rem;
+            font-family: inherit;
             padding: 0 0.5rem;
             margin: 0 0.5rem;
             border: 0;
@@ -110,7 +121,7 @@
         <div><img id="display-img"
                 style="max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); display: none;" /></div>
     </div>
-    
+
     <script>
         let isProcessing = false; // 标记是否正在处理
         let activeWorker = null; // 存储当前活跃的 Worker
@@ -160,6 +171,7 @@
         }
     </script>
     <script>
+        let reusableCanvas = null; // 全局复用 canvas
         const img = document.getElementById("display-img")
         let currentBlobUrl = null; // 存储当前的 Blob URL
         // 设置图片源
@@ -186,10 +198,13 @@
             toggleButtonsDisabled(true); // 立即禁用所有按钮
 
             document.getElementById('loading-hint').style.display = 'block';
-            const cvs = document.createElement("canvas")
+            if (!reusableCanvas) {
+                reusableCanvas = document.createElement("canvas");
+            }
+            const cvs = reusableCanvas;
             const width = cvs.width = img.width
             const height = cvs.height = img.height
-            const ctx = cvs.getContext("2d")
+            const ctx = cvs.getContext("2d", { willReadFrequently: true }) // 预防可能频繁读取像素数据
             ctx.drawImage(img, 0, 0)
             const imgdata = ctx.getImageData(0, 0, width, height)
             const offset = calculateOffset(width, height); // 偏移量
@@ -221,8 +236,7 @@
             activeWorker.onerror = (e) => {
                 console.error("Worker 错误:", e.message);
                 isProcessing = false; // 清空处理状态
-                activeWorker.terminate();
-                activeWorker = null; // 清空活跃 Worker
+                activeWorker.terminate(); // 清空活跃 Worker
                 toggleButtonsDisabled(false); // 恢复按钮
                 document.getElementById('loading-hint').style.display = 'none';
             };
