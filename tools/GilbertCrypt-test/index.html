@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="unifont-all.woff2" as="font" type="font/woff2" crossorigin>
     <title>小土豆图片混淆</title>
     <style>
         @font-face {
             font-family: 'Unifont-smooth';
             src: local('Unifont-smooth'),
-                url('unifont-all.ttf') format('truetype');
+                url('unifont-all.woff2') format('woff2');
+            font-display: swap;
         }
 
         body {
