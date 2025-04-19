@@ -110,6 +110,7 @@
         <div><img id="display-img"
                 style="max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); display: none;" /></div>
     </div>
+    
     <script>
         let isProcessing = false; // 标记是否正在处理
         let activeWorker = null; // 存储当前活跃的 Worker
@@ -211,7 +212,7 @@
                     setsrc(URL.createObjectURL(b));
                     document.getElementById('loading-hint').style.display = 'none';
                     isProcessing = false; // 处理完成
-                    activeWorker = null; // 清空活跃 Worker
+                    activeWorker.terminate(); // 清空活跃 Worker
                     toggleButtonsDisabled(false); // 处理完成恢复按钮
                 }, "image/png");
             };
@@ -220,6 +221,7 @@
             activeWorker.onerror = (e) => {
                 console.error("Worker 错误:", e.message);
                 isProcessing = false; // 清空处理状态
+                activeWorker.terminate();
                 activeWorker = null; // 清空活跃 Worker
                 toggleButtonsDisabled(false); // 恢复按钮
                 document.getElementById('loading-hint').style.display = 'none';
