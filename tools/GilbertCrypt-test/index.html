@@ -36,12 +36,18 @@
         }
 
         .card {
-            background: white;
+            background: rgba(255, 255, 255, 0.1);
             border-radius: 12px;
             padding: 0.8rem 1rem;
             min-height: unset;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            border: 1px solid #e9ecef;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
         }
 
         .card h3 {
@@ -76,9 +82,49 @@
         }
 
         body {
-            color: #2D3047;
-            background: #F8F9FA;
+            color: #E0E0E0;
+            background: #1A1A1A;
             font-family: 'Unifont-smooth', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background:
+                linear-gradient(120deg, rgba(107, 70, 193, 0.15) 20%, transparent 80%),
+                linear-gradient(240deg, rgba(43, 108, 176, 0.15) 30%, transparent 70%),
+                linear-gradient(360deg, rgba(44, 122, 123, 0.15) 40%, transparent 60%);
+            animation:
+                flowX 25s linear infinite,
+                flowY 35s linear infinite;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        @keyframes flowX {
+            0% {
+                transform: translateX(0) scale(1.2);
+            }
+
+            100% {
+                transform: translateX(-50%) scale(1);
+            }
+        }
+
+        @keyframes flowY {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-25%);
+            }
         }
 
         .normal_button {
@@ -475,6 +521,48 @@
                 }
             }
         });
+    </script>
+    <canvas id="particle-canvas"></canvas>
+
+    <script>
+        // 星空粒子动画
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+
+        // 初始化画布尺寸
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        // 生成粒子
+        const particles = Array.from({ length: 150 }, () => ({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            size: Math.random() * 2,
+            speed: Math.random() * 0.2 + 0.1,
+            alpha: Math.random() * 0.5 + 0.5
+        }));
+
+        // 绘制动画
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            particles.forEach(particle => {
+                particle.y += particle.speed;
+                if (particle.y > canvas.height) particle.y = 0;
+
+                ctx.beginPath();
+                ctx.fillStyle = `rgba(255, 255, 255, ${particle.alpha})`;
+                ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
+                ctx.fill();
+            });
+
+            requestAnimationFrame(animate);
+        }
+        animate();
     </script>
 </body>
 
