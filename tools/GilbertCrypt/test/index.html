@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="在线图片混淆工具,
+        使用Gilbert曲线像素位移算法和黄金分割比自动优化,
+        支持抗压缩PNG格式输出,
+        提供极简操作流程,
+        拖放即可完成图片加密与解密。">
     <link rel="preload" href="unifont-all.woff2" as="font" type="font/woff2" crossorigin>
     <title>小土豆图片混淆</title>
     <style>
@@ -12,6 +17,8 @@
             src: local('Unifont-smooth'),
                 url('unifont-all.woff2') format('woff2');
             font-display: swap;
+            font-weight: normal;
+            font-style: normal;
         }
 
         .info-cards {
@@ -86,7 +93,7 @@
             background: #1A1A1A;
             font-family: 'Unifont-smooth', sans-serif;
             position: relative;
-            overflow: hidden;
+            /*overflow: hidden;*/
         }
 
         body::after {
@@ -125,6 +132,17 @@
             100% {
                 transform: translateY(-25%);
             }
+        }
+
+        h1 {
+            font-family: system-ui, sans-serif;
+            font-size: clamp(1.5rem, 5vw, 2.5rem);
+            margin: 0.5em 0;
+            color: inherit;
+        }
+
+        .fonts-loaded h1 {
+            font-family: 'Unifont-smooth', system-ui, sans-serif;
         }
 
         .normal_button {
@@ -224,6 +242,42 @@
             color: #1B6B63;
         }
 
+        .progress-container {
+            width: 200px;
+            height: 10px;
+            background: rgba(33, 137, 126, 0.1);
+            border-radius: 2px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 3px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 100%;
+            background: #21897E;
+            border-radius: 2px;
+            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            will-change: width;
+        }
+
+        .progress-text {
+            width: 50%;
+            margin-top: 0%;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            color: #21C2B0;
+            font-size: 0.9em;
+            line-height: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            white-space: nowrap;
+        }
+
         @media (max-width: 480px) {
             .info-cards {
                 max-height: 20vh;
@@ -251,6 +305,15 @@
             #drop-hint {
                 margin: 8px 0;
                 font-size: 0.9rem;
+            }
+
+            .progress-container {
+                width: 160px;
+            }
+
+            .progress-text {
+                font-size: 0.85em;
+                margin-top: 6px;
             }
 
             div[style*="margin: 15px 0"] {
@@ -312,8 +375,11 @@
 
         <div id="drop-hint" style="color: #666; margin: 10px 0;">或将图片拖拽到此处</div>
 
-        <div id="loading-hint" style="display: none; margin: 10px 0;">
-            <span>处理中...</span>
+        <div id="loading-hint" style="display: none; margin: 0 0;">
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+                <div class="progress-text">处理中...</div>
+            </div>
         </div>
 
         <div>&ZeroWidthSpace;</div>
@@ -397,6 +463,7 @@
             toggleButtonsDisabled(true); // 立即禁用所有按钮
 
             document.getElementById('loading-hint').style.display = 'block';
+            document.querySelector('.progress-text').textContent = '正在加载图片...'; // 处理开始时显示
             if (!reusableCanvas) {
                 reusableCanvas = document.createElement("canvas");
             }
@@ -420,16 +487,31 @@
 
             // 接收处理结果
             activeWorker.onmessage = (e) => {
-                const newData = e.data;
-                ctx.putImageData(new ImageData(newData, width, height), 0, 0);
-                cvs.toBlob(b => {
-                    setsrc(URL.createObjectURL(b));
-                    document.getElementById('loading-hint').style.display = 'none';
-                    isProcessing = false; // 处理完成
-                    activeWorker.terminate(); // 清空活跃 Worker
-                    toggleButtonsDisabled(false); // 处理完成恢复按钮
-                }, "image/png");
+                if (e.data.type === 'progress') {
+                    // 更新进度条
+                    document.querySelector('.progress-bar').style.width =
+                        `${e.data.progress}%`;
+                    document.querySelector('.progress-text').textContent =
+                        `${e.data.progress}%`;
+                }
+                else if (e.data.type === 'result') {
+                    document.querySelector('.progress-bar').style.width = '0%'; // 重置进度条
+                    document.querySelector('.progress-text').textContent = '正在加载图片...'; // 处理完成时显示
+                    const pixelData = e.data.data;
+                    ctx.putImageData(new ImageData(pixelData, width, height), 0, 0);
+                    cvs.toBlob(b => {
+                        setsrc(URL.createObjectURL(b));
+                        document.getElementById('loading-hint').style.display = 'none';
+                        isProcessing = false; // 处理完成
+                        activeWorker.terminate(); // 清空活跃 Worker
+                        toggleButtonsDisabled(false); // 处理完成恢复按钮
+                    }, "image/png");
+                }
             };
+
+            // 初始化进度条
+            document.getElementById('loading-hint').style.display = 'block';
+            document.querySelector('.progress-bar').style.width = '0%';
 
             // 错误处理
             activeWorker.onerror = (e) => {
@@ -523,9 +605,17 @@
             }
         });
     </script>
-    <canvas id="particle-canvas"></canvas>
 
     <script>
+        // 监听所有字体加载完成
+        document.fonts.ready.then(() => {
+            document.documentElement.classList.add('fonts-loaded');
+        });
+    </script>
+
+    <canvas id="particle-canvas" style="position: fixed; z-index: -1;"></canvas>
+
+    <script defer>
         // 星空粒子动画
         const canvas = document.getElementById('particle-canvas');
         const ctx = canvas.getContext('2d');
