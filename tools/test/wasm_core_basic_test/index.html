@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WASM Gilbert2D test</title>
+    <script type="module">
+        import initWasm, { Gilbert2D } from './lp_crypt_wasm_core.js';
+
+        async function initialize() {
+            try {
+                await initWasm();
+                console.log("WASM module suceessfully initialized");
+                runTests();
+            } catch (e) {
+                console.error("InitSync failed:", e);
+            }
+        }
+
+        function runTests() {
+            testBasicInput();
+            testEdgeCase();
+            testInvalidInput();
+        }
+
+        function testBasicInput() {
+            const grid = Gilbert2D.new(2, 2);
+            const coords = grid.get_coordinates();
+			console.log('Actual coordinates for 2x2:', JSON.stringify(coords)); // 打印实际结果
+            console.assert(JSON.stringify(coords) === JSON.stringify([[0,0], [0,1], [1,1], [1,0]]), 
+                "basic input test failed");
+            grid.free();
+        }
+
+        function testEdgeCase() {
+            const grid = Gilbert2D.new(1, 1);
+            const coords = grid.get_coordinates();
+			console.log('Actual coordinates for 1x1:', JSON.stringify(coords)); // 打印实际结果
+            console.assert(JSON.stringify(coords) === JSON.stringify([[0,0]]), 
+                "side input test failed");
+            grid.free();
+        }
+
+        function testInvalidInput() {
+            try {
+                Gilbert2D.new(0, 5);
+                console.error("invalid args test failed: no error thrown");
+            } catch (e) {
+                console.log("invalid args test passed:", e.message);
+            }
+        }
+
+        initialize();
+    </script>
+</head>
+<body>
+    <h1>Open The Console to Test The Programme</h1>
+</body>
+</html>
