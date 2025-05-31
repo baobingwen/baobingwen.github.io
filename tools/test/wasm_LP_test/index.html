@@ -225,9 +225,17 @@
         }
 
         @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
         }
 
         #offset-info::before {
@@ -396,6 +404,17 @@
     </div>
 
     <script>
+        // 禁用按钮的恢复
+        function resetProcessingState() {
+            isProcessing = false; // 清空处理状态
+            toggleButtonsDisabled(false); // 恢复按钮
+            document.getElementById('loading-hint').style.display = 'none';
+            if (activeWorker) {
+                activeWorker.terminate(); // 清空活跃 Worker
+                activeWorker = null;
+            }
+        }
+
         let isProcessing = false; // 标记是否正在处理
         let activeWorker = null; // 存储当前活跃的 Worker
         function toggleButtonsDisabled(disabled) {
@@ -490,7 +509,7 @@
             document.querySelector('.progress-text').textContent = '正在处理图片...'; // 显示进度信息：正在处理
             const startWorkerTime = performance.now(); // Worker 计时开始
             console.log("开始处理 Worker...");
-            activeWorker = new Worker("./worker.js", {type: "module"}); // 创建 Worker
+            activeWorker = new Worker("./worker.js", { type: "module" }); // 创建 Worker
 
             // 发送数据到 Worker
             activeWorker.postMessage({
@@ -504,7 +523,7 @@
             // 接收处理结果
             activeWorker.onmessage = (e) => {
                 // console.log('[Main Thread] received Worker message:', e.data); // 打印消息内容
-                if (e.data.type === 'retry'){
+                if (e.data.type === 'retry') {
                     console.log('[Main Thread] received Worker message:', e.data); // 打印消息内容
                     const imgdata = ctx.getImageData(0, 0, width, height);
                     activeWorker.postMessage({
@@ -542,6 +561,11 @@
                         toggleButtonsDisabled(false); // 处理完成恢复按钮
                     }, "image/png");
                 }
+                else if (e.data.type === 'error') {
+                    console.error("[Main Thread] 收到Worker消息:", e.data.message);
+                    resetProcessingState();
+                    return;
+                }
             };
 
             // 初始化进度条
@@ -552,10 +576,7 @@
             activeWorker.onerror = (e) => {
                 console.error("Worker 错误:", e.message);
                 alert("处理图片时发生错误: " + e.message);
-                isProcessing = false; // 清空处理状态
-                activeWorker.terminate(); // 清空活跃 Worker
-                toggleButtonsDisabled(false); // 恢复按钮
-                document.getElementById('loading-hint').style.display = 'none';
+                resetProcessingState();
             };
             // 更新参数显示
             document.getElementById('offset-info').textContent =
