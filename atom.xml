@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-06-21T18:41:32.258Z</updated>
+  <updated>2025-06-22T11:40:26.337Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025-06-22日程记录</title>
+    <link href="http://example.com/2025/06/22/2025-06-22%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
+    <id>http://example.com/2025/06/22/2025-06-22%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/</id>
+    <published>2025-06-22T07:15:54.000Z</published>
+    <updated>2025-06-22T11:40:26.337Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><ul><li><input disabled type="checkbox"> 准备实习相关事项，主要是了解公司、住宿、日程</li><li><input disabled type="checkbox"> 整理宿舍物品</li><li><input disabled type="checkbox"> 学习资料</li><li><input disabled type="checkbox"> 食品</li><li><input disabled type="checkbox"> 药品</li><li><input disabled type="checkbox"> 衣物</li><li><input disabled type="checkbox"> 整理电脑资料，对本学期进行学习性总结，总结自己做了什么和学习相关的事项</li><li><input disabled type="checkbox"> 整理本学期玩的游戏，进行总结和调整，制订下一阶段的计划</li><li><input disabled type="checkbox"> 预先熟悉下学期课程</li></ul><h2 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h2><ol><li>× 晨跑</li><li><input checked disabled type="checkbox"> 换床单、被套、枕套</li><li>现在的hexo页面太丑了，开始学习+调整</li><li>打通动物迷城的现有结局，为接下来的7月黑豹线更新做准备</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;任务列表&quot;&gt;&lt;a href=&quot;#任务列表&quot; class=&quot;headerlink&quot; title=&quot;任务列表&quot;&gt;&lt;/a&gt;任务列表&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 准备实习相关事项，主要是了解公司、住宿、日程&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="日程" scheme="http://example.com/tags/%E6%97%A5%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>2025-06-22每日计划</title>
@@ -59,6 +82,56 @@
     
     
     <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025-06-18计划</title>
+    <link href="http://example.com/2025/06/18/2025-06-18/"/>
+    <id>http://example.com/2025/06/18/2025-06-18/</id>
+    <published>2025-06-18T14:48:57.000Z</published>
+    <updated>2025-06-22T11:39:38.761Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="事项整理"><a href="#事项整理" class="headerlink" title="事项整理"></a>事项整理</h2><ol><li><del>信号与系统复习</del></li><li><del>模电复习</del></li><li>计组复习</li><li><del>计网复习</del></li><li>操作系统复习</li><li><del>毛概复习</del></li><li><del>英汉翻译复习</del></li><li><del>计网大作业</del></li><li><del>计网平时作业</del></li><li><del>操作系统作业</del></li></ol><h2 id="考试时间整理"><a href="#考试时间整理" class="headerlink" title="考试时间整理"></a>考试时间整理</h2><table><thead><tr><th>考试科目</th><th>考试时间</th><th>考场信息</th><th>座位号</th></tr></thead><tbody><tr><td><del>英汉翻译</del></td><td>6-12 9:00-11:00</td><td>A-422</td><td>4</td></tr><tr><td><del>信号与系统</del></td><td>6-12 15:40-17:40</td><td>B-203</td><td>2</td></tr><tr><td><del>模电</del></td><td>6-16 9:00-11:00</td><td>B-314</td><td>13</td></tr><tr><td><del>毛概</del></td><td>6-16 15:40-17:40</td><td>A-411</td><td>7</td></tr><tr><td><del>计网</del></td><td>6-18 13:00-15:00</td><td>B-312</td><td>8</td></tr><tr><td>计组</td><td>6-20 9:00-11:00</td><td>B-312</td><td>35</td></tr><tr><td>操作系统</td><td>6-20 15:40-17:40</td><td>B-312</td><td>17</td></tr></tbody></table><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>今天实在有点累了，随便学学。<br>明天不睡，直到学完为止。<br>以命相搏，冲击最后的计组和操作系统！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;事项整理&quot;&gt;&lt;a href=&quot;#事项整理&quot; class=&quot;headerlink&quot; title=&quot;事项整理&quot;&gt;&lt;/a&gt;事项整理&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;del&gt;信号与系统复习&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;模电复习&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;计组复</summary>
+      
+    
+    
+    
+    
+    <category term="计划" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025-06-17计划</title>
+    <link href="http://example.com/2025/06/17/2025-06-17/"/>
+    <id>http://example.com/2025/06/17/2025-06-17/</id>
+    <published>2025-06-17T14:01:20.000Z</published>
+    <updated>2025-06-22T11:39:29.631Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="事项整理"><a href="#事项整理" class="headerlink" title="事项整理"></a>事项整理</h2><ol><li><del>信号与系统复习</del></li><li><del>模电复习</del></li><li>计组复习</li><li>计网复习</li><li>操作系统复习</li><li><del>毛概复习</del></li><li><del>英汉翻译复习</del></li><li><del>计网大作业</del></li><li><del>计网平时作业</del></li><li><del>操作系统作业</del></li></ol><h2 id="考试时间整理"><a href="#考试时间整理" class="headerlink" title="考试时间整理"></a>考试时间整理</h2><table><thead><tr><th>考试科目</th><th>考试时间</th><th>考场信息</th><th>座位号</th></tr></thead><tbody><tr><td><del>英汉翻译</del></td><td>6-12 9:00-11:00</td><td>A-422</td><td>4</td></tr><tr><td><del>信号与系统</del></td><td>6-12 15:40-17:40</td><td>B-203</td><td>2</td></tr><tr><td><del>模电</del></td><td>6-16 9:00-11:00</td><td>B-314</td><td>13</td></tr><tr><td><del>毛概</del></td><td>6-16 15:40-17:40</td><td>A-411</td><td>7</td></tr><tr><td>计网</td><td>6-18 13:00-15:00</td><td>B-312</td><td>8</td></tr><tr><td>计组</td><td>6-20 9:00-11:00</td><td>B-312</td><td>35</td></tr><tr><td>操作系统</td><td>6-20 15:40-17:40</td><td>B-312</td><td>17</td></tr></tbody></table><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>该不睡，就不睡，直到学完为止。<br>以命相搏，冲击期末！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;事项整理&quot;&gt;&lt;a href=&quot;#事项整理&quot; class=&quot;headerlink&quot; title=&quot;事项整理&quot;&gt;&lt;/a&gt;事项整理&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;del&gt;信号与系统复习&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;模电复习&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;计组复</summary>
+      
+    
+    
+    
+    
+    <category term="计划" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92/"/>
     
   </entry>
   
@@ -421,85 +494,6 @@
     
     
     <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2024国庆作业统计</title>
-    <link href="http://example.com/2024/09/30/2024%E5%9B%BD%E5%BA%86%E4%BD%9C%E4%B8%9A%E7%BB%9F%E8%AE%A1/"/>
-    <id>http://example.com/2024/09/30/2024%E5%9B%BD%E5%BA%86%E4%BD%9C%E4%B8%9A%E7%BB%9F%E8%AE%A1/</id>
-    <published>2024-09-30T08:54:28.000Z</published>
-    <updated>2024-09-30T09:03:32.731Z</updated>
-    
-    <content type="html"><![CDATA[<table><thead><tr><th align="center">名称</th><th align="center">内容</th><th align="center">截止日期</th></tr></thead><tbody><tr><td align="center">大物</td><td align="center">B册四、A册五</td><td align="center">10-08 00:00</td></tr><tr><td align="center">工程概论</td><td align="center">项目估算(学在西电)</td><td align="center">10-12 21:00</td></tr><tr><td align="center">电路基础</td><td align="center">习题册1本2-2、2-3</td><td align="center">10-9 20:00</td></tr><tr><td align="center">英语作文</td><td align="center">U1作文</td><td align="center">10-31</td></tr><tr><td align="center">英语朗读</td><td align="center">U2单词、Text C</td><td align="center">10-10、10-7</td></tr><tr><td align="center">数据结构</td><td align="center">上机第2题</td><td align="center">无</td></tr></tbody></table>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;内容&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;截止日期&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2024_09_28计划</title>
-    <link href="http://example.com/2024/09/28/2024-09-28%E8%AE%A1%E5%88%92/"/>
-    <id>http://example.com/2024/09/28/2024-09-28%E8%AE%A1%E5%88%92/</id>
-    <published>2024-09-28T10:54:50.000Z</published>
-    <updated>2024-09-28T11:19:45.621Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="重启日记、计划"><a href="#重启日记、计划" class="headerlink" title="重启日记、计划"></a>重启日记、计划</h2><p>使用hexo整理一下日常的心得体会</p><p>整理一下现在要做的事务，包括作业、项目等</p><h2 id="2024-09-28日常事务"><a href="#2024-09-28日常事务" class="headerlink" title="2024-09-28日常事务"></a>2024-09-28日常事务</h2><h3 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h3><table><thead><tr><th align="center">名称</th><th align="center">内容</th><th align="center">截止时间</th></tr></thead><tbody><tr><td align="center">电路基础</td><td align="center">习题册1-5、2-1</td><td align="center">9-30 20:00</td></tr><tr><td align="center">工程概论</td><td align="center">项目估算(学在西电)</td><td align="center">10-12 21:00</td></tr><tr><td align="center">大学物理</td><td align="center">B册四、A册五</td><td align="center">10-08 00:00</td></tr><tr><td align="center">数据结构</td><td align="center">上机第2题</td><td align="center">10-17</td></tr><tr><td align="center">马克思主义原理</td><td align="center">笔记</td><td align="center">无</td></tr></tbody></table><h3 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h3><table><thead><tr><th align="center">名称</th><th align="center">内容</th><th align="center">进展</th><th align="center">状态</th></tr></thead><tbody><tr><td align="center">GO</td><td align="center">基本围棋</td><td align="center">初步完成</td><td align="center">暂停</td></tr><tr><td align="center">TicTacToe</td><td align="center">井字棋</td><td align="center">基本完成</td><td align="center">停止</td></tr><tr><td align="center">Nonogram</td><td align="center">数织</td><td align="center">开发初期</td><td align="center">开发中</td></tr></tbody></table><h3 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h3><table><thead><tr><th align="center">名称</th><th align="center">进展</th><th align="center">状态</th></tr></thead><tbody><tr><td align="center">死亡搁浅</td><td align="center">525LLL</td><td align="center">进行中</td></tr><tr><td align="center">pvz融合版</td><td align="center">v2.1.1初期</td><td align="center">进行</td></tr><tr><td align="center">围棋</td><td align="center">日常</td><td align="center">间断进行</td></tr></tbody></table>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;重启日记、计划&quot;&gt;&lt;a href=&quot;#重启日记、计划&quot; class=&quot;headerlink&quot; title=&quot;重启日记、计划&quot;&gt;&lt;/a&gt;重启日记、计划&lt;/h2&gt;&lt;p&gt;使用hexo整理一下日常的心得体会&lt;/p&gt;
-&lt;p&gt;整理一下现在要做的事务，包括作业、项目等&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>铭言</title>
-    <link href="http://example.com/2024/07/10/%E9%93%AD%E8%A8%80/"/>
-    <id>http://example.com/2024/07/10/%E9%93%AD%E8%A8%80/</id>
-    <published>2024-07-10T15:48:02.000Z</published>
-    <updated>2024-07-10T17:12:01.113Z</updated>
-    
-    <content type="html"><![CDATA[<p>2024年7月11日凌晨</p><p>我们也许什么都救不了，只有自己</p><ol><li>认识自己、敢于展现自己、提升自己，因为你不满足于现状</li><li>挫折是正常的，以此提升是契机</li><li>只做现在必须做的事情，不要做着现在想着将来</li></ol><p>相信自己，尊重别人，不要自作多情</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;2024年7月11日凌晨&lt;/p&gt;
-&lt;p&gt;我们也许什么都救不了，只有自己&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;认识自己、敢于展现自己、提升自己，因为你不满足于现状&lt;/li&gt;
-&lt;li&gt;挫折是正常的，以此提升是契机&lt;/li&gt;
-&lt;li&gt;只做现在必须做的事情，不要做着现在想着将来&lt;/li&gt;
-&lt;</summary>
-      
-    
-    
-    
-    
-    <category term="铭言" scheme="http://example.com/tags/%E9%93%AD%E8%A8%80/"/>
     
   </entry>
   
