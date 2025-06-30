@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-06-29T16:20:19.742Z</updated>
+  <updated>2025-06-30T17:12:03.847Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025-07-01日程规划</title>
+    <link href="http://example.com/2025/07/01/2025-07-01%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2025/07/01/2025-07-01%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/</id>
+    <published>2025-06-30T17:08:50.000Z</published>
+    <updated>2025-06-30T17:12:03.847Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="长期任务列表"><a href="#长期任务列表" class="headerlink" title="长期任务列表"></a>长期任务列表</h2><ul><li><input disabled type="checkbox"> 准备实习相关事项，主要是了解公司、住宿、日程</li><li><input disabled type="checkbox"> 整理宿舍物品</li><li><input disabled type="checkbox"> 学习资料</li><li><input disabled type="checkbox"> 药品</li><li><input disabled type="checkbox"> 衣物</li><li><input disabled type="checkbox"> 整理电脑资料，对本学期进行学习性总结，总结自己做了什么和学习相关的事项</li><li><input disabled type="checkbox"> 整理本学期玩的游戏，进行总结和调整，制订下一阶段的计划</li><li><input disabled type="checkbox"> 预先熟悉下学期课程</li></ul><h2 id="日程规划"><a href="#日程规划" class="headerlink" title="日程规划"></a>日程规划</h2><p>这天没什么空闲时间呢，真是苦恼</p><ol><li>争取10:00之前起床，但是最好自然醒，极限是11:00</li><li>午饭，简单点</li><li>14:00 - 17:30 电子线路实验2 第五次</li><li>晚饭，简单点，再吃个麦有点腻了，大盘鸡或者胖烤</li><li>18:00 - 20:00 电子线路实验2 第六次</li><li>20:00 - 22:00 制作思政实践PPT</li><li>22:00 - 23:00 洗澡</li><li>23:00 - 1:00 继续开发扫雷辅助工具</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;长期任务列表&quot;&gt;&lt;a href=&quot;#长期任务列表&quot; class=&quot;headerlink&quot; title=&quot;长期任务列表&quot;&gt;&lt;/a&gt;长期任务列表&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 准备实习相关事项，主要是了解公</summary>
+      
+    
+    
+    
+    
+    <category term="计划" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025-06-30日程记录</title>
+    <link href="http://example.com/2025/07/01/2025-06-30%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
+    <id>http://example.com/2025/07/01/2025-06-30%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/</id>
+    <published>2025-06-30T16:49:14.000Z</published>
+    <updated>2025-06-30T17:08:27.768Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="长期任务列表"><a href="#长期任务列表" class="headerlink" title="长期任务列表"></a>长期任务列表</h2><ul><li><input disabled type="checkbox"> 准备实习相关事项，主要是了解公司、住宿、日程</li><li><input disabled type="checkbox"> 整理宿舍物品</li><li><input disabled type="checkbox"> 学习资料</li><li><input disabled type="checkbox"> 药品</li><li><input disabled type="checkbox"> 衣物</li><li><input disabled type="checkbox"> 整理电脑资料，对本学期进行学习性总结，总结自己做了什么和学习相关的事项</li><li><input disabled type="checkbox"> 整理本学期玩的游戏，进行总结和调整，制订下一阶段的计划</li><li><input disabled type="checkbox"> 预先熟悉下学期课程</li></ul><h2 id="日程规划"><a href="#日程规划" class="headerlink" title="日程规划"></a>日程规划</h2><p>好吧，实际还是和计划由有偏离，而且是很大的偏离</p><ol><li>10:16 起床</li><li>10:25-12:00 思政课，基本清楚思政实践现阶段就是选定一个题目，制作相应的方案展示PPT</li><li>12:30 午饭，胖胖烤肉饭（烤肉）</li><li>没有玩游戏，下载了新游戏：千恋万花和另一个什么。</li><li>突然有思路，想做一个基本的基于识别屏幕图像的扫雷辅助工具，准备先做一个Python思路验证版本，已经开始着手，使用kimi研究了一下大概的思路，并且参照给出的框架在尝试。目前局限性仍然较大。明天结束出一版基本路线图，今天有点晚了先睡了，明天接着做。</li><li>18:30 晚饭，大盘鸡。</li><li>19:00-23:30 休闲时刻，看完了老戴新更新的死亡搁浅2，到第五章结束。</li><li>21:30 休闲中间腿痒了出去跑了1组1km中速+4组200m3分间歇，舒服。</li><li>22:30 洗澡</li><li>23:20 嘴痒在银秒的怂恿下下楼买了肠，好吃😋。</li><li>23:30 整理今天做的事，日常检查发现ScarletPapers竟然更新了全新的版本，而且是从0.71版本直接更新到0.75。很兴奋但是得睡了，把更新的图片和视频，也就是奖励部分做了整理，下载了新的游戏demo本体，准备睡了。</li><li>1:06 日记快结束了，晚安，家人们。</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><p>顺便提一下，最近看日本独立开发者写的日志看得多了，感觉中文有点出现了问题了（bushi）。不过看看别人写的日志，自己写的日志总会受到影响的吧。晚安。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;长期任务列表&quot;&gt;&lt;a href=&quot;#长期任务列表&quot; class=&quot;headerlink&quot; title=&quot;长期任务列表&quot;&gt;&lt;/a&gt;长期任务列表&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 准备实习相关事项，主要是了解公</summary>
+      
+    
+    
+    
+    
+    <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>2025-06-30日程规划</title>
@@ -428,57 +474,6 @@
 &lt;li&gt;&lt;del&gt;信号与系统复习&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;模电复习&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;计组复</summary>
-      
-    
-    
-    
-    
-    <category term="计划" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2024-2025大二下期末事项汇总</title>
-    <link href="http://example.com/2025/06/08/2024-2025%E5%A4%A7%E4%BA%8C%E4%B8%8B%E6%9C%9F%E6%9C%AB%E4%BA%8B%E9%A1%B9%E6%B1%87%E6%80%BB/"/>
-    <id>http://example.com/2025/06/08/2024-2025%E5%A4%A7%E4%BA%8C%E4%B8%8B%E6%9C%9F%E6%9C%AB%E4%BA%8B%E9%A1%B9%E6%B1%87%E6%80%BB/</id>
-    <published>2025-06-07T18:10:09.000Z</published>
-    <updated>2025-06-14T06:06:00.938Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="事项整理"><a href="#事项整理" class="headerlink" title="事项整理"></a>事项整理</h2><ol><li><del>信号与系统复习</del></li><li>模电复习</li><li>计组复习</li><li>计网复习</li><li>操作系统复习</li><li>毛概复习</li><li><del>英汉翻译复习</del></li><li>计网大作业</li><li><del>计网平时作业</del></li><li><del>操作系统作业</del></li></ol><h2 id="考试时间整理"><a href="#考试时间整理" class="headerlink" title="考试时间整理"></a>考试时间整理</h2><table><thead><tr><th>考试科目</th><th>考试时间</th><th>考场信息</th><th>座位号</th></tr></thead><tbody><tr><td><del>英汉翻译</del></td><td>6-12 9:00-11:00</td><td>A-422</td><td>4</td></tr><tr><td><del>信号与系统</del></td><td>6-12 15:40-17:40</td><td>B-203</td><td>2</td></tr><tr><td>模电</td><td>6-16 9:00-11:00</td><td>B-314</td><td>13</td></tr><tr><td>毛概</td><td>6-16 15:40-17:40</td><td>A-411</td><td>7</td></tr><tr><td>计网</td><td>6-18 13:00-15:00</td><td>B-312</td><td>8</td></tr><tr><td>计组</td><td>6-20 9:00-11:00</td><td>B-312</td><td>35</td></tr><tr><td>操作系统</td><td>6-20 15:40-17:40</td><td>B-312</td><td>17</td></tr></tbody></table>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;事项整理&quot;&gt;&lt;a href=&quot;#事项整理&quot; class=&quot;headerlink&quot; title=&quot;事项整理&quot;&gt;&lt;/a&gt;事项整理&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;del&gt;信号与系统复习&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;模电复习&lt;/li&gt;
-&lt;li&gt;计组复习&lt;/li&gt;
-&lt;li&gt;</summary>
-      
-    
-    
-    
-    
-    <category term="计划" scheme="http://example.com/tags/%E8%AE%A1%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2025大二下停止网游一个月阶段性总结</title>
-    <link href="http://example.com/2025/05/31/2025%E5%A4%A7%E4%BA%8C%E4%B8%8B%E5%81%9C%E6%AD%A2%E7%BD%91%E6%B8%B8%E4%B8%80%E4%B8%AA%E6%9C%88%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%93/"/>
-    <id>http://example.com/2025/05/31/2025%E5%A4%A7%E4%BA%8C%E4%B8%8B%E5%81%9C%E6%AD%A2%E7%BD%91%E6%B8%B8%E4%B8%80%E4%B8%AA%E6%9C%88%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%93/</id>
-    <published>2025-05-31T06:53:41.000Z</published>
-    <updated>2025-05-31T06:58:48.745Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="方案实施情况"><a href="#方案实施情况" class="headerlink" title="方案实施情况"></a>方案实施情况</h2><ol><li>成功取消网游的游戏时间。</li><li>成功取消野狐围棋的时间。</li><li>成功取消微信小程序游戏的时间，仅仅偶尔想玩。</li></ol><h2 id="时间去向"><a href="#时间去向" class="headerlink" title="时间去向"></a>时间去向</h2><ol><li>两个项目开发</li><li>刷视频</li><li>黄油</li><li>支付宝合成小游戏</li><li>保卫萝卜</li><li>学习</li></ol><h2 id="总结评价"><a href="#总结评价" class="headerlink" title="总结评价"></a>总结评价</h2><ol><li>网游戒了，确实生下来很多时间，心情变好</li><li>在对游戏上不能一刀两断，但是需要进一步明确当下紧急的事项，做到每日一整理、每周一总结</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;方案实施情况&quot;&gt;&lt;a href=&quot;#方案实施情况&quot; class=&quot;headerlink&quot; title=&quot;方案实施情况&quot;&gt;&lt;/a&gt;方案实施情况&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;成功取消网游的游戏时间。&lt;/li&gt;
-&lt;li&gt;成功取消野狐围棋的时间。&lt;/li&gt;
-&lt;li&gt;成功取消</summary>
       
     
     
