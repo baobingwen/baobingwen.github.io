@@ -4,11 +4,30 @@
   
   
   <entry>
+    <title>关于图片插入的思考和方案总结</title>
+    <link href="/2025/07/03/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E7%9A%84%E6%80%9D%E8%80%83%E5%92%8C%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93/"/>
+    <url>/2025/07/03/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E7%9A%84%E6%80%9D%E8%80%83%E5%92%8C%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93/</url>
+    
+    <content type="html"><![CDATA[<h2 id="方案一，直接插入"><a href="#方案一，直接插入" class="headerlink" title="方案一，直接插入"></a>方案一，直接插入</h2><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">img</span> 图片类型 图片最终地址 &quot;图片名称&quot; %&#125;</span><br></code></pre></td></tr></table></figure><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight twig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs twig"><span class="hljs-template-tag">&#123;%</span> <span class="hljs-name">img</span> png /<span class="hljs-number">2025</span>/<span class="hljs-number">2025</span>/<span class="hljs-number">07</span>/<span class="hljs-number">03</span>/bbw的日语学习记录/<span class="hljs-number">50</span>音图.png <span class="hljs-string">&quot;50音图&quot;</span> <span class="hljs-template-tag">%&#125;</span><br></code></pre></td></tr></table></figure><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>生成一个原图片大小的图片</p><h2 id="方案二，asset-img"><a href="#方案二，asset-img" class="headerlink" title="方案二，asset_img"></a>方案二，asset_img</h2><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">asset_img</span> 图片名称（带有格式后缀） %&#125;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Hexo_Tips</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>bbw的日语学习记录</title>
     <link href="/2025/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     <url>/2025/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
     
-    <content type="html"><![CDATA[<h2 id="2025-07-03"><a href="#2025-07-03" class="headerlink" title="2025-07-03"></a>2025-07-03</h2><img src="/2025/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/50%E9%9F%B3%E5%9B%BE.png" class="png" title="50音图">]]></content>
+    <content type="html"><![CDATA[<h2 id="2025-07-03"><a href="#2025-07-03" class="headerlink" title="2025-07-03"></a>2025-07-03</h2><img src="/2025/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/50%E9%9F%B3%E5%9B%BE.png" class="png" title="50音图"><img src="/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/50%E9%9F%B3%E5%9B%BE.png" class><p><img src="/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/50%E9%9F%B3%E5%9B%BE.png" alt="50音图"></p>]]></content>
     
     
     
