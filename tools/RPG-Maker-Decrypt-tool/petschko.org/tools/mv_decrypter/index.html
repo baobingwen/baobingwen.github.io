@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+	<head>
+		<!-- Important Head content -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="canonical" href="index.html">
+		<title>RPG-Maker-MV &amp; MZ Decrypter by Petschko</title>
+
+		<!-- Head-Meta stuff -->
+		<meta name="author" content="Petschko" />
+		<meta name="description" content="Decrypt, Restore or encrypt RPG-Maker-MV & MZ Files (.rpgmvp, .rpgmvm or .rpgmvo, .png_, .ogg_, .m4a_) here" />
+		<meta name="keywords" content="RPG-Maker-MV, RPG-Maker-Decrypter, rpg-maker, decrypt, decrypter, encrypt, encrypter, RPG-Maker-Encrypter, rpgmvp, rpgmvm, rpgmvo, RPG-Maker-MZ" />
+
+		<!-- Fav Icons -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+
+		<!-- MISC -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="google" content="notranslate" />
+
+		<!-- Styles Scripts etc -->
+		<!-- https://getbootstrap.com/docs/3.4/getting-started/ -->
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+
+		<!-- Load Languages -->
+		<script src="languages/languages.js"></script>
+		<script src="languages/en.js"></script>
+		<script src="languages/de.js"></script>
+		<script src="languages/zh-Hans.js"></script>
+		<script src="languages/fr.js"></script>
+		<script src="languages/test.js"></script>
+
+		<!-- Translation Styles -->
+		<style id="translation-styles"></style>
+	</head>
+	<body>
+		<div class="head-bar" id="language-switcher" style="position: relative;">
+			<span class="trl" data-trl="header.language">Language</span>:
+
+			<a href="javascript:void(0);" id="active-language" title="Select a different language" class="trl" data-trl-title="languages.title.selectDifferentLang">
+				<img src="img/flags/en.png" alt="UK Flag" class="flag-icon"> English <span id="select-language-icon" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+			</a>
+			<div id="language-selection-list-container">
+				<div>
+					<ul id="language-selection-list">
+						<li>
+							<a href="javascript:void(0);">
+								<img src="img/flags/de.png" alt="German Flag" class="flag-icon"> German
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<noscript>
+			<div>
+				<p>
+					<strong>Warning</strong>: This Script requires JavaScript. Please enable JavaScript or switch to a newer Browser.
+				</p>
+				<hr>
+				<p>
+					This Script En/Decrypt Files for you but the Decryption is not done by a Server, it's done by your Browser.<br>
+					If you don't trust this Script <a href="https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter" title="Check out the Source-Code" target="_blank">check out the Code on GitLab</a> <i>(or view it in your Browser)</i>. =)
+				</p>
+			</div>
+		</noscript>
+		<div>
+			<div class="info">
+				<strong><span class="trl" data-trl="info.information.1">Information</span>:</strong>
+				<p>
+					<span class="trl" data-trl-has-children="true" data-trl="info.information.2">I've <a class="trl-child" data-trl-child="0" data-trl="info.information.2.releaseLink" data-trl-title="info.title.seeReleases" href="https://gitlab.com/Petschko/Java-RPG-Maker-MV-Decrypter/-/releases" title="See the alpha on GitLab" target="_blank">released an Alpha-Version</a> of my project "<a class="trl-child" data-trl-child="1" data-trl="info.information.2.projectLink" data-trl-title="info.title.seeProject" href="https://gitlab.com/Petschko/Java-RPG-Maker-MV-Decrypter" title="Visit the project on GitLab" target="_blank">Java-RPG-Maker-MV-Decrypter</a>", which works with whole directories and save/renames files by itself...</span><br>
+					<span class="trl" data-trl-has-children="true" data-trl="info.information.3">It has a GUI, try it out! If you just want to decrypt single files, I recommend this version here. <i class="trl-child" data-trl-child="0" data-trl="info.information.3.noDownload">(Since you don't need to download it)</i>. For whole directories, you should try the Java version of the decrypter! =)</span>
+				</p>
+			</div>
+			<div class="center title">
+				<img class="logo trl" src="img/projectIcon.png" data-trl-alt="images.alt.projectIcon" data-trl-title="title.projectIcon" alt="Project Icon (Chest with a key)" title="Unlock or Re-Lock RPG Maker MV Files">
+				<h1 class="trl" data-trl="header.title">Petschkos RPG-Maker MV &amp; MZ-File Decrypter</h1>
+			</div>
+
+			<!-- Nav bar -->
+			<ul class="nav nav-tabs">
+				<li class="nav-link active">
+					<a href="index.html#home"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> <span class="trl" data-trl="tab.home">Home</span></a>
+				</li>
+				<li class="nav-link">
+					<a href="index.html#en-decrypt"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> <span class="trl" data-trl="tab.enDecrypt">En- &amp; Decrypt</span></a>
+				</li>
+				<li class="nav-link">
+					<a href="index.html#restore-images"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> <span class="trl" data-trl="tab.restoreImages">Restore Images (No Key)</span></a>
+				</li>
+				<li class="nav-link">
+					<a href="index.html#browser-support"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> <span class="trl" data-trl="tab.browserSupport">Browser Support</span></a>
+				</li>
+				<li class="nav-link">
+					<a href="index.html#howTo"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> <span class="trl" data-trl="tab.howToUse">How to use</span></a>
+				</li>
+				<li class="nav-link">
+					<a href="index.html#credits"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> <span class="trl" data-trl="tab.credits">Credits</span></a>
+				</li>
+				<!--<li class="nav-link">
+					<a href="#about"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> <span class="trl" data-trl="tab.about">About</span></a>
+				</li>-->
+			</ul>
+			<!-- Nav bar end -->
+
+			<div id="home" class="content-container">
+				<p class="trl" data-trl="home.content.welcome.1">Welcome to the RPG-Maker MV &amp; MZ-File Decrypter. You can easily decrypt files from any RPG-MV/RPG-MZ Project, which are encrypted with the built-in encryption. You can also encrypt them back (Mainly used for translation purposes).</p>
+				<p class="trl" data-trl="home.content.welcome.2">Make sure that you don't use this tool to steal assets. If you want to take a look at the images (which is okay for private use by most laws), feel free to do so, but don't steal them please.</p>
+
+				<div class="center">
+					<p>
+						<span class="trl" data-trl="home.content.whatToDoSelection">Please select what you want to do</span>:
+					</p>
+					<a href="index.html#restore-images" class="menu-link btn btn-primary trl" data-trl="home.button.restoreImages">
+						(No Key) Restore images from a game
+					</a>
+					<a href="index.html#en-decrypt" class="menu-link btn btn-primary trl" data-trl="home.button.enDecryptImages">
+						En-/Decrypt Files to/from a game
+					</a>
+				</div>
+			</div>
+
+			<div id="en-decrypt" class="content-container">
+				<p><span class="trl" data-trl="enDecrypt.content.1" data-trl-has-children="true">PNG-Files (Images - "<span class="trl-child" data-trl-child="0"><b>.rpgmvp</b> &amp; <b>.png_</b></span>-Files") don't need the decryption code, <b class="trl-child" data-trl-child="1" data-trl="howToUse.content.except">except</b> you want to re-encrypt them.</span> <a href="index.html#restore-images" class="menu-link trl" data-trl="button.gotoRestorePage">Please go here for restoring images without a key</a>.</p>
+				<hr />
+				<p class="trl" data-trl="enDecrypt.content.2">In this area you can De- and (Re-)Encrypt Files from RPG-Maker MV &amp; MZ Games.</p>
+				<p><span class="trl" data-trl="enDecrypt.content.3">You can get the decrypt code from the file</span>:</p>
+				<ul>
+					<li><b class="trl" data-trl="enDecrypt.content.3.mv">RPG-Maker MV</b>: <span class="trl" data-trl-has-children="true" data-trl="enDecrypt.content.3.text">"Game directory"<span class="trl-child" data-trl-child="0">/www/data/System(.json)</span> or any encrypted image ("<b class="trl-child" data-trl-child="1">.rpgmvp</b>"-File)</span></li>
+					<li><b class="trl" data-trl="enDecrypt.content.3.mz">RPG-Maker MZ</b>: <span class="trl" data-trl-has-children="true" data-trl="enDecrypt.content.3.text">"Game directory"<span class="trl-child" data-trl-child="0">/data/System(.json)</span> or any encrypted image ("<b class="trl-child" data-trl-child="1">.png_</b>"-File)</span></li>
+				</ul>
+				<p class="trl" data-trl-has-children="true" data-trl="enDecrypt.content.4">Click "<span class="trl-child" data-trl-child="0">Detect</span>" after you selected the <span class="trl-child" data-trl-child="1">System(.json)</span> file. If you know the key, you can also just enter it in the text box.</p>
+				<hr />
+				<div class="wrapper center">
+					<div class="left">
+						<h2 class="trl" data-trl="enDecrypt.h.selectFilesAndInfo">Select Files &amp; Info</h2>
+						<div class="fileInfoArea">
+							<fieldset class="decryptCodeArea">
+								<legend>1. <span class="trl" data-trl="enDecrypt.formBox.decryptCode">Decrypt Code</span></legend>
+								<div>
+									<label for="systemFile" class="trl" data-trl-has-children="true" data-trl="enDecrypt.label.decryptCodeFile">
+										Select a <b class="trl-child" data-trl-child="0">System(.json)</b> or "<b class="trl-child" data-trl-child="1">.rpgmvp</b>"/"<b class="trl-child" data-trl-child="2">.png_</b>" File and click <span class="trl-child" data-trl-child="3" data-trl="enDecrypt.button.detect">Detect</span>!
+									</label>
+									<div class="button-grid-wrapper">
+										<div class="box1">
+											<input type="file" accept=".json,.txt,.js,.rpgmvp,.png_" name="system.json" id="systemFile">
+										</div>
+										<div class="box2">
+											<button class="btn btn-default" type="button" id="detectButton">
+												<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+												<span class="trl" data-trl="enDecrypt.button.detect">Detect</span>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div>
+									<label>
+										<span class="trl" data-trl="enDecrypt.label.decryptCode">En-/Decrypt Code</span>: <input type="text" name="decryptCode" id="decryptCode" required>
+									</label>
+								</div>
+							</fieldset>
+							<fieldset>
+								<legend>2. <span class="trl" data-trl="formBox.selectFiles">Select File(s)</span></legend>
+							<div>
+								<label for="encryptedFiles" class="trl" data-trl="enDecrypt.label.files">
+									En-/Decrypt File(s):
+								</label>
+								<div class="bottom-space drag-drop-file">
+									<input type="file" accept=".png,.ogg,.m4a,.rpgmvp,.rpgmvm,.rpgmvo,.png_,.ogg_,.m4a_" name="encryptedFiles" id="encryptedFiles" class="trl" data-trl-title="title.dragAndDrop" title="Drag and drop files here, or select them" multiple required>
+								</div>
+							</div>
+							</fieldset>
+							<fieldset class="advancedArea">
+								<legend class="trl" data-trl="enDecrypt.formBox.advanced">Advanced</legend>
+								<div class="bottom-space">
+									<span class="trl" data-trl="enDecrypt.label.verifyHeader">Verify Fake Header?</span>
+									<div class="tooltip help">
+										(<span class="trl" data-trl="tooltip.question">?</span>)
+										<div class="tooltipText longText">
+											<p class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.help.1">
+												This checks if the file header is correct (start of the file).
+											</p>
+											<p class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.help.2">
+												The header is only important for encryption (decryption can ignore it).
+											</p>
+											<hr>
+											<p class="text-left">
+												<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.tooltip.content.verifyHeader.help.3">
+													In <strong class="trl-child" data-trl-child="0" data-trl="enDecrypt.tooltip.content.verifyHeader.help.3.rare">very rare</strong> cases some games use different header settings. You can find the correct header settings in:
+												</span><br>
+												<span class="red">"<span class="trl" data-trl="tooltip.content.gameDir">Game Directory</span>"/www/js/rpg_core.js</span><br>
+												<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.tooltip.content.verifyHeader.help.4">
+													Search for "<strong class="trl-child" data-trl-child="0">function Decrypter()</strong>"; there, you can find all values.
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div>
+									<label style="margin-right: 5px;">
+										<input type="radio" name="checkFakeHeader" value="1"><span class="trl" data-trl="enDecrypt.label.verifyHeader.yes">Yes</span>
+									</label>
+									<label>
+										<input type="radio" name="checkFakeHeader" value="0" checked="checked"><span class="trl" data-trl="enDecrypt.label.verifyHeader.no">No (Ignore it)</span>
+										<span class="tooltip help">
+											(<span class="trl" data-trl="tooltip.question">?</span>)
+											<span class="tooltipText longText">
+												<span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.yesNo.help.1">
+													Ignores the file header
+												</span>
+												<br>
+												<strong class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.yesNo.help.1.warning">
+													Warning
+												</strong>: <span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.yesNo.help.2">Can cause invalid decrypted files! (It will decrypt even if the file was NOT encrypted. It will render the file useless.)</span>
+												<br>
+												<br>
+												<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.tooltip.content.verifyHeader.yesNo.help.3">
+													Only use "<span class="trl-child" data-trl-child="0" data-trl="enDecrypt.label.no">No</span>" if you are sure that your file was encrypted by RPG Maker!
+												</span>
+											</span>
+										</span>
+									</label>
+								</div>
+								<div id="headerValuesEditArea">
+									<div>
+										<div id="spoilerHeaderInfoText" class="link trl" data-trl-has-children="true" data-trl="enDecrypt.button.headerValues.show">
+											Header Values (<span class="trl-child" data-trl-child="0" data-trl="enDecrypt.button.headerValues.show.show">Show</span>)
+										</div>
+									</div>
+									<div id="headerInfo" class="hidden">
+										<h3 class="trl" data-trl="enDecrypt.h.headerInfo">Header Info</h3>
+										<div class="tooltip help">
+											(<span class="trl" data-trl="tooltip.question">?</span>)
+											<div class="tooltipText trl" data-trl="enDecrypt.tooltip.content.headerInfo">
+												Expert Settings! Usually you don't need to change anything here! (Just in VERY RARE cases)
+											</div>
+										</div>
+										<div>
+											<span class="trl" data-trl="enDecrypt.content.header.info">When do I need to change these settings?</span><br>
+											<div class="tooltip help">
+												<span class="trl" data-trl="enDecrypt.content.header.decryption">Decryption</span>
+												<div class="tooltipText longText">
+													<p>
+														<span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.decryption.info.1">
+															Usually you don't need the header for decryption.
+														</span>
+														<br>
+														<i>(<span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.decryption.info.2">It is just thrown away</span>)</i>
+													</p>
+													<p class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.decryption.info.3">
+														It's just used to ensure that your file was encrypted by RPG Maker ^^
+													</p>
+													<hr>
+													<p class="text-left">
+														<span class="green trl" data-trl="tooltip.content.summary">Summary</span>:
+														<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.tooltip.content.verifyHeader.decryption.info.summary">
+															You <b class="trl-child" data-trl-child="0" data-trl="enDecrypt.tooltip.content.verifyHeader.decryption.info.summary.can">CAN</b> decrypt any RPG File without knowing the correct settings.
+														</span>
+														<br>
+														<span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.decryption.info.summary.2">
+															Just change it to "Don't verify" if it can't verify the header for you =)
+														</span>
+														<br>
+														<span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.decryption.info.summary.3">
+															It will usually work with the default settings.
+														</span>
+													</p>
+												</div>
+											</div>
+											|
+											<div class="tooltip help">
+												<span class="trl" data-trl="enDecrypt.content.header.encryption">Encryption</span>
+												<div class="tooltipText longText">
+													<p class="text-left trl" data-trl="enDecrypt.tooltip.content.verifyHeader.encryption.info.1">
+														If you want to put a file back into the game, you NEED the Header. The game checks if the header is correct.
+													</p>
+													<p class="text-left trl" data-trl="enDecrypt.tooltip.content.verifyHeader.encryption.info.2">
+														If the header is not correct, the game can't display it...
+													</p>
+													<hr>
+													<p class="text-left">
+														<span class="green trl" data-trl="tooltip.content.summary">Summary</span>:
+														<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.tooltip.content.verifyHeader.encryption.info.3">
+															You <b class="trl-child" data-trl-child="0" data-trl="enDecrypt.tooltip.content.verifyHeader.encryption.info.3.need">NEED</b> the correct header. If the header is wrong, the game can't display it.
+														</span>
+														<br>
+														<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.tooltip.content.verifyHeader.encryption.info.4">
+															Usually, the default settings will work fine for <span class="trl-child" data-trl-child="0">99</span> of <span class="trl-child" data-trl-child="1">100</span> games.
+														</span>
+														<br>
+														<span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.encryption.info.5">
+															So, please try the default setting first. If it doesn't work, then you can search for the correct header settings.
+														</span>
+													</p>
+													<hr>
+													<p class="text-left">
+														<span class="trl" data-trl="enDecrypt.tooltip.content.verifyHeader.encryption.info.6">You find them here:</span>
+														<br>
+														<span class="red">"<span class="trl" data-trl="tooltip.content.gameDir">Game Directory</span>"/www/js/rpg_core.js</span><br>
+														<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.tooltip.content.verifyHeader.help.4">
+															Search for "<strong class="trl-child" data-trl-child="0">function Decrypter()</strong>"; there, you can find all values.
+														</span>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div>
+											<label>
+												<span class="trl" data-trl-has-children="true" data-trl="enDecrypt.label.header.length">Header Length <i class="trl-child" data-trl-child="0" data-trl="enDecrypt.label.header.length.byteNote">(In Bytes)</i></span>: <input type="text" name="headerLen" id="headerLen">
+											</label>
+										</div>
+										<div>
+											<label>
+												<span class="trl" data-trl="enDecrypt.label.header.signature">Header Signature</span>: <input type="text" name="signature" id="signature">
+											</label>
+										</div>
+										<div>
+											<label>
+												<span class="trl" data-trl="enDecrypt.label.header.version">Header Version</span>: <input type="text" name="version" id="version">
+											</label>
+										</div>
+										<div>
+											<label>
+												<span class="trl" data-trl="enDecrypt.label.header.remain">Header Remain</span>: <input type="text" name="remain" id="remain">
+											</label>
+										</div>
+										<button class="btn btn-danger" type="button" id="resetHeader">
+											<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+											<span class="trl" data-trl="enDecrypt.button.resetHeaderVal">Reset Header Values to default</span>
+										</button>
+									</div>
+								</div>
+							</fieldset>
+							<button class="btn btn-success" type="button" id="decrypt">
+								<img class="trl" data-trl-alt="images.alt.brokenLock" src="img/lock_broken.png" alt="(Broken Lock)">
+								<span class="trl" data-trl="enDecrypt.button.decrypt">Decrypt</span>
+							</button>
+							<button class="btn btn-default" type="button" id="encrypt-mv">
+								<img class="trl" data-trl-alt="images.alt.lock" src="img/lock.png" alt="(Lock)">
+								<span class="trl" data-trl="enDecrypt.button.mv.encrypt">(Re)-Encrypt MV</span>
+							</button>
+							<button class="btn btn-default" type="button" id="encrypt-mz">
+								<img class="trl" data-trl-alt="images.alt.lock" src="img/lock.png" alt="(Lock)">
+								<span class="trl" data-trl="enDecrypt.button.mz.encrypt">(Re)-Encrypt MZ</span>
+							</button>
+						</div>
+					</div>
+					<div class="fileList right">
+						<h2 class="trl" data-trl="h.fileList">File-List</h2>
+						<fieldset>
+							<legend>3. <span class="trl" data-trl="formBox.fileList">Download File(s)</span></legend>
+							<div class="bottom-space">
+								<button class="btn btn-primary zipSave" type="button" disabled>
+									<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+									<span class="trl" data-trl="button.saveAllAsZip">Save all as ZIP File</span>
+								</button>
+								<div class="tooltip help">
+									(<span class="trl" data-trl="tooltip.i">i</span>)
+									<div class="tooltipText trl" data-trl-has-children="true" data-trl="tooltip.content.infoZipDownload">
+										There is a size limitation depending on your memory and your browser... To handle MANY files (<span class="trl-child" data-trl-child="0">500+mb</span>), you should use the Java-Decrypter!
+									</div>
+								</div>
+								<button class="btn btn-default clearFileList" type="button" disabled>
+									<span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+									<span class="trl" data-trl="button.clearFiles">Clear File List</span>
+								</button>
+								<div class="tooltip help">
+									(<span class="trl" data-trl="tooltip.question">?</span>)
+									<div class="tooltipText trl" data-trl="tooltip.content.infoClearFiles">
+										Removes all files from the list below
+									</div>
+								</div>
+							</div>
+							<div class="blob-list bottom-space"></div>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+
+			<div id="restore-images" class="content-container">
+				<p class="trl" data-trl-has-children="true" data-trl="restoreImages.content">
+					In this area, you can restore <span class="trl-child" data-trl-child="0">PNG</span> files (images - "<span class="trl-child" data-trl-child="1"><b>.rpgmvp</b> &amp; <b>.png_</b></span>-Files") from RPG Maker games without the decryption key.
+				</p>
+				<hr>
+				<div class="wrapper center">
+					<div class="left">
+						<div class="fileInfoArea">
+							<h2 class="trl" data-trl="restore.h.selectFiles">Select RPGMVP / PNG_ Files</h2>
+
+							<fieldset>
+								<legend>1. <span class="trl" data-trl="formBox.selectFiles">Select File(s)</span></legend>
+								<label for="encryptedImg">
+									<span class="trl" data-trl="restore.label.files">Select file(s) to restore</span>:
+								</label>
+								<div class="bottom-space drag-drop-file">
+									<input id="encryptedImg" type="file" accept=".rpgmvp,.png_" name="encryptedImg" class="trl" data-trl-title="title.dragAndDrop" title="Drag and drop files here, or select them" multiple required>
+								</div>
+							</fieldset>
+
+							<div>
+								<button type="button" class="btn btn-success" id="restoreEncryptedImages">
+									<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+									<span class="trl" data-trl="restore.button.restoreOriginalImages">Restore Original Image(s)</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="fileList right">
+						<h2 class="trl" data-trl="h.fileList">File-List</h2>
+						<fieldset>
+							<legend>2. <span class="trl" data-trl="formBox.fileList">Download File(s)</span></legend>
+							<button class="btn btn-primary zipSave" type="button" disabled>
+								<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+								<span class="trl" data-trl="button.saveAllAsZip">Save all as ZIP File</span>
+							</button>
+							<div class="tooltip help">
+								(<span class="trl" data-trl="tooltip.i">i</span>)
+								<div class="tooltipText trl" data-trl-has-children="true" data-trl="tooltip.content.infoZipDownload">
+									There is a size limitation depending on your memory and your browser... To handle MANY files (<span class="trl-child" data-trl-child="0">500+mb</span>), you should use the Java-Decrypter!
+								</div>
+							</div>
+							<button class="btn btn-default clearFileList" type="button" disabled>
+								<span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+								<span class="trl" data-trl="button.clearFiles">Clear File List</span>
+							</button>
+							<div class="tooltip help">
+								(<span class="trl" data-trl="tooltip.question">?</span>)
+								<div class="tooltipText trl" data-trl="tooltip.content.infoClearFiles">
+									Removes all files from the list below
+								</div>
+							</div>
+							<div class="blob-list bottom-space"></div>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+
+			<div id="browser-support" class="content-container">
+				<h2 id="browserSupport" class="trl" data-trl="browserSupport.h">Browser Support</h2>
+				<p>
+					<strong class="trl" data-trl="browserSupport.note.first">First</strong>:
+					<span class="trl" data-trl-has-children="true" data-trl="browserSupport.note">
+						Please note, that this script is only tested and developed on <span class="trl-child" data-trl-child="0" data-trl="browserSupport.browser.firefox">Firefox</span>. You can help me to make it run on all browsers, by <a href="https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter/-/issues" title="Help me by reporting bugs" target="_blank" class="trl-child" data-trl-child="1" data-trl="browserSupport.note.reportBugsLink" data-trl-title="browserSupport.title.reportBugs">reporting bugs</a>!
+					</span>
+				</p>
+				<ul>
+					<li>
+						<s>
+							<span class="trl" data-trl="browserSupport.browser.ie">Internet Explorer</span> <span class="red">
+								(<span class="trl" data-trl="browserSupport.unusable">Unusable</span> - <span class="trl" data-trl="browserSupport.outOfSupport">Not supported</span>)
+							</span>
+						</s>
+						<span class="tooltip help">
+							(<span class="trl" data-trl="tooltip.details">Details</span>)
+							<span class="tooltipText">
+								<span class="red trl" data-trl="browserSupport.feature.downloadFiles">Download Files</span><br>
+								<span class="red trl" data-trl="browserSupport.feature.viewFiles">View Files</span><br>
+								<span class="yellow trl" data-trl="browserSupport.feature.enDecrypt">En-/Decrypt</span><br>
+								<span class="grey trl" data-trl="browserSupport.feature.zipDownload">ZIP Download</span> - <i class="trl" data-trl="browserSupport.unknown">Unknown</i>
+							</span>
+						</span>
+					</li>
+					<li>
+						<span class="trl" data-trl="browserSupport.browser.edge">Edge</span> <span class="green">
+							(<span class="trl" data-trl="browserSupport.usable">Usable</span>)
+						</span>
+					</li>
+					<li>
+						<span class="trl" data-trl="browserSupport.browser.chrome">Google Chrome</span> <span class="green">
+							(<span class="trl" data-trl="browserSupport.usable">Usable</span>)
+						</span>
+					</li>
+					<li>
+						<span class="trl" data-trl="browserSupport.browser.firefox">Firefox</span> <span class="green">
+							(<span class="trl" data-trl="browserSupport.usable">Usable</span>)
+						</span>
+					</li>
+					<li>
+						<span class="trl" data-trl="browserSupport.browser.safari">Safari</span> <span class="green">
+							(<span class="trl" data-trl="browserSupport.usable">Usable</span>)
+						</span>
+					</li>
+					<li>
+						<span class="trl" data-trl="browserSupport.browser.opera">Opera</span> <span class="green">
+							(<span class="trl" data-trl="browserSupport.usable">Usable</span>)
+						</span>
+					</li>
+				</ul>
+			</div>
+
+			<div id="howTo" class="content-container">
+				<h2 class="trl" data-trl="howToUse.h">How to use?</h2>
+				<ol>
+					<li>
+						<span class="trl" data-trl-has-children="true" data-trl="howToUse.content.1.1">
+							Check if the encrypted files have the file extension <span class="trl-child" data-trl-child="0">
+								"<strong>.rpgmvp</strong>", "<strong>.rpgmvm</strong>", "<strong>.rpgmvo</strong>", "<strong>.png_</strong>", "<strong>.ogg_</strong>" <span class="trl" data-trl="howToUse.content.or">or</span> "<strong>.m4a_</strong>"
+							</span> - If they have these extension(s), then you can use this script
+						</span>
+						<br>
+						<i class="trl" data-trl-has-children="true" data-trl="howToUse.content.1.2">
+							If you want to ENCRYPT files, they usually have a file extension like "<span class="trl-child" data-trl-child="0">.png</span>" or something similar to that =)
+						</i>
+					</li>
+					<li>
+						<span class="trl" data-trl="howToUse.content.2.1">Get the en-/decrypt code.</span><br>
+						<span class="red">
+							<span class="trl" data-trl="howToUse.content.new">New</span>:
+						</span> <span class="trl" data-trl-has-children="true" data-trl="howToUse.content.2.2">
+							<span class="trl-child" data-trl-child="0">PNG</span> files (images - "<span class="trl-child" data-trl-child="1"><b>.rpgmvp</b> &amp; <b>.png_</b></span>-Files") don't need the decryption code, <b class="trl-child" data-trl-child="2" data-trl="howToUse.content.except">except</b> you want to re-encrypt them.
+						</span> <a href="index.html#restore-images" class="menu-link trl" data-trl="button.gotoRestorePage">Please go here for restoring images without a key</a>.
+
+						<ul>
+							<li class="trl" data-trl-has-children="true" data-trl="howToUse.content.2.ul.1">
+								Upload the <span class="trl-child" data-trl-child="0">System(.json)</span> file from the game and detect the code automatically. (Click on "<span class="trl-child" data-trl-child="1" data-trl="enDecrypt.button.detect">Detect</span>", after selecting the System(.json))
+							</li>
+							<li class="trl" data-trl="howToUse.content.2.ul.2">
+								If the detection doesn't work, further instructions will pop up.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span class="trl" data-trl="howToUse.content.3.1">
+							Select the file(s) for de-/encryption
+						</span> - <i class="trl" data-trl="howToUse.content.3.2">You can select multiple files!</i>
+					</li>
+					<li class="trl" data-trl="howToUse.content.4">Hit the decrypt or encrypt button</li>
+					<li>
+						<span class="trl" data-trl-has-children="true" data-trl="howToUse.content.5.1">
+							You can preview your decrypted files, if you click on "<span class="trl-child" data-trl-child="0" data-trl="button.view">View</span>", next to the filename.
+						</span> <i>(<span class="trl" data-trl="howToUse.content.5.2">Of course you can't preview encrypted files</span>)</i>
+					</li>
+					<li>
+						<span class="trl" data-trl-has-children="true" data-trl="howToUse.content.6">
+							You can save them by clicking on "<span class="trl-child" data-trl-child="0" data-trl="button.save">Save</span>". (The script will keep the file name and change the extension for you!) =)
+						</span>
+						<ul>
+							<li class="trl" data-trl-has-children="true" data-trl="howToUse.content.6.ul.1">
+								You can also save all the files in the file list as a ZIP by clicking "<span class="trl-child" data-trl-child="0" data-trl="button.saveAllAsZip">Save all as ZIP File</span>"!
+							</li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+			<div id="credits" class="content-container">
+				<h2 class="trl" data-trl="credits.h">Credits</h2>
+
+				<h3 class="trl" data-trl="credits.h.code">Code Credits</h3>
+				<ul>
+					<li>
+						<a href="https://gitlab.com/Petschko" target="_blank">Petschko</a> - <span class="trl" data-trl="credits.forProject">For creating this project</span>
+					</li>
+					<li>
+						<a href="https://github.com/Stuk" target="_blank">Stuk</a> - <span class="trl" data-trl-has-children="true" data-trl="credits.forLib">For the <span class="trl-child" data-trl-child="0">ZIP</span> library</span> (<a href="https://github.com/Stuk/jszip" target="_blank">jszip @ Github</a>)
+					</li>
+					<li>
+						<a href="https://github.com/pieroxy" target="_blank">pieroxy</a> - <span class="trl" data-trl-has-children="true" data-trl="credits.forLib">For the <span class="trl-child" data-trl-child="0">LZ-String</span> library</span> (<a href="https://github.com/pieroxy/lz-string" target="_blank">lz-string @ Github</a>)
+					</li>
+					<li>
+						<a href="https://github.com/eligrey" target="_blank">eligrey</a> - <span class="trl" data-trl-has-children="true" data-trl="credits.forLib">For the <span class="trl-child" data-trl-child="0">FileSaver.js</span> library</span> (<a href="https://github.com/eligrey/FileSaver.js" target="_blank">FileSaver.js @ Github</a>)
+					</li>
+					<li>
+						<a href="https://getbootstrap.com/docs/3.4/getting-started/" target="_blank">Bootstrap</a> - <span class="trl" data-trl="credits.betterInterface">For a more user-friendly interface</span>
+					</li>
+					<li>
+						<b class="trl" data-trl="credits.anonymous">Anonymous</b> - <span class="trl" data-trl-has-children="true" data-trl="credits.noKey">For the tip with the No-Key "decryption" for <span class="trl-child" data-trl-child="0">PNGs</span></span> <i>(<span class="trl" data-trl="credits.anonymous.explanation">This user wants to remain anonymous, but this belongs to them</span>)</i>
+					</li>
+					<li>
+						<a href="https://github.com/r4sas" target="_blank">r4sas</a> - <span class="trl" data-trl="credits.chrome.viewFile">For help solving the Chrome "View-File" bug</span>
+					</li>
+				</ul>
+
+				<h3 class="trl" data-trl="credits.h.image">Image Credits</h3>
+				<ul>
+					<li>
+						<b>???</b> - <span class="trl" data-trl="credits.lock">Lock</span>-<span class="trl" data-trl="credits.icons">Icons</span> <i>(<span class="trl" data-trl-has-children="true" data-trl="credits.unknownAuthor">Please <a href="mailto:peter@petschko.org" class="trl-child" data-trl-child="0" data-trl="credits.emailLink">send me an E-Mail</a>, I can't find the source anymore to add you!</span>)</i>
+					</li>
+					<li>
+						<a href="https://www.flaticon.com/authors/freepik" target="_blank">Freepik</a>
+						&nbsp;|&nbsp;
+						<a href="https://www.flaticon.com/free-icons/uk-flag" target="_blank" title="UK-Flag Icons">Flaticon</a> - Uk-Flag <span class="trl" data-trl="credits.icon">Icon</span>
+					</li>
+					<li>
+						<a href="https://www.flaticon.com/authors/creatype" target="_blank">Creatype</a>
+						&nbsp;|&nbsp;
+						<a href="https://www.flaticon.com/free-icons/germany" target="_blank" title="German-Flag Icons">Flaticon</a> - Germany-Flag <span class="trl" data-trl="credits.icon">Icon</span>
+					</li>
+					<li>
+						<a href="https://www.flaticon.com/authors/iconsbox" target="_blank">IconsBox</a>
+						&nbsp;|&nbsp;
+						<a href="https://www.flaticon.com/free-icons/china" target="_blank" title="China-Flag Icons">Flaticon</a> - Chinese-Flag <span class="trl" data-trl="credits.icon">Icon</span>
+					</li>
+					<li>
+						<a href="https://www.flaticon.com/authors/iconmarketpk" target="_blank">IconMarketPK</a>
+						&nbsp;|&nbsp;
+						<a href="https://www.flaticon.com/free-icons/france" target="_blank" title="French-Flag Icons">Flaticon</a> - French-Flag <span class="trl" data-trl="credits.icon">Icon</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<!--<div class="css_valid center">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+					<img class="trl valid_css" data-trl-alt="images.alt.validCss" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="CSS is valid!" />
+				</a>
+			</div>-->
+			<div class="center creator">
+				<span class="trl" data-trl="footer.createdBy" data-trl-has-children="true">Script created by <a href="mailto:peter@petschko.org" class="trl-child" data-trl-child="0" data-trl-title="footer.creator.title" title="Send me an email if you have questions/problems">Petschko</a></span>
+				&nbsp;|&nbsp;
+				<a class="trl" data-trl="footer.visitRepo" data-trl-title="footer.visitRepo.title"
+				   href="https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter" target="_blank" title="Visit this project on GitLab">
+					Visit the repository on GitLab
+				</a>
+				&nbsp;|&nbsp;
+				<a class="trl" data-trl="footer.reportBugs" data-trl-title="footer.reportBugs.title"
+				   href="https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter/-/issues" target="_blank" title="Please report bugs if you find some =) (Can also send me an email)">
+					Please report bugs here
+				</a>
+				<!--
+				&nbsp;|&nbsp;
+				<a class="trl" data-trl="footer.translateHelp"
+				   href="https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter" target="_blank">
+					Submit a translation or fix spelling errors here
+				</a>-->
+			</div>
+			<div class="center translator" id="translator-credits">
+				<span>Translated to English by Petschko</span>
+			</div>
+
+			<hr />
+
+			<!-- Law stuff start -->
+			<div style="text-align: center;">
+				<p><i>Sorry I had to add this law stuff...</i></p>
+				
+				<a href="https://petschko.org/impressum.de.php">Impressum</a> / <a href="https://petschko.org/impressum.en.php">Imprint</a>
+				 | <a href="https://petschko.org/datenschutz.de.php">Datenschutzerklärung</a><!-- / <a href="/datenschutz.en.php">Data Privacy</a>-->
+			</div>
+			<!-- Law stuff end -->
+		</footer>
+
+		<!-- Add Scripts -->
+		<script src="libs/FileSaver.min.js"></script>
+		<script src="libs/jszip.min.js"></script>
+		<script src="libs/lz-string.min.js"></script>
+		<script src="scripts/RPGFile.js"></script>
+		<script src="scripts/ErrorException.js"></script>
+		<script src="scripts/Decrypter.js"></script>
+		<script src="scripts/ZIP.js"></script>
+		<script src="scripts/Language.js"></script>
+		<script src="scripts/functions.js"></script>
+		<script src="scripts/menu.js"></script>
+	</body>
+</html>
