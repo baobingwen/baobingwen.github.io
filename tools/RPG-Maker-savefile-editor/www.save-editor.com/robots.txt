@@ -1,0 +1,60 @@
+﻿
+User-agent: AhrefsBot
+Crawl-Delay: 30
+Disallow: /tools_original/wse_ps3_save_editor_code_title
+Disallow: /cache/bbs_
+Disallow: /bbs/
+Allow: /bbs/*.html
+
+User-agent: SemrushBot
+Crawl-Delay: 30
+Disallow: /tools_original/wse_ps3_save_editor_code_title
+Disallow: /cache/bbs_
+Disallow: /bbs/
+Allow: /bbs/*.html
+
+User-agent: BLEXBot
+Crawl-Delay: 30
+Disallow: /tools_original/wse_ps3_save_editor_code_title
+Disallow: /cache/bbs_
+Disallow: /bbs/
+Allow: /bbs/*.html
+
+User-agent: MJ12bot
+Crawl-Delay: 30
+Disallow: /tools_original/wse_ps3_save_editor_code_title
+Disallow: /cache/bbs_
+Disallow: /bbs/
+Allow: /bbs/*.html
+
+User-agent: Twitterbot
+Crawl-Delay: 15
+Disallow: /tools_original/wse_ps3_save_editor_code_title
+Disallow: /bbs/
+Allow: /bbs/*.html
+Allow: /pic/img/sns/
+
+User-agent: YandexBot
+Crawl-Delay: 10
+
+User-agent: Linespider
+Crawl-Delay: 10
+
+User-agent: Baiduspider
+Crawl-Delay: 10
+
+User-agent: bingbot
+Crawl-Delay: 5
+
+User-agent: *
+Disallow: /cache/*/img/
+Disallow: /bbs/log/
+Disallow: /bbs/err/
+Disallow: /log/
+Disallow: /err/
+Disallow: /test/
+Disallow: /tool/test_
+Disallow: /system/test_
+Disallow: /*.pl$
+Disallow: /*.dat$
+Disallow: /*.log$
