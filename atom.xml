@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-07-11T18:10:01.748Z</updated>
+  <updated>2025-07-12T16:19:53.097Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025-07-13日程规划</title>
+    <link href="http://example.com/2025/07/13/2025-07-13%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2025/07/13/2025-07-13%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/</id>
+    <published>2025-07-12T16:16:50.000Z</published>
+    <updated>2025-07-12T16:19:53.097Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="长期任务列表"><a href="#长期任务列表" class="headerlink" title="长期任务列表"></a>长期任务列表</h2><ul><li><input disabled type="checkbox"> 准备联系导师</li><li><input disabled type="checkbox"> 开始实习</li><li><input disabled type="checkbox"> 整理电脑资料，对本学期进行学习方面的总结，总结和学习相关的事项</li><li><input disabled type="checkbox"> 整理所有现有的游戏，进行总结和调整，制订下一阶段的计划</li><li><input disabled type="checkbox"> 预先熟悉下学期课程</li><li><input disabled type="checkbox"> 写写感兴趣的项目</li></ul><h2 id="日程规划"><a href="#日程规划" class="headerlink" title="日程规划"></a>日程规划</h2><ol><li>9:00 起床</li><li>9:30-12:00 游戏</li><li>12:00 午饭，随便</li><li>13:00-16:00 转化逆向成果，写一版破解版出来（直接利用d31[x][y][2]的数据点击）</li><li>16:00-19:00 游戏</li><li>19:00 晚饭</li><li>20:00-22:30 游戏</li><li>23:00 洗漱洗澡</li><li>0:00 睡觉</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;长期任务列表&quot;&gt;&lt;a href=&quot;#长期任务列表&quot; class=&quot;headerlink&quot; title=&quot;长期任务列表&quot;&gt;&lt;/a&gt;长期任务列表&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 准备联系导师&lt;/li&gt;
+&lt;li</summary>
+      
+    
+    
+    
+    
+    <category term="规划" scheme="http://example.com/tags/%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025-07-12日程记录</title>
+    <link href="http://example.com/2025/07/12/2025-07-12%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
+    <id>http://example.com/2025/07/12/2025-07-12%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/</id>
+    <published>2025-07-12T15:57:18.000Z</published>
+    <updated>2025-07-12T16:16:30.679Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="长期任务列表"><a href="#长期任务列表" class="headerlink" title="长期任务列表"></a>长期任务列表</h2><ul><li><input disabled type="checkbox"> 准备联系导师</li><li><input disabled type="checkbox"> 开始实习</li><li><input disabled type="checkbox"> 整理电脑资料，对本学期进行学习方面的总结，总结和学习相关的事项</li><li><input disabled type="checkbox"> 整理所有现有的游戏，进行总结和调整，制订下一阶段的计划</li><li><input disabled type="checkbox"> 预先熟悉下学期课程</li><li><input disabled type="checkbox"> 写写感兴趣的项目</li></ul><h2 id="日程记录"><a href="#日程记录" class="headerlink" title="日程记录"></a>日程记录</h2><ol><li>10:00 起床</li><li>10:30-12:00 扫雷辅助项目</li><li>12:00-13:00 午饭，西红柿蛋盖饭，包子</li><li>13:00-19:30 扫雷辅助项目，初步实现功能</li><li>20:00 晚饭，卤肉套餐</li><li>21:00-23:00 逆向扫雷网站前端内容</li><li>23:00 洗漱洗澡</li><li>0:00 日志 规划</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;长期任务列表&quot;&gt;&lt;a href=&quot;#长期任务列表&quot; class=&quot;headerlink&quot; title=&quot;长期任务列表&quot;&gt;&lt;/a&gt;长期任务列表&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 准备联系导师&lt;/li&gt;
+&lt;li</summary>
+      
+    
+    
+    
+    
+    <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>2025-07-12日程规划</title>
@@ -432,50 +480,6 @@
     
     
     <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于图片插入的思考和方案总结</title>
-    <link href="http://example.com/2025/07/03/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E7%9A%84%E6%80%9D%E8%80%83%E5%92%8C%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93/"/>
-    <id>http://example.com/2025/07/03/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E7%9A%84%E6%80%9D%E8%80%83%E5%92%8C%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93/</id>
-    <published>2025-07-03T15:55:47.000Z</published>
-    <updated>2025-07-03T18:26:20.154Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="方案一，直接插入"><a href="#方案一，直接插入" class="headerlink" title="方案一，直接插入"></a>方案一，直接插入</h2><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">img</span> 图片类型 图片最终地址 &quot;图片名称&quot; %&#125;</span><br></code></pre></td></tr></table></figure><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight twig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs twig"><span class="hljs-template-tag">&#123;%</span> <span class="hljs-name">img</span> png /<span class="hljs-number">2025</span>/<span class="hljs-number">2025</span>/<span class="hljs-number">07</span>/<span class="hljs-number">03</span>/bbw的日语学习记录/<span class="hljs-number">50</span>音图.png <span class="hljs-string">&quot;50音图&quot;</span> <span class="hljs-template-tag">%&#125;</span><br></code></pre></td></tr></table></figure><h2 id="方案二，asset-img"><a href="#方案二，asset-img" class="headerlink" title="方案二，asset_img"></a>方案二，asset_img</h2><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">asset_img</span> 图片名称（带有格式后缀） %&#125;</span><br></code></pre></td></tr></table></figure><h3 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">asset_img</span> 50音图.png %&#125;</span><br></code></pre></td></tr></table></figure><h2 id="方案三，markdown插入"><a href="#方案三，markdown插入" class="headerlink" title="方案三，markdown插入"></a>方案三，markdown插入</h2><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs scss">!<span class="hljs-selector-attr">[图片显示名称]</span>(图片原名（有格式）)<br></code></pre></td></tr></table></figure><h3 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs scss">!<span class="hljs-selector-attr">[50音图]</span>(<span class="hljs-number">50</span>音图.png)<br></code></pre></td></tr></table></figure><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>生成一个原图片大小的图片</p><h2 id="随机"><a href="#随机" class="headerlink" title="随机"></a>随机</h2><p>改了3小时的代码，修改了<code>hexo-asset-image/index.js</code>中代码逻辑，去除了对images和updates的过滤判断逻辑才正确处理了图片地址。<br>哎，我服了，三方作者用点心吧。注释也没有，我都不知道传入了什么，也不知道这里的判断是干嘛的，一点点推才推出来。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;方案一，直接插入&quot;&gt;&lt;a href=&quot;#方案一，直接插入&quot; class=&quot;headerlink&quot; title=&quot;方案一，直接插入&quot;&gt;&lt;/a&gt;方案一，直接插入&lt;/h2&gt;&lt;figure class=&quot;highlight django&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td c</summary>
-      
-    
-    
-    
-    
-    <category term="Hexo_Tips" scheme="http://example.com/tags/Hexo-Tips/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bbw的日语学习记录</title>
-    <link href="http://example.com/2025/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    <id>http://example.com/2025/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</id>
-    <published>2025-07-03T15:26:32.000Z</published>
-    <updated>2025-07-04T19:08:42.070Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="2025-07-03"><a href="#2025-07-03" class="headerlink" title="2025-07-03"></a>2025-07-03</h2><p><img src="/2025/07/03/bbw%E7%9A%84%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/50%E9%9F%B3%E5%9B%BE.png" alt="50音图"></p><h2 id="2025-07-04"><a href="#2025-07-04" class="headerlink" title="2025-07-04"></a>2025-07-04</h2><p>今天学完了50元音，但是，肯定会忘记。所以明天专门复习。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;2025-07-03&quot;&gt;&lt;a href=&quot;#2025-07-03&quot; class=&quot;headerlink&quot; title=&quot;2025-07-03&quot;&gt;&lt;/a&gt;2025-07-03&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2025/07/03/bbw%E7%9A%84%E6%</summary>
-      
-    
-    
-    
-    
-    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   

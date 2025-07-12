@@ -1,0 +1,170 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>A Beginner's Guide to Minesweeper</title>
+
+<style>
+body{background:#f7f7f0;}
+table{border-collapse:collapse;cursor:default;}
+#foo{border-top:solid 1px #cccccc;padding-top:2rem;margin-top:6rem;width:90%;text-align:center}
+</style>
+
+
+
+<base target=_top>
+</head>
+
+<body>
+
+<a id=back href="../en.html">Back To Play</a>
+
+<script>
+if(document.referrer.length>0 && document.location.href.indexOf(document.referrer)==0){
+document.getElementById("back").href="javascript:history.back(-1)";}
+</script>
+
+
+
+<center>
+
+<br><br>
+
+<div style="text-align:left;width:90%">
+
+
+
+
+
+<br>
+<b>Basic paterns of minesweeper</b>
+
+
+<br><br>
+
+To simplify the explanation, assume that there are no marked mines around the number to be judged (for cases where there are marked mines around, please refer to the 'subtraction principle' later). 
+<br><br>
+The irrelevant numbers in the picture have been omitted. The blue dot represents an empty square, and the red dot represents a mine.
+<br><br>
+The number string is in horizontal or vertical direction, with no diagonal direction, but the unclear squares can be in diagonal direction.
+<br><br>
+<br>
+
+<b>Edge Paterns</b>
+<br><br>
+
+"Edge" refers to a situation where a certain number only shares unknown squares with other numbers and does not have any exclusive squares. In general, this means that the number is adjacent to the border or that the three squares vertically outside it are empty.
+
+<br><br><br>
+① '11' patten: If one '1' is next to the edge, then the corresponding squares of the other '1' are not mines.
+<br><br>
+<img src="11-1.jpg">A '1' next to the border, then the three squares outside of another '1' are not mines.
+
+<br><br><br>
+<img src="11-2.jpg">If a '1' is floating, then the three on the outside of the other '1' are not mines.
+This is like digging a hole. If it still shows '1' after opening it, it still conforms to the 11 pattern and can be dug again.
+
+
+<br><br><br>
+<img src="11-3.png">
+Separated '11'. There is only a shared block for the top '1' of the picture, then the green dots in the picture are not mines.
+
+
+<br><br><br>[Inference] The '111' pattern: When there are three '1's  with both ends close to the edge, the one in the middle is a mine, and the other two are not mines.
+<br><br><br>
+<b>Expand 'nn' pattern</b>:if one n is against the edge, then the exclusive squares of the other n are not mines. Here, n=2,3.
+
+
+<br><br>
+<br><br>
+<b>Any position paterns</b>
+<br>
+
+
+<br><br>
+② '12' patern. 
+'1' and '2' have shared unknown blocks. '2' has one exclusive block, then this block is mine. And all exclusive blocks of '1' are not mines.
+
+<br><br>
+<img src="12.jpg">'1' and '2' are adjacent
+
+<br><br><br>
+<img src="12-2.png">'1' and '2' are Separated
+
+<br><br><br>
+
+<b>Extend</b>: '1n' patern.
+In addition to the unknown blocks shared by 1 and n, if n has n-1 exclusive blocks, then these n-1 blocks are all mines, and none of the exclusive blocks of 1 are mines. where n = 3,4.
+
+
+
+<br><br><br>
+③ '121' patern. 
+The number 1,2,1 is next to each other, the middle is mine, and the two ends are not mines;
+<br>
+<img src="121.jpg">
+
+
+<br><br><br>
+④ '1221' patern.
+The number 1221 is next to each other, and two '2' share two unspecified squares, then these two squares are mines, and the rest are not mines.
+<br>
+<img src="1221.jpg">
+
+
+<br><br><br>
+
+In the above paterns, the direction is the same, the left and right, horizontal and vertical.
+
+<br><br><br>
+<b>Subtraction principle:</b>
+<br><br>
+If some blocks around a number are marked with mines, then subtract the number of mines from the number, and make the blocks blank in your mind, 
+before applying the above formula.
+<br><br>
+Below picture: It is actually 11 patern, and the green dot can be opened
+<br>
+<img src="minus3.jpg">
+
+
+<br>
+<br>
+<br>
+Below: There are two mines around 3, 3-2=1, and there is a mine around 2, 2-1=1, so it is simplified to 11 patern, and the two squares of the dot can be opened directly.
+<br>
+<img src="minus.jpg">
+
+
+<br>
+<br>
+<br>
+Below: After subtracting, it is 12 patern, and the red dot is mine.
+<br>
+<img src="minus12.jpg">
+
+
+<br>
+<br>
+<br>
+Below: According to the number 3 above, it can be judged that the two unspecified squares enclosed by the ellipse have and only one thunder. 
+Then the following 3 becomes 2, and the '12' patern is applicable, the blue dot is not mine, and the red dot is mine.
+<br>
+<img src="minus6.jpg">
+<br><br><br>
+
+
+<br>
+</div>
+
+
+
+
+<div id=foo>
+Minesweeper.cn
+</div>
+<br><br>
+</center>
+
+</body>
+</html>

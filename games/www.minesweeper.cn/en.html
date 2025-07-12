@@ -1,0 +1,222 @@
+﻿
+<html lang="en">  
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="viewport" content="initial-scale=1">
+<meta name="keywords" content="minesweeper, full screen">
+<meta name="description" content="Play classic minesweeper online. A level of Full-Screen is added. Scores of success done are uploaded and shown in the score board. This is english version of the site.">
+
+<title>Free Minesweeper Online</title>
+<script src="gfs.js"></script>
+<script src="ns6.18.js"></script>
+<style>
+
+input{height:1.5rem;width:3.8rem;}
+
+#face{
+	border:2px solid #808080;
+	border-left-color: #fff;
+	border-top-color: #fff;
+	width:21px;
+	height:21px;
+}
+#face:active{
+	border:2px solid #808080;
+	border-bottom:1px solid #808080; 
+	border-right:1px solid #808080; 
+
+}
+
+    input[type=checkbox] {
+        vertical-align: middle;
+        height: 1.19rem;
+        width: 1.5rem;
+    }
+
+table{
+border-collapse:collapse;
+}
+
+.pad{
+border:2px solid #808080;
+border-right-color: #fff;
+border-bottom-color: #fff;
+}
+
+    .clk {
+        text-decoration: underline;
+        cursor: pointer;
+        color: blue;
+    }
+
+</style>
+
+<script>
+var shou="hide";
+var shez="nick";
+var w1="first character must not be number";
+var app="aaa";
+var af0=0;
+var nif0=0;
+</script>
+
+
+
+<base target=_top>
+
+</head>  
+
+<body bgcolor="#f7f7f0"  onload="night();start();setTimeout(ad,500);" >
+<!--div style="text-align:right">
+<a style="margin-top:0;" href="/">中文</a>
+</div-->
+<br>
+<center>
+
+<div>
+<b>Minesweeper</b>
+</div>
+
+
+<div style="margin-top:0.8rem;">
+<a href="javascript:_123(1)">Primary</a>
+&nbsp;
+<a href="javascript:_123(2)">Medium</a>
+&nbsp;
+<a href="javascript:_123(3)">Expert</a>
+&nbsp;
+<a href="javascript:_123(4)">Full screen</a>
+&nbsp;
+<a href="javascript:_123(5)">Custom</a>
+</div>
+<div id=custom style="display:none;margin-top:5">
+X<input id=hm type=number value=40>
+Y<input id=vm type=number value=24>
+Mines<input id=mm type=number value=199>
+<input type=button onclick="udf()" value="OK" >
+</div>
+<table style="margin-top:0.8rem;border-radius:6px;background:#cccccc">
+<tr><td style="padding:9px;">
+
+<table id=p42 class=pad style="height:34px"><tr>
+<td width=50%><canvas id="rm" height=23 width=39></canvas>
+</td>
+<td align=center><img onmouseup="_45()" id="face">
+<td width=50% align=right>
+<canvas id="es" height=23 width=39></canvas>
+
+</td>
+</table>
+
+
+<canvas id="paf" class="pad" style="margin-top:6px;" width=0 height=0></canvas>
+
+
+<tr><td align=right>
+</table>
+
+
+<div style="margin-top:2rem;" >
+<a id=ss href="scores2.htm" >Scores</a>
+</div>
+
+
+
+
+<div style="width:90%;text-align:left;margin-top:3rem;">
+<span style="vertical-align:middle">Auto Flag</span><input type=checkbox checked id=af onclick="saf()" style="vertical-align:middle;height:1.19rem;width:1.5rem;">
+<span style="float:right">
+Night<input type="checkbox" id="bcolor" onclick="bcolor()"></span>
+</div>
+
+<div id=ad style="margin-top:2rem;width:90%;">
+
+<script id=gg async crossorigin="anonymous"></script>
+<!-- saolei -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2872916894005511"
+     data-ad-slot="1319601002"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+
+<div style="width:90%;text-align:left;margin-top:3rem;">
+First click is safe. The digit on a grid means how many mines around it. The task is to find out all the mines. Click the face button to start a new game.
+"2 choose 1" pattern is safe at the last, when other all grids having been opened or marked.
+<br><br>
+<b>Mouse(on Computer): </b> Click right button on a block to mark out a mine, click again to remove the flag. 
+After mark out all the mines around a digit, click(whether left or right button) the digital grid to open the surrounded safe area.
+Click left button to open a grid directly.
+
+<br><br>
+<b>Touch(on Mobile or Pad)：</b>Touch a block to mark a flag, touch again to remove the flag. When mark out all the mines, touch digital grid to open the surrounded blocks. 
+Long touch to open a grid directly.
+
+<br><br>
+Minesweeper was originated from a game named "Cubes" in 1973. In 1992, Minesweeper was integrated into Mocrosoft's Windows 3.1, then became so famous.
+<a href="doc/how-to-play.htm">How to play fast</a>
+
+
+<br><br>
+To avoid zooming in after multiple clicks on Android: [Settings] - [Intelligent Assist] - [Accessibility] - [Zoom in gesture] - Off.
+</div>
+</center>
+
+<center>
+
+
+
+
+<script>
+function ad(){
+
+$("gg").src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2872916894005511"
+}
+</script>
+
+
+<div style="margin-top:2rem;">
+<br>
+ID: <span id=uid></span>
+<a id=setr class=clk onclick="setr()">nick</a>
+<div id="_rename" style="border:solid 1px;display:none;padding:0.5rem;">
+nick: <input id=nick type="text" style="width:5rem;">
+<input type="button" value=" OK " onclick="rename()">
+</div>
+</div>
+
+
+
+
+
+
+
+<div style="margin-top:2rem;">
+
+
+<br><br>
+<span id="ver" style="display:none;"></span>
+
+<hr width=90%>
+
+<br><br><br>
+
+<a href="index.html">Minesweeper.cn</a>
+</div>
+
+
+
+
+<br><br><br><br><br>
+</center>
+
+
+</body>
+
+</html>
