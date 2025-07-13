@@ -1,0 +1,98 @@
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>QQ群</title>
+
+    <style>
+        body {
+            background: #f7f7f0;
+        }
+
+        table {
+            border-collapse: collapse;
+            cursor: default;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .group_info {
+            border: solid 0px silver;
+            width: fit-content;
+            padding: 1rem;
+        }
+
+        #foo {
+            border-top: solid 1px #cccccc;
+            padding-top: 2rem;
+            margin-top: 6rem;
+            width: 90%;
+            text-align: center
+        }
+    </style>
+
+    <base target=_top>
+</head>
+
+<body>
+    <a id=back href="../index.html">返回首页</a>
+    <script>
+        if (document.referrer.length > 0 && document.location.href.indexOf(document.referrer) == 0) {
+            document.getElementById("back").href = "javascript:history.back(-1)";
+        }
+    </script>
+
+    <center>
+        <br>
+        <br>
+        <script>
+            function copyToClip(content) {
+                var aux = document.createElement("input");
+                aux.setAttribute("value", content);
+                document.body.appendChild(aux);
+                aux.select();
+                document.execCommand("copy");
+                document.body.removeChild(aux);
+                alert("已复制：" + content);
+            }
+        </script>
+        <div class="content">
+            本站用户交流专用
+            <br>
+            <br>
+            （闲聊为主，游戏为辅）
+            <br>
+            <br>
+            <br>
+            <center>
+                <div class="group_info">
+                    扫雷用户群
+                    <br>
+                    <br>
+                    <b>628121294</b>
+                    <button type="button" onclick="copyToClip('628121294');">复制</button>
+                </div>
+                <br>
+                <br>
+                <div class="group_info">
+                    俄罗斯方块用户群
+                    <br>
+                    <br>
+                    <b>343266994</b>
+                    <button type="button" onclick="copyToClip('343266994');">复制</button>
+                </div>
+            </center>
+        </div>
+        <div id=foo>
+            Minesweeper.cn(BBW改版)
+        </div>
+        <br>
+        <br>
+    </center>
+</body>
+
+</html>
