@@ -23,7 +23,6 @@ var _gs, _ln, _ff, _v;
 // d31[y][x][2]	周围雷数	            该格子周围 8 个格子中雷的数量
 // d31[y][x][3]	自动展开标记	        用于高级逻辑（如自动展开空区域）
 var d31 = [];
-// CX, CY: 用于计算周围格子坐标的数组
 var CX = [-1, -1, -1, 0, 0, 1, 1, 1, 0], CY = [-1, 0, 1, -1, 1, -1, 0, 1, 0];
 
 function S98(t, e) {
@@ -225,14 +224,9 @@ function up() {
         return;
     } else {
         t = "B" + (e = lid()) + "c3/" + _v + "" + _t0 + "" + _ff;
-        if (3 < _v) 
-            t += "" + X + "" + Y + "" + M;
+        3 < _v && (t += "" + X + "" + Y + "" + M);
         gets(app, t, function (t) {
-            if ("" == e && 1 < t.length){
-                _id = t;
-                $("uid").innerHTML = t;
-                localStorage.setItem("uid", t);
-            }
+            "" == e && 1 < t.length && (_id = t, $("uid").innerHTML = t, localStorage.setItem("uid", t))
         })
     }
 }
@@ -274,7 +268,6 @@ function kai(t, e) {
     _es()
 }
 
-// 雷区信息d31[][][][]的索引
 var d32 = [], p32 = [];
 
 // 初始化雷局分布信息
@@ -291,15 +284,12 @@ function _gnt() {
         d32[n] = n;
         p32[n] = n;
     }
-    RB = XY; // 更新剩余的格子数为总格子数
-    // 
+    RB = XY; // 剩余格子数
     for (e = 0; e < M; e++) {
         n = Math.floor(Math.random() * RB);
         RB = RB - 1;
         ex(n, RB);
     }
-    // RB = XY - M; // 剩余不是雷的格子数为(总格子数 - 雷数)
-    // 
     for (n = RB; n < XY; n++) {
         mplus(n, 1);
     }
@@ -317,13 +307,11 @@ function ex(t, e) {
     p32[o] = t;
 }
 
-// 在d31中增加雷数
 function mplus(t, e) {
     var t = d32[t];
-    var n = Math.floor(t / X); // 计算行号
-    var o = t % X; // 计算列号
-    d31[n][o][1] += e; // d31[y][x][1] = 0或1，表示是否标记为雷
-    // 更新周围格子的雷数
+    var n = Math.floor(t / X);
+    var o = t % X;
+    d31[n][o][1] += e;
     for (z = 0; z < 8; z++) {
         cy = n + CY[z];
         cx = o + CX[z];
@@ -663,12 +651,12 @@ function lid() {
 /*
 * t = 1,2,3,4,5
 * 1 = 基础, 2 = 中级, 3 = 专家, 4 = 满屏, 5 = 自定义
-* _123() = 根据新的游戏难度，设置游戏参数
+* _123() = 设置游戏参数
 */
 function _123(t) {
     _gs = 0;
-    SW = document.body.clientWidth; // body宽度
-    SH = document.body.clientHeight; // body高度
+    SW = document.body.clientWidth; // 屏幕宽度
+    SH = document.body.clientHeight; // 屏幕高度
     if (null == t) {
         if (SW < 560) {
             t = 1; // 屏幕宽度小于560px, 则设置为基础
