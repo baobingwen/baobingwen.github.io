@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-08-02T17:08:54.257Z</updated>
+  <updated>2025-08-03T15:22:04.205Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025-08-04日程规划</title>
+    <link href="http://example.com/2025/08/03/2025-08-04%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2025/08/03/2025-08-04%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/</id>
+    <published>2025-08-03T15:07:07.000Z</published>
+    <updated>2025-08-03T15:22:04.205Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="期望"><a href="#期望" class="headerlink" title="期望"></a>期望</h2><ul><li><input disabled type="checkbox"> 实习~</li><li><input disabled type="checkbox"> 不断学习</li><li><input disabled type="checkbox"> 无限进步</li><li><input disabled type="checkbox"> 找到自己的真正兴趣</li><li><input disabled type="checkbox"> 不再避讳表露自我</li></ul><h2 id="日程规划"><a href="#日程规划" class="headerlink" title="日程规划"></a>日程规划</h2><ol><li>8:30 起床，洗漱，洗脸</li><li>9:00 出发上班</li><li>9:30-11:30 工作</li><li>11:40-12:20 午餐</li><li>12:20-14:00 休息</li><li>14:00-18:00 继续工作</li><li>18:00-19:00 晚餐</li><li>19:00-21:00 回房</li><li>21:00-22:00 休闲</li><li>22:00-23:00 洗漱洗澡</li><li>23:00-1:00 休闲、日志、规划</li><li>1:00 睡觉</li></ol><h2 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h2><p>不要因为日程规划限制了自己，干完一件就做下一件<br>没干完评估一下，该做做<br>加油，致美好的人生，致现在和未来，致每一天的不完美和奋斗</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;期望&quot;&gt;&lt;a href=&quot;#期望&quot; class=&quot;headerlink&quot; title=&quot;期望&quot;&gt;&lt;/a&gt;期望&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 实习~&lt;/li&gt;
+&lt;li&gt;&lt;input disabled ty</summary>
+      
+    
+    
+    
+    
+    <category term="日程规划" scheme="http://example.com/tags/%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025-08-03日程记录</title>
+    <link href="http://example.com/2025/08/03/2025-08-03%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
+    <id>http://example.com/2025/08/03/2025-08-03%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/</id>
+    <published>2025-08-03T14:52:28.000Z</published>
+    <updated>2025-08-03T15:20:04.744Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="期望"><a href="#期望" class="headerlink" title="期望"></a>期望</h2><ul><li><input disabled type="checkbox"> 实习~</li><li><input disabled type="checkbox"> 不断学习</li><li><input disabled type="checkbox"> 无限进步</li><li><input disabled type="checkbox"> 找到自己的真正兴趣</li><li><input disabled type="checkbox"> 不再避讳表露自我</li></ul><h2 id="日记"><a href="#日记" class="headerlink" title="日记"></a>日记</h2><ol><li>10:30 起床，洗漱，洗脸</li><li>10:40 出发去吃午饭</li><li>11:30 出发去秦始皇陵</li><li>13:30 到秦始皇陵</li><li>14:20 开始参观</li><li>17:00 参观结束，去骊山园</li><li>17:30 到骊山园，开始跟讲解</li><li>19:30 参观结束，回程</li><li>21:30 到鱼化寨，吃肯德基</li><li>22:00 回房</li><li>22:30 日记</li><li>23:30 洗漱洗澡</li><li>00:00 休闲，在经历了这么多RPG之后，思考：我是谁，我想要怎样的人生</li><li>01:00 睡觉吧，活在当下，为明天留足精力，热爱生活，热爱工作，热爱自己</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;期望&quot;&gt;&lt;a href=&quot;#期望&quot; class=&quot;headerlink&quot; title=&quot;期望&quot;&gt;&lt;/a&gt;期望&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 实习~&lt;/li&gt;
+&lt;li&gt;&lt;input disabled ty</summary>
+      
+    
+    
+    
+    
+    <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>2025-08-03日程规划</title>
@@ -443,54 +491,6 @@
     
     
     <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2025-07-21日程规划</title>
-    <link href="http://example.com/2025/07/20/2025-07-21%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/"/>
-    <id>http://example.com/2025/07/20/2025-07-21%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/</id>
-    <published>2025-07-20T14:40:43.000Z</published>
-    <updated>2025-07-20T15:25:37.288Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="长期任务列表"><a href="#长期任务列表" class="headerlink" title="长期任务列表"></a>长期任务列表</h2><ul><li><input disabled type="checkbox"> 实习~</li><li><input disabled type="checkbox"> 整理电脑资料，对本学期进行学习方面的总结，总结和学习相关的事项</li><li><input disabled type="checkbox"> 整理所有现有的游戏，进行总结和调整，制订下一阶段的计划</li><li><input disabled type="checkbox"> 预先熟悉下学期课程</li><li><input disabled type="checkbox"> 写写感兴趣的项目</li></ul><h2 id="日程规划"><a href="#日程规划" class="headerlink" title="日程规划"></a>日程规划</h2><ol><li>7:50 起床</li><li>8:15 早餐</li><li>9:30 上班</li><li>争取拿到代码或者做点啥吧</li><li>11:30 午饭</li><li>13:00-14:00 午休</li><li>14:30-18:00 上班</li><li>18:00-18:30 晚饭</li><li>18:30-19:30 工作</li><li>20:00-22:30 休闲</li><li>22:30 洗漱洗澡</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;长期任务列表&quot;&gt;&lt;a href=&quot;#长期任务列表&quot; class=&quot;headerlink&quot; title=&quot;长期任务列表&quot;&gt;&lt;/a&gt;长期任务列表&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 实习~&lt;/li&gt;
-&lt;li&gt;&lt;i</summary>
-      
-    
-    
-    
-    
-    <category term="规划" scheme="http://example.com/tags/%E8%A7%84%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2025-07-20日程记录</title>
-    <link href="http://example.com/2025/07/20/2025-07-20%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
-    <id>http://example.com/2025/07/20/2025-07-20%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/</id>
-    <published>2025-07-20T14:38:11.000Z</published>
-    <updated>2025-07-20T14:40:30.850Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="长期任务列表"><a href="#长期任务列表" class="headerlink" title="长期任务列表"></a>长期任务列表</h2><ul><li><input disabled type="checkbox"> 实习~</li><li><input disabled type="checkbox"> 整理电脑资料，对本学期进行学习方面的总结，总结和学习相关的事项</li><li><input disabled type="checkbox"> 整理所有现有的游戏，进行总结和调整，制订下一阶段的计划</li><li><input disabled type="checkbox"> 预先熟悉下学期课程</li><li><input disabled type="checkbox"> 写写感兴趣的项目</li></ul><h2 id="日程记录"><a href="#日程记录" class="headerlink" title="日程记录"></a>日程记录</h2><ol><li>12:00 起床</li><li>12:30 午饭</li><li>14:00-18:30 休闲，随便研究一下jemalloc和其他的东西</li><li>18:30 晚饭</li><li>19:30-22:30 休闲，顺便研究一下gdb</li><li>22:30 日志 规划</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;长期任务列表&quot;&gt;&lt;a href=&quot;#长期任务列表&quot; class=&quot;headerlink&quot; title=&quot;长期任务列表&quot;&gt;&lt;/a&gt;长期任务列表&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 实习~&lt;/li&gt;
-&lt;li&gt;&lt;i</summary>
-      
-    
-    
-    
-    
-    <category term="日程" scheme="http://example.com/tags/%E6%97%A5%E7%A8%8B/"/>
     
   </entry>
   
