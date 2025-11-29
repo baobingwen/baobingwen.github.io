@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>测试mermaid</title>
+    <link href="/2025/11/29/%E6%B5%8B%E8%AF%95mermaid/"/>
+    <url>/2025/11/29/%E6%B5%8B%E8%AF%95mermaid/</url>
+    
+    <content type="html"><![CDATA[<h2 id="测试mermaid"><a href="#测试mermaid" class="headerlink" title="测试mermaid"></a>测试mermaid</h2><pre><code class=" mermaid">sequenceDiagram    participant User    participant LoginPage as 登录页    participant Frontend as 前端JS    participant Backend as 后端API    participant Storage as 浏览器存储    User-&gt;&gt;LoginPage: 输入账号/密码/角色    LoginPage-&gt;&gt;Frontend: 触发登录请求    Frontend-&gt;&gt;Backend: POST /api/login &#123;username, password, role&#125;    Backend--&gt;&gt;Frontend: &#123;success: true, token: &quot;xxx&quot;, role: &quot;队长&quot;&#125;    Frontend-&gt;&gt;Storage: 保存 token + role（如 localStorage）    Frontend-&gt;&gt;User: 跳转首页（index.html）</code></pre>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2025-11-22_任务整理</title>
     <link href="/2025/11/22/2025-11-22-%E4%BB%BB%E5%8A%A1%E6%95%B4%E7%90%86/"/>
     <url>/2025/11/22/2025-11-22-%E4%BB%BB%E5%8A%A1%E6%95%B4%E7%90%86/</url>

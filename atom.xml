@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-23T04:36:22.693Z</updated>
+  <updated>2025-11-29T12:09:23.794Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试mermaid</title>
+    <link href="http://example.com/2025/11/29/%E6%B5%8B%E8%AF%95mermaid/"/>
+    <id>http://example.com/2025/11/29/%E6%B5%8B%E8%AF%95mermaid/</id>
+    <published>2025-11-29T12:08:18.000Z</published>
+    <updated>2025-11-29T12:09:23.794Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="测试mermaid"><a href="#测试mermaid" class="headerlink" title="测试mermaid"></a>测试mermaid</h2><pre><code class=" mermaid">sequenceDiagram    participant User    participant LoginPage as 登录页    participant Frontend as 前端JS    participant Backend as 后端API    participant Storage as 浏览器存储    User-&gt;&gt;LoginPage: 输入账号/密码/角色    LoginPage-&gt;&gt;Frontend: 触发登录请求    Frontend-&gt;&gt;Backend: POST /api/login &#123;username, password, role&#125;    Backend--&gt;&gt;Frontend: &#123;success: true, token: &quot;xxx&quot;, role: &quot;队长&quot;&#125;    Frontend-&gt;&gt;Storage: 保存 token + role（如 localStorage）    Frontend-&gt;&gt;User: 跳转首页（index.html）</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;测试mermaid&quot;&gt;&lt;a href=&quot;#测试mermaid&quot; class=&quot;headerlink&quot; title=&quot;测试mermaid&quot;&gt;&lt;/a&gt;测试mermaid&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot; mermaid&quot;&gt;sequenceDiagram
+ </summary>
+      
+    
+    
+    
+    
+    <category term="测试" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>2025-11-22_任务整理</title>
@@ -478,30 +501,6 @@
     
     
     <category term="日程规划" scheme="http://example.com/tags/%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2025-08-07日程记录</title>
-    <link href="http://example.com/2025/08/08/2025-08-07%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
-    <id>http://example.com/2025/08/08/2025-08-07%E6%97%A5%E7%A8%8B%E8%AE%B0%E5%BD%95/</id>
-    <published>2025-08-07T16:15:11.000Z</published>
-    <updated>2025-08-07T16:38:40.483Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="期望"><a href="#期望" class="headerlink" title="期望"></a>期望</h2><ul><li><input disabled type="checkbox"> 清醒地活，无时无刻不清醒</li><li><input disabled type="checkbox"> 真诚表露自我</li><li><input disabled type="checkbox"> 不断学习</li><li><input disabled type="checkbox"> 无限进步</li><li><input disabled type="checkbox"> 找到自己的真正兴趣</li></ul><h2 id="日记"><a href="#日记" class="headerlink" title="日记"></a>日记</h2><ol><li>8:30 起床、洗漱、洗脸</li><li>9:07 出门</li><li>9:30-11:45 上班</li><li>11:45-12:30 午饭</li><li>12:30-16:30 上班</li><li>17:00-18:20 稍微休息的上班</li><li>18:20-19:40 晚饭</li><li>19:50-20:20 上班</li><li>20:20-21:00 回房</li><li>21:00-22:30 休闲</li><li>22:30-23:00 洗澡</li><li>23:00-0:30 休闲</li><li>0:30-0:40 日记 规划</li><li>0:40-1:30 日语</li><li>1:30-2:30 休闲</li><li>2:30 睡觉</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;期望&quot;&gt;&lt;a href=&quot;#期望&quot; class=&quot;headerlink&quot; title=&quot;期望&quot;&gt;&lt;/a&gt;期望&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; 清醒地活，无时无刻不清醒&lt;/li&gt;
-&lt;li&gt;&lt;input di</summary>
-      
-    
-    
-    
-    
-    <category term="日志" scheme="http://example.com/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
